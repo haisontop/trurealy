@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { Link, useLocation, useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import { BsMic } from "react-icons/bs";
 import { VscLocation } from "react-icons/vsc";
 import { GiUsaFlag } from "react-icons/gi";
@@ -13,10 +13,33 @@ import {
   InputGroup,
   Nav,
 } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [role, setRole] = useState("");
+  const navigate = useNavigate();
+  let location = useLocation();
+
+  const handleSelectConsumer = () => {
+    navigate("/consumer/home");
+  };
+
+  const handleSelectAgent = () => {
+    navigate("/agent/home");
+  };
+
+  useEffect(() => {
+    const locations = location.pathname.split("/");
+    if (locations.length > 0) {
+      if (locations[1] === "consumer") {
+        setRole("consumer");
+      } else if (locations[1] === "agent") {
+        setRole("agent");
+      }
+    }
+  }, [location]);
+
   return (
     <>
       <div
@@ -34,7 +57,7 @@ const Navigation = () => {
               }`}
               type="button"
               variant="light"
-              onClick={() => setRole("consumer")}
+              onClick={handleSelectConsumer}
             >
               Consumer
             </Button>
@@ -45,7 +68,7 @@ const Navigation = () => {
                   : "bg-white text-primary"
               }`}
               variant="light"
-              onClick={() => setRole("agent")}
+              onClick={handleSelectAgent}
             >
               Agent
             </Button>
@@ -124,12 +147,15 @@ const Navigation = () => {
       >
         <Container className="d-flex justify-content-center mx-10">
           <div className="d-flex">
-            <Link to="/about" className="text-decoration-none my-auto">
+            <Link
+              to={`/${role}/about`}
+              className="text-decoration-none my-auto"
+            >
               <Nav.Link
-                className={`fs-5  d-flex align-items-center ${
+                className={`fs-5  d-flex align-items-center text-decoration-none my-auto ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/about"
+                href={!!role ? `/${role}/about` : ""}
               >
                 About
               </Nav.Link>
@@ -156,19 +182,18 @@ const Navigation = () => {
             </Link>
           </div>
           <div className="mx-3 px-5">
-            <img
-              src={`${
-                role === "agent" ? "/assets/logo.png" : "/assets/logo-white.png"
-              }`}
-              alt=""
-              height="67px"
-              // width={`${
-              //   role === "agent"
-              //     ? "306px"
-              //     : "269px"
-              // }`}
-              width="267px"
-            />
+            <Link to="/">
+              <img
+                src={`${
+                  role === "agent"
+                    ? "/assets/logo.png"
+                    : "/assets/logo-white.png"
+                }`}
+                alt=""
+                height="67px"
+                width="267px"
+              />
+            </Link>
           </div>
           <div className="d-flex">
             <Link to="/homes" className="text-decoration-none my-auto">
