@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Aboutconsumer from "./pages/about/AboutConsumer";
 import Home from "./pages/Home/Home";
 import Homecosumer from "./pages/Home/HomeCosumer";
+import Testimonialconsumer from "./pages/testimonial/TestimonialConsumer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           </Route>
           <Route path="/consumer/home" element={<Homecosumer />} />
           <Route path="/consumer/about" element={<Aboutconsumer />} />
+          <Route path="/consumer/testimonial" element={<Testimonialconsumer />} />
         </Routes>
       </BrowserRouter>
     </div>
