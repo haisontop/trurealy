@@ -35,7 +35,7 @@ export const JoinUs = () => {
                 to execute an investor cash transaction on the Blockchain using
                 the Ethereum protocol.
               </div>
-              <Button className="mt-2">Learn MORE</Button>
+              <Button className="mt-2 btn-pink px-5">LEARN MORE</Button>
             </div>
           </div>
         </div>
