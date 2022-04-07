@@ -140,3 +140,22 @@ margin-bottom: 70px;
 .consumer-bottom{
   background: linear-gradient(107deg, rgba(86,25,255,1) 0%, rgba(182,22,59,1) 100%, rgba(195,22,32,1) 100%, rgba(16,14,51,1) 100%);
 }
+
+
+/* ========= about consumer style ============= */
+.about-Consumer-banner-Box{
+  margin-top: -150px;
+  position: absolute;
+  z-index: -100;
+}
+.about-Consumer-banner-Box h1{
+ margin-top: 130px;
+ margin-left: 5%;
+ font-size: 50px;
+}
+.about-consumer-mission{
+  margin-top: 200px;
+}
+.about-consumer-mission h1{
+  font-size: 70px;
+}
