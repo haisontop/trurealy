@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 const Smartercard = ({actions, discription, link, img}) => {
     return (
         <div className='col-4'>
@@ -11,8 +11,8 @@ const Smartercard = ({actions, discription, link, img}) => {
                <hr style={{height: "3px", backgroundColor:"white", width:"70%"}} className="mt-1 bg-white border-0" />
                <p className='mt-1 fw-lighter'>{discription}</p>
                <div className='mt-5 pt-4'>
-                 <Link href={link.href}>
-                     <div>
+                 <Link to={link.href} style={{textDecoration: "none"}}>
+                     <div className='text-white'>
                         <span style={{cursor: "pointer"}} className="fs-5">
                           {link.name}
                         </span>

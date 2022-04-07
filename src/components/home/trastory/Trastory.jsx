@@ -1,5 +1,5 @@
 import React from "react";
-import { trustory } from "../../../constant/MOCK_DATA.JS";
+import { trustory } from "../../../constants/TRUSTORY-MOCK_DATA.js";
 
 const Trastory = () => {
   return (

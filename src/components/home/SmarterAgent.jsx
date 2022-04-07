@@ -1,5 +1,5 @@
 import React from "react";
-import { smarter } from "../../constant/MOCK_DATA.JS";
+import  smarter from "../../constants/SMARTER_MOCK_DATA";
 import Smartercard from "./SmarterCard";
 
 const SmarterAgent = () => {
