@@ -6,7 +6,13 @@ import { GiUsaFlag } from "react-icons/gi";
 import { AiOutlineAlignRight, AiFillCaretRight } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { BiSearchAlt } from "react-icons/bi";
-import { Button, Container, FormControl, InputGroup, Nav} from "react-bootstrap";
+import {
+  Button,
+  Container,
+  FormControl,
+  InputGroup,
+  Nav,
+} from "react-bootstrap";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +78,7 @@ const Navigation = () => {
                 </Nav.Link>
               </Link>
             </div>
-            <Link to="/" >
+            <Link to="/">
               <p
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
@@ -81,7 +87,7 @@ const Navigation = () => {
                 <BsMic size="24" />
               </p>
             </Link>
-            <Link to="/" >
+            <Link to="/">
               <p
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
@@ -90,7 +96,7 @@ const Navigation = () => {
                 <VscLocation size="27" />
               </p>
             </Link>
-            <Link to="/" >
+            <Link to="/">
               <p
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
@@ -99,7 +105,7 @@ const Navigation = () => {
                 <GiUsaFlag size="24" />
               </p>
             </Link>
-            <Link to="/" >
+            <Link to="/">
               <p
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
@@ -152,9 +158,7 @@ const Navigation = () => {
           <div className="mx-3 px-5">
             <img
               src={`${
-                role === "agent"
-                  ? "/assets/logo.png"
-                  : "/assets/logo-white.png"
+                role === "agent" ? "/assets/logo.png" : "/assets/logo-white.png"
               }`}
               alt=""
               height="67px"
@@ -201,20 +205,24 @@ const Navigation = () => {
         </Container>
       </div>
       {/*============ responsive navbar ==========*/}
-      <div className={`d-lg-none d-sm-flex py-3 ${role === "agent" ? "" : "bg-primary"}`}>
+      <div
+        className={`d-lg-none d-sm-flex py-3 ${
+          role === "agent" ? "" : "bg-primary"
+        }`}
+      >
         <Container className="d-flex justify-content-between">
-          <img 
-           src={`${
-            role === "agent"
-              ? "/assets/logo.png"
-              : "/assets/logo-white.png"
-             }`}
-           alt="logo" 
-           width="160px" 
-           />
+          <img
+            src={`${
+              role === "agent" ? "/assets/logo.png" : "/assets/logo-white.png"
+            }`}
+            alt="logo"
+            width="160px"
+          />
           <Button
             onClick={() => setIsOpen(!isOpen)}
-            className={role === "agent" ? "text-primary bg-light" : "bg-primary"}
+            className={
+              role === "agent" ? "text-primary bg-light" : "bg-primary"
+            }
             variant={role === "agent" ? "light" : "dark"}
           >
             <AiOutlineAlignRight size="20" />
@@ -224,7 +232,11 @@ const Navigation = () => {
       {/*=========== menu item ============*/}
       {isOpen && (
         <div>
-          <div className={`fixed-top nav-height ${role === "consumer" ? "bg-white" : "bg-primary"}`}>
+          <div
+            className={`fixed-top nav-height ${
+              role === "consumer" ? "bg-white" : "bg-primary"
+            }`}
+          >
             <Button
               onClick={() => setIsOpen(!isOpen)}
               className="m-2 bg-primary"
@@ -234,7 +246,9 @@ const Navigation = () => {
             <Container className="middle-nav">
               <Link to="/about">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/about"
                 >
                   About
@@ -242,7 +256,9 @@ const Navigation = () => {
               </Link>
               <Link to="/tru-u" className="text-decoration-none">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/tru-u"
                 >
                   Tru U
@@ -250,7 +266,9 @@ const Navigation = () => {
               </Link>
               <Link to="/tech">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/tech"
                 >
                   Tech
@@ -258,7 +276,9 @@ const Navigation = () => {
               </Link>
               <Link to="/homes" className="text-decoration-none">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/homes"
                 >
                   Homes
@@ -266,7 +286,9 @@ const Navigation = () => {
               </Link>
               <Link to="/join" className="text-decoration-none">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/join"
                 >
                   Join
@@ -274,7 +296,9 @@ const Navigation = () => {
               </Link>
               <Link to="/invest" className="text-decoration-none">
                 <Nav.Link
-                  className={`fs-5 ${role === "consumer" ? "text-primary" : "text-light"} d-flex align-items-center`}
+                  className={`fs-5 ${
+                    role === "consumer" ? "text-primary" : "text-light"
+                  } d-flex align-items-center`}
                   to="/invest"
                 >
                   Invest
@@ -284,7 +308,6 @@ const Navigation = () => {
           </div>
         </div>
       )}
-      
     </>
   );
 };
