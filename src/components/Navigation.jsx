@@ -140,7 +140,7 @@ const Navigation = () => {
             </Link>
             <Link to="/tech" className="text-decoration-none my-auto">
               <Nav.Link
-                className={`fs-5 text-light  d-flex align-items-center ${
+                className={`fs-5  d-flex align-items-center ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
                 to="/tech"
