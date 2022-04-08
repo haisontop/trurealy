@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation";
 import Aboutconsumer from "./pages/about/AboutConsumer";
 import Home from "./pages/home/Home";
 import Homecosumer from "./pages/home/HomeCosumer";

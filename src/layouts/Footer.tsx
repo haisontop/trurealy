@@ -27,57 +27,57 @@ const Footer = () => {
         <div className="col-2">
           <ul style={{ listStyle: "none", textDecoration: "none" }}>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Building Box prodcust</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Careers at Tru</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Giving Back</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Agent Equity</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Agent Influencer</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Rev Share</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Learn & Earn</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Social Feed</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">In The Press</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Blog</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Refund Policy</span>
               </Link>
             </li>
@@ -86,61 +86,61 @@ const Footer = () => {
         <div className="col-3">
           <ul style={{ listStyle: "none", textDecoration: "none" }}>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Privacy Policy</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Terms of Service</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">DMCA Notice</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Cookie Policy</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Sitemap</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Accessibility Statement</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Fair Housing Statement</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">MLS Compliance Statements</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">
                   New York Fair Housing Statement
                 </span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">
                   Texas Consumer Protection Notice
                 </span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{textDecoration : "none"}}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="footer-list">
                   Texas Commission Information
                 </span>
@@ -155,7 +155,7 @@ const Footer = () => {
             trademarks of TRU Realty, LLC., dba TRU Realty in the U.S. and/or
             other countries.
           </p>
-          <p tyle={{ fontSize: "11px" }}>
+          <p style={{ fontSize: "11px" }}>
             Corporate Responsibility, Privacy & Legal Notices: TRU Realty (TRU
             Realty LLC) is a licensed real estate broker authorized to conduct
             business as Realty By TRU LLC in NY, and TRU Brokerage LLC in TX,
