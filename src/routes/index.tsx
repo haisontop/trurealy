@@ -6,7 +6,7 @@ import FaqConsumer from "../pages/faq/FaqConsumer";
 import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import SocialfeedConsumer from "../pages/socialfeed/SocialFeedConsumer";
-import Testimonialconsumer from "../pages/testimonial/TestimonialConsumer";
+import TestimonialConsumer from "../pages/testimonial/TestimonialConsumer";
 
 export default function Router() {
   return useRoutes([
@@ -19,7 +19,7 @@ export default function Router() {
       children: [
         { path: "home", element: <HomeConsumer /> },
         { path: "about", element: <AboutConsumer /> },
-        { path: "testimonial", element: <Testimonialconsumer /> },
+        { path: "testimonial", element: <TestimonialConsumer /> },
         { path: "faq", element: <FaqConsumer /> },
         { path: "socialfeeds", element: <SocialfeedConsumer /> },
       ],
