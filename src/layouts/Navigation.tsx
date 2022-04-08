@@ -41,14 +41,37 @@ const Navigation = () => {
   }, [location]);
 
   return (
-    <>
+    <div className="position-sticky top-0 index-100 z-index-100">
       <div
-        className={`d-lg-flex  py-2 align-items-center ${
-          role === "agent" ? "bg-primary" : ""
+        className={`d-lg-flex  py-0 align-items-center  ${
+          role === "agent" ? "bg-primary" : "bg-white"
         }`}
       >
         <Container className="d-md-flex justify-content-between my-2 py-1">
           <div className="d-flex justify-content-lg-between align-items-center gap-2">
+            <div className="d-flex mx-lg-3 align-items-center">
+              <Link to="/" className="text-decoration-none">
+                <Nav.Link
+                  className={`px-1 ${
+                    role === "agent" ? "text-white" : "text-primary"
+                  }`}
+                >
+                  Invest
+                </Nav.Link>
+              </Link>
+
+              <Link to="/" className="text-decoration-none">
+                <Nav.Link
+                  className={`px-1 ${
+                    role === "agent" ? "text-white" : "text-primary"
+                  }`}
+                >
+                  Join
+                </Nav.Link>
+              </Link>
+            </div>
+          </div>
+          <div className="d-flex align-items-center">
             <Button
               className={`mr-1 px-0 py-0 min-height-content px-1  ${
                 role === "consumer"
@@ -333,7 +356,7 @@ const Navigation = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

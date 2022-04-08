@@ -21,7 +21,10 @@ const Layout: React.FC<LayoutProps> = (props) => {
               style={{ minWidth: "300px" }}
             >
               {/* =========== sticy sidebar ========= */}
-              <div className="position-sticky w-100 end-0 py-3  shadow-sm top-0 bottom-0">
+              <div
+                className="position-sticky w-100 end-0 py-3  shadow-sm bottom-0"
+                style={{ top: "131px" }}
+              >
                 <div className="">
                   <div className="text-primary-gray px-3">
                     <h1 className="fw-normal">Sticky sidebar</h1>

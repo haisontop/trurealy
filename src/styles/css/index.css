@@ -216,3 +216,7 @@ aside {
     padding-box;
   border: none;
 }
+
+.z-index-100 {
+  z-index: 100;
+}
