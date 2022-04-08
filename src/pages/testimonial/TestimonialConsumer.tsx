@@ -1,6 +1,7 @@
 import React from "react";
 import Truhelp from "../../components/shared/TruHelp";
 import Testimonialcobanner from "../../components/testimonial/TestimonialCoBanner";
+import Testimonialcomiddle from "../../components/testimonial/TestimonialComiddle";
 import Layout from "../../layouts/Layout";
 
 const Testimonialconsumer = () => {
@@ -8,7 +9,7 @@ const Testimonialconsumer = () => {
     <Layout>
       <div className="container mx-auto px-0">
         <Testimonialcobanner />
-        {/* {<Testimonialcomiddle />} */}
+         <Testimonialcomiddle />
         <Truhelp />
       </div>
     </Layout>

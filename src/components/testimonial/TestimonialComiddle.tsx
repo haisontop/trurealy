@@ -1,6 +1,6 @@
 import React from 'react';
 import AliceCarousel from "react-alice-carousel"
-import Testimonialcocard from './TestimonialCocard';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 const item = [
   {
@@ -35,9 +35,9 @@ const item = [
   },
 ]
 
-const handleDragStart = (event) => event.preventDefault();
+const handleDragStart = (event : any) => event.preventDefault();
 
-const renderDotsItem = ({ isActive }) => {
+const renderDotsItem = ({ isActive } : { isActive: boolean })  => {
   return isActive ? (
     <div
       className="mx-2 w-20 border-white"
@@ -51,8 +51,15 @@ const renderDotsItem = ({ isActive }) => {
   );
 };
 
-const SocialCard = (props) => {
-  const { onDragStart, img, outhor, para } = props;
+interface SocialCardProps {
+  onDragStart: (event: any) => void;
+  img: string;
+  author: string;
+  para: string;
+}
+
+const SocialCard = (props : SocialCardProps) => {
+  const { onDragStart, img, author, para } = props;
 
   return (
     <div
@@ -60,12 +67,15 @@ const SocialCard = (props) => {
       onDragStart={onDragStart}
       style={{cursor: "pointer"}}
     >
-        <div>
-              <div>
-               
+        <div className='row mt-5 pt-5 gx-5'>
+              <div className='col-5'>
+                <img src={img} width="100%" alt="" />
               </div>
-              <div>
-
+              <div className='col-4 d-flex justify-content-center aling-items-center'>
+                <div>
+                  <sup className='fs-3 fw-bold f'>``</sup><p className='fs-5'>{para}</p>
+                   <p className='fs-5 mt-5'>{author}</p>
+                </div>
               </div>
         </div>
       </div>
@@ -75,20 +85,20 @@ const SocialCard = (props) => {
 
 const Testimonialcomiddle = () => {
    const carouselItems = React.useMemo(() => {
-      return SOCIAL_FEEDS.map((member) => {
+      return item.map((member) => {
         return (
            <SocialCard
               onDragStart={handleDragStart}
-              img={member.avatarURL ?? ""}
-              author={member.name ?? ""}
-              para={member.role ?? ""}
+              img={member.img ?? ""}
+              author={member.author ?? ""}
+              para={member.para ?? ""}
             />
                 );
               });
         }, []);
 
     return (
-        <div className='container mx-auto' style={{width: "100px"}}>
+        <div className='container mx-auto' style={{width: "1000px"}}>
             <AliceCarousel 
                renderKey={0}
                items={carouselItems} 

@@ -2,7 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
-const renderDotsItem = ({ isActive }) => {
+const renderDotsItem = ({ isActive } : any) => {
   return isActive ? (
     <div
       className="mx-2 w-20 border-white"
@@ -17,7 +17,7 @@ const renderDotsItem = ({ isActive }) => {
 };
 
 const Testimonialcobanner = () => {
-    const handleDragStart = (e) => e.preventDefault();
+    const handleDragStart = (e : any) => e.preventDefault();
     const items = [
         <img src="/assets/Rectangle 303.png" className='img-fluid' width="100%" onDragStart={handleDragStart} />,
         <img src="/assets/placeholder.png" className='img-fluid' width="100%" onDragStart={handleDragStart} />,
