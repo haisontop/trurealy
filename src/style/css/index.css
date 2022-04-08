@@ -199,6 +199,11 @@ margin-bottom: 70px;
   margin-bottom: -320px;
 }
 .ab-co-differrence{
-  margin-top: 300px;
-  margin-bottom: 500px;
+  margin-top: 200px;
+  margin-bottom: 450px;
+}
+.tru-help-btn{
+  background: linear-gradient(270deg, #1592D1 0%, #fd084f 100%) 0% 0% no-repeat
+  padding-box;
+  border: none;
 }

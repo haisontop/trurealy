@@ -10,10 +10,10 @@ const Testimonialcobanner = () => {
       ];
     return (
         <div className='container mx-auto overflow-hidden mt-5'>
-            <div className='mb-5' style={{borderBottom: "2px solid black"}}>
+            <div className='mb-5 mx-auto' style={{borderBottom: "2px solid black", width:"900px"}}>
                 <h1 className='fs-1 fw-normal text-center text-black'>TRU AGENTS. TRU STORIES.</h1>
             </div>
-            <div style={{width: "1000px"}}>
+            <div className='mx-auto' style={{width: "900px"}}>
                <AliceCarousel 
                renderKey={0}
                items={items} 
@@ -21,6 +21,7 @@ const Testimonialcobanner = () => {
                controlsStrategy="responsive"
                autoPlayInterval={20}
                animationType="slide"
+               autoPlayDirection="ltr"
                responsive={{
                    0: {
                      items: 1,
