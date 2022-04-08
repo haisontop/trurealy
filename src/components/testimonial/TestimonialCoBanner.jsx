@@ -2,6 +2,20 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
+const renderDotsItem = ({ isActive }) => {
+  return isActive ? (
+    <div
+      className="mx-2 w-20 border-white"
+      style={{ height: "20px", width: "20px", borderRadius: "20px", backgroundColor:"#A6A4CF"}}
+    ></div>
+  ) : (
+    <div
+      className="mx-2 w-8"
+      style={{ height: "20px", width: "20px", borderRadius: "20px", border:"2px solid #929292" }}
+    ></div>
+  );
+};
+
 const Testimonialcobanner = () => {
     const handleDragStart = (e) => e.preventDefault();
     const items = [
@@ -18,6 +32,7 @@ const Testimonialcobanner = () => {
                <AliceCarousel 
                renderKey={0}
                items={items} 
+               renderDotsItem={renderDotsItem}
                disableButtonsControls={true}
                controlsStrategy="responsive"
                autoPlayInterval={20}

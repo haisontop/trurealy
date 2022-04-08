@@ -231,3 +231,14 @@ margin-bottom: 70px;
   position: absolute;
   z-index: -200;
 }
+.social-top-carosel{
+  display: none;
+  width: 280px;
+  margin-top: 25px;
+  height: 280px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.social-top-carosel-box:hover .social-top-carosel{
+ display: inline-block;
+}

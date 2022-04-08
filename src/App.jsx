@@ -5,6 +5,7 @@ import Aboutconsumer from "./pages/about/AboutConsumer";
 import Faqconsumer from "./pages/faq/FaqConsumer";
 import Home from "./pages/Home/Home";
 import Homecosumer from "./pages/Home/HomeCosumer";
+import Socialfeedconsumer from "./pages/socialfeed/SocialFeedConsumer";
 import Testimonialconsumer from "./pages/testimonial/TestimonialConsumer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/consumer/about" element={<Aboutconsumer />} />
           <Route path="/consumer/testimonial" element={<Testimonialconsumer />} />
           <Route path="/consumer/faq" element={<Faqconsumer />} />
+          <Route path="/consumer/socialfeeds" element={<Socialfeedconsumer />} />
         </Routes>
       </BrowserRouter>
     </div>
