@@ -14,10 +14,32 @@ import {
   Nav,
 } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import useScript from "../hooks/useScript";
+
+const CONSUMER_BOT = {
+  url: "https://widget.botcopy.com/js/injection.js",
+  id: "botcopy-embedder-d7lcfheammjct",
+  className: "botcopy-embedder-d7lcfheammjct",
+  botId: "6247a98681ff7c0009297331",
+  elementId: "botcopy-d7lcfheammjct"
+};
+
+const AGENT_BOT = {
+  url: "https://widget.botcopy.com/js/injection.js",
+  id: "botcopy-embedder-d7lcfheammjct",
+  className: "botcopy-embedder-d7lcfheammjct",
+  botId: "62463878baa1eb00097705f1",
+  elementId: "botcopy-d7lcfheammjct"
+};
 
 const Navigation = () => {
+  const [botData, setBotData] = useState(CONSUMER_BOT);
+
+  useScript(botData.url, botData.id, botData.className, botData.botId, botData.elementId);
+
   const [isOpen, setIsOpen] = useState(false);
   const [role, setRole] = useState("");
+
   const navigate = useNavigate();
   let location = useLocation();
 
@@ -39,6 +61,14 @@ const Navigation = () => {
       }
     }
   }, [location]);
+
+  useEffect(() => {
+    if (role === "agent") {
+      setBotData(AGENT_BOT);
+    } else {
+      setBotData(CONSUMER_BOT);
+    }
+  }, [role]);
 
   return (
     <div className="position-sticky top-0 index-100 z-index-100">
@@ -126,7 +156,7 @@ const Navigation = () => {
             </div>
             <Link to="/">
               <img
-                 src="/assets/Group 138.png"
+                src="/assets/Group 138.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
@@ -134,8 +164,8 @@ const Navigation = () => {
               />
             </Link>
             <Link to="/">
-            <img
-                 src="/assets/location-ico.png"
+              <img
+                src="/assets/location-ico.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
@@ -143,8 +173,8 @@ const Navigation = () => {
               />
             </Link>
             <Link to="/">
-            <img
-                 src="/assets/us-flag.png"
+              <img
+                src="/assets/us-flag.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
@@ -152,8 +182,8 @@ const Navigation = () => {
               />
             </Link>
             <Link to="/">
-            <img
-                 src="/assets/Group 25.png"
+              <img
+                src="/assets/Group 25.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
