@@ -3,8 +3,8 @@ import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import AboutConsumer from "../pages/about/AboutConsumer";
 import FaqConsumer from "../pages/faq/FaqConsumer";
-import Home from "../pages/home/Home";
-import HomeConsumer from "../pages/home/HomeConsumer";
+import Home from "../pages/Home/Home";
+import HomeConsumer from "../pages/Home/HomeConsumer";
 import SocialfeedConsumer from "../pages/socialfeed/SocialFeedConsumer";
 import TestimonialConsumer from "../pages/testimonial/TestimonialConsumer";
 
