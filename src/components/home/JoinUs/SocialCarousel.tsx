@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import styles from "./SocialCarousel.module.css";
+import styles from "./SocialCarousel.module.scss";
 
 const SOCIAL_FEEDS = [
   {
@@ -21,9 +21,9 @@ const SOCIAL_FEEDS = [
   },
 ];
 
-const handleDragStart = (event) => event.preventDefault();
+const handleDragStart = (event: any) => event.preventDefault();
 
-const renderDotsItem = ({ isActive }) => {
+const renderDotsItem = ({ isActive }: { isActive: boolean }) => {
   return isActive ? (
     <div
       className="mx-2 w-20 bg-white border-white"
@@ -37,7 +37,14 @@ const renderDotsItem = ({ isActive }) => {
   );
 };
 
-const SocialCard = (props) => {
+interface SocialCardProps {
+  onDragStart: (event: any) => void;
+  imageURL: string;
+  title: string;
+  description: string;
+}
+
+const SocialCard = (props: SocialCardProps) => {
   const { onDragStart, imageURL, title, description } = props;
 
   return (
@@ -51,6 +58,7 @@ const SocialCard = (props) => {
           height="100%"
           width="100%"
           className="absolute bottom-0 object-cover"
+          alt="social"
         />
       </div>
       <div className="text text-primary fs-6">View more on instgram</div>

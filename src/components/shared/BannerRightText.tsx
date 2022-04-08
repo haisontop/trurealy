@@ -1,3 +1,5 @@
+import React from "react";
+
 const BannerRightText = () => {
   return (
     <div className="position-absolute banner-cols text-white w-100 px-5 pt-4">

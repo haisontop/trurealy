@@ -9,25 +9,21 @@ import Aboutcoourmission from "../../components/about/AboutCOourMission";
 import Aboutcotrustory from "../../components/about/AboutCoTrustory";
 import Aboutpower from "../../components/about/AboutPower";
 import Aboutsmarteragent from "../../components/about/AboutSmarterAgent";
-import Layout from "../../components/Layout";
-import Navigation from "../../components/Navigation";
 
-const Aboutconsumer = () => {
+const AboutConsumer = () => {
   return (
-    <Layout>
-      <Container className="px-0 mx-auto">
-        <Aboutbanner />
-        <Aboutcoourmission />
-        <Aboutcofeturedind />
-        <Aboutsmarteragent />
-        <Aboutpower />
-        <Aboutcotrustory />
-        <Aboutcodefference />
-        <Aboutcomap />
-        <Aboutcobottom />
-      </Container>
-    </Layout>
+    <Container className="px-0 mx-auto">
+      <Aboutbanner />
+      <Aboutcoourmission />
+      <Aboutcofeturedind />
+      <Aboutsmarteragent />
+      <Aboutpower />
+      <Aboutcotrustory />
+      <Aboutcodefference />
+      <Aboutcomap />
+      <Aboutcobottom />
+    </Container>
   );
 };
 
-export default Aboutconsumer;
+export default AboutConsumer;

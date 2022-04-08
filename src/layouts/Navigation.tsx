@@ -165,7 +165,7 @@ const Navigation = () => {
                 className={`fs-5  d-flex align-items-center  mx-3 ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/tru-u"
+                href="/tru-u"
               >
                 Tru U
               </Nav.Link>
@@ -175,7 +175,7 @@ const Navigation = () => {
                 className={`fs-5  d-flex align-items-center ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/tech"
+                href="/tech"
               >
                 Tech
               </Nav.Link>
@@ -201,7 +201,7 @@ const Navigation = () => {
                 className={`fs-5  d-flex align-items-center ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/homes"
+                href="/homes"
               >
                 Homes
               </Nav.Link>
@@ -211,7 +211,7 @@ const Navigation = () => {
                 className={`fs-5 d-flex align-items-center mx-3 ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/join"
+                href="/join"
               >
                 Join
               </Nav.Link>
@@ -221,7 +221,7 @@ const Navigation = () => {
                 className={`fs-5 d-flex align-items-center ${
                   role === "agent" ? "text-primary" : "text-light"
                 }`}
-                to="/invest"
+                href="/invest"
               >
                 Invest
               </Nav.Link>
@@ -274,7 +274,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/about"
+                  href="/about"
                 >
                   About
                 </Nav.Link>
@@ -284,7 +284,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/tru-u"
+                  href="/tru-u"
                 >
                   Tru U
                 </Nav.Link>
@@ -294,7 +294,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/tech"
+                  href="/tech"
                 >
                   Tech
                 </Nav.Link>
@@ -304,7 +304,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/homes"
+                  href="/homes"
                 >
                   Homes
                 </Nav.Link>
@@ -314,7 +314,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/join"
+                  href="/join"
                 >
                   Join
                 </Nav.Link>
@@ -324,7 +324,7 @@ const Navigation = () => {
                   className={`fs-5 ${
                     role === "consumer" ? "text-primary" : "text-light"
                   } d-flex align-items-center`}
-                  to="/invest"
+                  href="/invest"
                 >
                   Invest
                 </Nav.Link>

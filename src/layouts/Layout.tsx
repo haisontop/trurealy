@@ -4,14 +4,18 @@ import { AiOutlineAlignRight, AiFillCaretRight } from "react-icons/ai";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children?: React.ReactNode;
+}
+
+const Layout: React.FC<LayoutProps> = (props) => {
   return (
     <>
       <Navigation />
       <main>
         <div className="px-0">
           <div className="d-flex">
-            <div className="px-0 flex-grow-1">{children}</div>
+            <div className="px-0 flex-grow-1">{props.children}</div>
             <div
               className="position-relative px-0"
               style={{ minWidth: "300px" }}
