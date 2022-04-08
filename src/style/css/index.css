@@ -2,7 +2,6 @@
 .min-height-content {
   height: min-content;
 }
-
 .nav-height {
   height: 100vh;
 }
@@ -206,4 +205,29 @@ margin-bottom: 70px;
   background: linear-gradient(270deg, #1592D1 0%, #fd084f 100%) 0% 0% no-repeat
   padding-box;
   border: none;
+}
+
+/* faq consumer */
+.fq-co-desing{
+  background: linear-gradient(240deg, #3B46F2 20%, #fd084f 100%) 0% 0% no-repeat
+  padding-box;
+  width: 150px;
+  height: 150px;
+  border-bottom-right-radius: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  z-index: -200;
+  margin-top: -50px;
+}
+.fq-co-desing-2{
+  background: linear-gradient(270deg, #fd084f 10%, #3B46F2 100%) 0% 0% no-repeat
+  padding-box;
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 100%;
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+  z-index: -200;
 }
