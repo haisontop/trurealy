@@ -3,6 +3,7 @@ import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import AboutConsumer from "../pages/about/AboutConsumer";
 import FaqConsumer from "../pages/faq/FaqConsumer";
+import GivingBack from "../pages/giving-back/GivingBack";
 import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import SocialfeedConsumer from "../pages/socialfeed/SocialFeedConsumer";
@@ -22,6 +23,7 @@ export default function Router() {
         { path: "testimonial", element: <TestimonialConsumer /> },
         { path: "faq", element: <FaqConsumer /> },
         { path: "socialfeeds", element: <SocialfeedConsumer /> },
+        {path: 'givingback', element: <GivingBack />}
       ],
     },
     { path: "*", element: <Navigate to="/404" replace /> },
