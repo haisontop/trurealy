@@ -1,6 +1,6 @@
 import React from "react";
 import Socialcotop from "../../components/Socialfeeds/consumer/SocialCoTop";
-import Layout from "./../../components/Layout";
+import Layout from "../../layouts/Layout";
 
 const SocialfeedConsumer = () => {
   return (

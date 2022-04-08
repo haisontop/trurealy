@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Layout from "../../components/Layout";
 import faq from "../../constants/FAQ_MOCK_DATA";
+import Layout from "../../layouts/Layout";
 import Faqconsumercard from "./FaqConsumerCard";
 
 const FaqConsumer = () => {

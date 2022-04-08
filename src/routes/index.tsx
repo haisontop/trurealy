@@ -19,8 +19,7 @@ export default function Router() {
       children: [
         { path: "home", element: <HomeConsumer /> },
         { path: "about", element: <AboutConsumer /> },
-        { path: "testimonial", element: <AboutConsumer /> },
-        { path: "about", element: <Testimonialconsumer /> },
+        { path: "testimonial", element: <Testimonialconsumer /> },
         { path: "faq", element: <FaqConsumer /> },
         { path: "socialfeeds", element: <SocialfeedConsumer /> },
       ],
