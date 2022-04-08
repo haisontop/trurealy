@@ -202,3 +202,8 @@ margin-bottom: 70px;
   margin-top: 300px;
   margin-bottom: 500px;
 }
+.tru-help-btn{
+  background: linear-gradient(270deg, #575fd6 0%, #fd084f 100%) 0% 0% no-repeat
+    padding-box;
+    border: none;
+}
