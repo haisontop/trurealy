@@ -3,7 +3,7 @@ import React from 'react'
 export default function BuyBody() {
   return (
     <div className='position-relative'>
-      <div className='mx-auto mt-5' style={{width: "1200px"}}>
+      <div className='mx-auto mt-5' style={{width: "900px"}}>
          <div>
              <h1 className='fw-normal' style={{fontSize:"60px"}}>FIND YOUR TRU HOME</h1>
              <hr style={{height: "5px"}} />
@@ -15,12 +15,12 @@ export default function BuyBody() {
            </div>
            <div className='text-center mt-5 pt-5'>
              <form className='mx-auto'>
-                 <input type="text" className='px-2 fs-4 me-2' placeholder='Seach by Address, City, Zip Code, etc.' style={{width: "500px", border: "0px, 2px, 0px, 0px"}} />
-                 <button className='tru-help-btn fs-4 px-3 py-1 text-white'>SEARCH</button>
+                 <input type="text" className='px-2 fs-5 me-2' placeholder='Seach by Address, City, Zip Code, etc.' style={{width: "300px", borderTop: "2px", borderLeft: "2px", borderRight:"2px" , borderColor: "black"}} />
+                 <button className='tru-help-btn fs-5 px-3 py-1 text-white'>SEARCH</button>
              </form>
            </div>
       </div>
-      <img src="/assets/Path 114.png" className='img-fluid position-absolute top-0 end-0' alt="" style={{marginTop: "-50px", zIndex: "-100"}} />
+      <img src="/assets/Path 114.png" className='img-fluid position-absolute top-0 end-0' width="200px" alt="" style={{marginTop: "-50px", zIndex: "-100"}} />
       <img src="/assets/Path 107.png" className='img-fluid position-absolute start-0 bottom-0' width="300px" alt="" style={{marginBottom: "-50px", zIndex: "-100"}} />
     </div>
   )
