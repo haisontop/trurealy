@@ -2,6 +2,7 @@ import React from 'react'
 
 function GivingBackcoBanner() {
   return (
+    <>
     <div className='position-relative'>
           <img src="/assets/bg/giving-bg.png" className='img-fluid' alt="" />
           <div className='d-flex text-white position-absolute top-0 left-0 giving-banner-1 px-5 py-3'>
@@ -15,6 +16,8 @@ function GivingBackcoBanner() {
                <p className='mt-3'>Our culture is defined by our values. At the core of those values is generosity. We believe in developing relationships with organizations and causes that positively impact their communities. Giving back is what we do, it’s who we are as an organization. </p>
           </div>
     </div>
+    <div className="gradient-divider" />
+    </>
   )
 }
 
