@@ -2,7 +2,7 @@ import React from "react";
 // import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import About from "../pages/about/About";
-import AgentDirectory from "../pages/agent directory/AgentDirectory";
+import AgentDirectory from "../pages/agent-directory/AgentDirectory";
 import Faq from "../pages/faq/Faq";
 import GivingBack from "../pages/giving-back/GivingBack";
 import AgentHome from "../pages/home/AgentHome";
