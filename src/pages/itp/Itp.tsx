@@ -1,5 +1,5 @@
 import React from 'react'
-import ItsPages from '../../components/its/ItsPages'
+import ItpPages from '../../components/itp/ItpPages'
 import Layout from '../../layouts/Layout'
 
 function Itp() {
@@ -7,7 +7,7 @@ function Itp() {
     <div>
       <Layout>
           <div className='container mx-auto'>
-             <ItsPages />
+            <ItpPages />
           </div>
       </Layout>
     </div>

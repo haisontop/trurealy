@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import TrueHelp from "../../components/shared/TruHelp";
 import faq from "../../constants/FAQ_MOCK_DATA";
 import Layout from "../../layouts/Layout";
-import Faqconsumercard from "./FaqConsumerCard";
+import Faqcard from "./FaqCard";
 
-const FaqConsumer = () => {
+const Faq = () => {
   return (
     <div>
       <Layout>
@@ -25,7 +25,7 @@ const FaqConsumer = () => {
             <div className="pb-5 position-relative">
               <div className="px-5">
                 {faq.map((faq) => (
-                  <Faqconsumercard
+                  <Faqcard
                     title={faq.tittle}
                     discription={faq.discription}
                   />
@@ -52,4 +52,4 @@ const FaqConsumer = () => {
   );
 };
 
-export default FaqConsumer;
+export default Faq;

@@ -1,16 +1,16 @@
 import React from "react";
 import TrueHelp from "../../components/shared/TruHelp";
-import Testimonialcobanner from "../../components/testimonial/TestimonialCoBanner";
-import ConsumerTestimonialMiddle from "../../components/testimonial/ConsumerTestimonialMiddle";
+import TestimonialBanner from "../../components/testimonial/TestimonialBanner";
+import TestimonialMiddle from "../../components/testimonial/TestimonialMiddle";
 import Layout from "../../layouts/Layout";
 
 const TestimonialConsumer = () => {
   return (
     <Layout>
       <div className="container mx-auto px-0">
-        <Testimonialcobanner />
+        <TestimonialBanner />
 
-        <ConsumerTestimonialMiddle />
+        <TestimonialMiddle />
 
         <TrueHelp title="TRU Agents Here To Help">
           <>

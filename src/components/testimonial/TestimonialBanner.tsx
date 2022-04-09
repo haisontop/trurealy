@@ -26,7 +26,7 @@ const renderDotsItem = ({ isActive }: { isActive: boolean }) => {
   );
 };
 
-const Testimonialcobanner = () => {
+const TestimonialBanner = () => {
   const handleDragStart = (e: any) => e.preventDefault();
   const items = [
     <img
@@ -83,4 +83,4 @@ const Testimonialcobanner = () => {
   );
 };
 
-export default Testimonialcobanner;
+export default TestimonialBanner;

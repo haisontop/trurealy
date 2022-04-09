@@ -1,6 +1,6 @@
 import React from "react";
 
-const Aboutcobottom = () => {
+const AboutBottom = () => {
   return (
     <div className="bg-primary text-center py-5 mt-5">
       <div className="container mx-auto text-white">
@@ -26,4 +26,4 @@ const Aboutcobottom = () => {
   );
 };
 
-export default Aboutcobottom;
+export default AboutBottom;
