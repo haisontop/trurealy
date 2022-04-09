@@ -3,6 +3,7 @@ import React from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import About from "../pages/about/About";
 import AgentDirectory from "../pages/agent directory/AgentDirectory";
+import Buy from "../pages/buy/Buy";
 import Faq from "../pages/faq/Faq";
 import GivingBack from "../pages/giving-back/GivingBack";
 import AgentHome from "../pages/home/AgentHome";
@@ -31,6 +32,7 @@ export default function Router() {
         { path: "itp", element: <Itp /> },
         { path: "leadership", element: <LeaderShip /> },
         { path: "agentdirectory", element: <AgentDirectory /> },
+        { path: "buy", element: <Buy /> }
       ],
     },
     {
