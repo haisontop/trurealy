@@ -3,7 +3,7 @@ import React from 'react'
 export default function SellGrid() {
   return (
       <div className='position-relative'>
-       <div className='container mx-auto mt-5 pt-5' style={{width: "900px"}}>
+       <div className='container mx-auto my-5 pt-5 pb-3' style={{width: "900px"}}>
         <div className='row'>
             <div className='col-6 text-end'>
                 <h3 className='fw-bold'>OUR LISTING AGENTS</h3>

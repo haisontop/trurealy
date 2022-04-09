@@ -14,6 +14,7 @@ import LeaderShip from "../pages/leader-ship/LeaderShip";
 import Sell from "../pages/sell/Sell";
 import Socialfeed from "../pages/socialfeed/SocialFeed";
 import Testimonial from "../pages/testimonial/Testimonial";
+import Rent from "../pages/rent/Rent";
 
 export default function Router() {
   return useRoutes([
@@ -34,7 +35,8 @@ export default function Router() {
         { path: "leadership", element: <LeaderShip /> },
         { path: "agentdirectory", element: <AgentDirectory /> },
         { path: "buy", element: <Buy /> },
-        { path: "sell", element: <Sell />}
+        { path: "sell", element: <Sell />},
+        { path: "rent", element: <Rent /> }
       ],
     },
     {
