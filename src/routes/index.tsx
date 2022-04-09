@@ -1,13 +1,15 @@
 import React from "react";
-import { Suspense, lazy, ElementType } from "react";
+// import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import AboutConsumer from "../pages/about/AboutConsumer";
+import AgentDirectory from "../pages/agent directory/AgentDirectory";
 import FaqConsumer from "../pages/faq/FaqConsumer";
 import GivingBack from "../pages/giving-back/GivingBack";
 import AgentHome from "../pages/home/AgentHome";
 import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import Itp from "../pages/itp/Itp";
+import LeaderShip from "../pages/leader-ship/LeaderShip";
 import SocialfeedConsumer from "../pages/socialfeed/SocialFeedConsumer";
 import TestimonialConsumer from "../pages/testimonial/TestimonialConsumer";
 
@@ -26,7 +28,9 @@ export default function Router() {
         { path: "faq", element: <FaqConsumer /> },
         { path: "socialfeeds", element: <SocialfeedConsumer /> },
         { path: 'givingback', element: <GivingBack /> },
-        { path: "itp", element: <Itp />}
+        { path: "itp", element: <Itp /> },
+        { path: "leadership", element: <LeaderShip /> },
+        { path: "agentdirectory", element: <AgentDirectory /> },
       ],
     },
     {
