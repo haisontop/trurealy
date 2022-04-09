@@ -11,6 +11,7 @@ import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import Itp from "../pages/itp/Itp";
 import LeaderShip from "../pages/leader-ship/LeaderShip";
+import Sell from "../pages/sell/Sell";
 import Socialfeed from "../pages/socialfeed/SocialFeed";
 import Testimonial from "../pages/testimonial/Testimonial";
 
@@ -32,7 +33,8 @@ export default function Router() {
         { path: "itp", element: <Itp /> },
         { path: "leadership", element: <LeaderShip /> },
         { path: "agentdirectory", element: <AgentDirectory /> },
-        { path: "buy", element: <Buy /> }
+        { path: "buy", element: <Buy /> },
+        { path: "sell", element: <Sell />}
       ],
     },
     {
