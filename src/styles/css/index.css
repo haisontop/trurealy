@@ -248,3 +248,18 @@ aside {
   border-top-right-radius: 20px;
   margin-left: -12px;
 }
+.social-top-carosel{
+ bottom: 0%;
+ height: 0%;
+ margin-bottom: -50px;
+ transition: all 0.5s;
+ border-radius: 25px;
+}
+.social-top-carosel-box{
+overflow: hidden;
+border-radius: 25px;
+}
+.social-top-carosel-box:hover .social-top-carosel{
+  height: 90%;
+  margin-bottom: 30px;
+  }

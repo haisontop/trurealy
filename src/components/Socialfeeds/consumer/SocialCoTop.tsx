@@ -1,7 +1,8 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-
+import {FaInstagram} from "react-icons/fa"
+import internal from 'stream';
 const SOCIAL_FEEDS = [
     {
       name: "King-Kong",
@@ -50,9 +51,9 @@ const SOCIAL_FEEDS = [
     },
   ];
   
-  const handleDragStart = (event) => event.preventDefault();
+  const handleDragStart = (event: any) => event.preventDefault();
   
-  const renderDotsItem = ({ isActive }) => {
+  const renderDotsItem = ({ isActive } : { isActive: boolean }) => {
     return isActive ? (
       <div
         className="mx-2 w-20 border-white"
@@ -65,8 +66,14 @@ const SOCIAL_FEEDS = [
       ></div>
     );
   };
+  interface props{
+      onDragStart : any;
+      imageURL: string;
+      title: string;
+      description: string;
+  }
   
-  const SocialCard = (props) => {
+  const SocialCard = (props : props) => {
     const { onDragStart, imageURL, title, description } = props;
   
     return (
@@ -75,6 +82,7 @@ const SOCIAL_FEEDS = [
         onDragStart={onDragStart}
         style={{cursor: "pointer"}}
       >
+        <div>
         <div  className="">
           <img
             src={imageURL}
@@ -83,20 +91,25 @@ const SOCIAL_FEEDS = [
             className="mx-2"
           />
         </div>
-        <div className="text-white position-absolute top-0 p-4 fs-5 social-top-carosel mx-2" style={{backgroundColor: "#7A77B7"}}>
+        <div className="text-white position-absolute p-4 fs-5 social-top-carosel mx-2" style={{backgroundColor: "#7A77B7"}}>
             <p>God help us, we're in the hands of engineers. Must go faster...</p>
             <p>#goldblum #dinosaurs #inthenameofprogress</p>
-            <div>
-              <div>
-               
+            <div className='d-flex justify-content-between mt-5 pt-3'>
+              <div className='d-flex'>
+               <div className='me-2'>
+                 <img src="/assets/Ellipse 37.png" className='img-fluid mb-1' width="20px" alt="" />
+                 <p className='d-inline'>18</p>
+               </div>
+               <div className=''>
+                 <img src="/assets/Ellipse 37.png" className='img-fluid mb-1' width="20px" alt="" />
+                 <p className='d-inline'>18</p>
+               </div>
               </div>
               <div>
-
-              </div>
-              <div>
-
+                 <FaInstagram size="25px" className='p-1 border rounded rounded-circle' />
               </div>
             </div>
+        </div>
         </div>
       </div>
     );
