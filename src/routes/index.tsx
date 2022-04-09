@@ -4,6 +4,7 @@ import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import AboutConsumer from "../pages/about/AboutConsumer";
 import FaqConsumer from "../pages/faq/FaqConsumer";
 import GivingBack from "../pages/giving-back/GivingBack";
+import AgentHome from "../pages/home/AgentHome";
 import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import Itp from "../pages/itp/Itp";
@@ -29,6 +30,10 @@ export default function Router() {
         { path: "itp", element: <Itp /> },
         { path: "leadership", element: <LeaderShip /> }
       ],
+    },
+    {
+      path: "/agent",
+      children: [{ path: "home", element: <AgentHome /> }],
     },
     { path: "*", element: <Navigate to="/404" replace /> },
   ]);

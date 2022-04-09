@@ -14,10 +14,32 @@ import {
   Nav,
 } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import useScript from "../hooks/useScript";
+
+const CONSUMER_BOT = {
+  url: "https://widget.botcopy.com/js/injection.js",
+  id: "botcopy-embedder-d7lcfheammjct",
+  className: "botcopy-embedder-d7lcfheammjct",
+  botId: "6247a98681ff7c0009297331",
+  elementId: "botcopy-d7lcfheammjct"
+};
+
+const AGENT_BOT = {
+  url: "https://widget.botcopy.com/js/injection.js",
+  id: "botcopy-embedder-d7lcfheammjct",
+  className: "botcopy-embedder-d7lcfheammjct",
+  botId: "62463878baa1eb00097705f1",
+  elementId: "botcopy-d7lcfheammjct"
+};
 
 const Navigation = () => {
+  const [botData, setBotData] = useState(CONSUMER_BOT);
+
+  useScript(botData.url, botData.id, botData.className, botData.botId, botData.elementId);
+
   const [isOpen, setIsOpen] = useState(false);
   const [role, setRole] = useState("");
+
   const navigate = useNavigate();
   let location = useLocation();
 
@@ -39,6 +61,14 @@ const Navigation = () => {
       }
     }
   }, [location]);
+
+  useEffect(() => {
+    if (role === "agent") {
+      setBotData(AGENT_BOT);
+    } else {
+      setBotData(CONSUMER_BOT);
+    }
+  }, [role]);
 
   return (
     <div className="position-sticky top-0 index-100 z-index-100">
@@ -125,40 +155,40 @@ const Navigation = () => {
               </Link>
             </div>
             <Link to="/">
-              <p
+              <img
+                src="/assets/Group 138.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
-              >
-                <BsMic size="24" />
-              </p>
+                width="37px"
+              />
             </Link>
             <Link to="/">
-              <p
-                className={`${
-                  role === "agent" ? "text-white" : "text-primary"
-                } icon my-auto`}
-              >
-                <VscLocation size="27" />
-              </p>
-            </Link>
-            <Link to="/">
-              <p
+              <img
+                src="/assets/location-ico.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
-              >
-                <GiUsaFlag size="24" />
-              </p>
+                width="39px"
+              />
             </Link>
             <Link to="/">
-              <p
+              <img
+                src="/assets/us-flag.png"
                 className={`${
                   role === "agent" ? "text-white" : "text-primary"
                 } my-auto icon px-2`}
-              >
-                <BiSearchAlt size="24" />
-              </p>
+                width="39px"
+              />
+            </Link>
+            <Link to="/">
+              <img
+                src="/assets/Group 25.png"
+                className={`${
+                  role === "agent" ? "text-white" : "text-primary"
+                } my-auto icon px-2`}
+                width="40px"
+              />
             </Link>
           </div>
         </Container>
@@ -180,7 +210,7 @@ const Navigation = () => {
                 }`}
                 href={!!role ? `/${role}/about` : ""}
               >
-                About
+                BUY
               </Nav.Link>
             </Link>
             <Link to="/tru-u" className="text-decoration-none my-auto">
@@ -190,7 +220,7 @@ const Navigation = () => {
                 }`}
                 href="/tru-u"
               >
-                Tru U
+                SELL
               </Nav.Link>
             </Link>
             <Link to="/tech" className="text-decoration-none my-auto">
@@ -200,7 +230,7 @@ const Navigation = () => {
                 }`}
                 href="/tech"
               >
-                Tech
+                RENT
               </Nav.Link>
             </Link>
           </div>
@@ -226,7 +256,7 @@ const Navigation = () => {
                 }`}
                 href="/homes"
               >
-                Homes
+                AGENTS
               </Nav.Link>
             </Link>
             <Link to="/join" className="text-decoration-none my-auto">
@@ -236,7 +266,7 @@ const Navigation = () => {
                 }`}
                 href="/join"
               >
-                Join
+                ABOUT
               </Nav.Link>
             </Link>
             <Link to="/invest" className="text-decoration-none my-auto">
@@ -246,7 +276,7 @@ const Navigation = () => {
                 }`}
                 href="/invest"
               >
-                Invest
+                CONTACT
               </Nav.Link>
             </Link>
           </div>
