@@ -2,7 +2,7 @@ import React from 'react'
 import its from '../../constants/ITS_MOCK_DATA'
 import ItpCard from './ItpCard'
 
-function ItsPages() {
+function ItpPages() {
   return (
     <div>
         <div className='my-5'>
@@ -23,4 +23,4 @@ function ItsPages() {
   )
 }
 
-export default ItsPages
+export default ItpPages

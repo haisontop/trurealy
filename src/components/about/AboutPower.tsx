@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Aboutpower = () => {
+const AboutPower = () => {
     return (
         <div className='container mx-auto text-center py-5'>
             <h1>WE POWER THE GROWTH OF THOUSENDS</h1>
@@ -23,4 +23,4 @@ const Aboutpower = () => {
     );
 }
 
-export default Aboutpower;
+export default AboutPower;

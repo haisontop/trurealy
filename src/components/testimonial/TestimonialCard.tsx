@@ -4,7 +4,7 @@ interface ConsumerTestimonialCardProps {
   content: String;
 }
 
-const ConsumerTestimonialCard = (props: ConsumerTestimonialCardProps) => {
+const TestimonialCard = (props: ConsumerTestimonialCardProps) => {
   const handleDragStart = (e: any) => e.preventDefault();
 
   return (
@@ -23,4 +23,4 @@ const ConsumerTestimonialCard = (props: ConsumerTestimonialCardProps) => {
   );
 };
 
-export default ConsumerTestimonialCard;
+export default TestimonialCard;
