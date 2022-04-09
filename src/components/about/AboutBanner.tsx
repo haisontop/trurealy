@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Aboutbanner = () => {
+const AboutBanner = () => {
     return (
         <div className='position-relative'>
             <div>
@@ -16,4 +16,4 @@ const Aboutbanner = () => {
     );
 }
 
-export default Aboutbanner;
+export default AboutBanner;

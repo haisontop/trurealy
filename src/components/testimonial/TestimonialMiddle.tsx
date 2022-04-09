@@ -1,7 +1,7 @@
 import React from "react";
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from "react-alice-carousel";
-import ConsumerTestimonialCard from "./ConsumerTestimonialCard";
+import ConsumerTestimonialCard from "./TestimonialCard";
 
 const FEEDS = [
   {
@@ -46,7 +46,7 @@ const renderDotsItem = ({ isActive }: { isActive: boolean }) => {
   );
 };
 
-const ConsumerTestimonialMiddle = () => {
+const TestimonialMiddle = () => {
   const items = FEEDS.map((feed) => (
     <ConsumerTestimonialCard key={feed.name} content={feed.description} />
   ));
@@ -78,4 +78,4 @@ const ConsumerTestimonialMiddle = () => {
   );
 };
 
-export default ConsumerTestimonialMiddle;
+export default TestimonialMiddle;

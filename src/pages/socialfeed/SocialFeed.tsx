@@ -2,7 +2,7 @@ import React from "react";
 import Socialcotop from "../../components/Socialfeeds/consumer/SocialCoTop";
 import Layout from "../../layouts/Layout";
 
-const SocialfeedConsumer = () => {
+const Socialfeed = () => {
   return (
     <div>
       <Layout>
@@ -14,4 +14,4 @@ const SocialfeedConsumer = () => {
   );
 };
 
-export default SocialfeedConsumer;
+export default Socialfeed;

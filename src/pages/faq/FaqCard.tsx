@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-
-const Faqconsumercard = ({title, discription}) => {
+interface props {
+    title: string;
+    discription: string;
+}
+const Faqcard = ({title, discription}: props) => {
     const [open, setOpen] = useState(false);
     return (
         <div className='my-5 text-center'>
@@ -17,4 +20,4 @@ const Faqconsumercard = ({title, discription}) => {
     );
 }
 
-export default Faqconsumercard;
+export default Faqcard;

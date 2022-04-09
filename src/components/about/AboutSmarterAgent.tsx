@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Aboutsmarteragent = () => {
+const AboutSmarteragent = () => {
     return (
         <div className='py-5'>
             <div>
@@ -31,4 +31,4 @@ const Aboutsmarteragent = () => {
     );
 }
 
-export default Aboutsmarteragent;
+export default AboutSmarteragent;
