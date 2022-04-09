@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function SellGrid() {
   return (
-      <div className='container mx-auto mt-5 pt-5' style={{width: "900px"}}>
+      <div className='position-relative'>
+       <div className='container mx-auto mt-5 pt-5' style={{width: "900px"}}>
         <div className='row'>
             <div className='col-6 text-end'>
                 <h3 className='fw-bold'>OUR LISTING AGENTS</h3>
@@ -18,5 +19,7 @@ export default function SellGrid() {
          </div>
       </div>
       </div>
+      <img src="/assets/gradient-arc.png" className='img-fluid' style={{position: "absolute", right: "0%", bottom: "-50px", zIndex: "-200"}} width="300px" alt="" />
+     </div> 
   )
 }
