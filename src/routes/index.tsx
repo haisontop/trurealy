@@ -15,6 +15,7 @@ import Sell from "../pages/sell/Sell";
 import Socialfeed from "../pages/socialfeed/SocialFeed";
 import Testimonial from "../pages/testimonial/Testimonial";
 import Rent from "../pages/rent/Rent";
+import Contact from "../pages/contact/Contact";
 
 export default function Router() {
   return useRoutes([
@@ -36,7 +37,8 @@ export default function Router() {
         { path: "agentdirectory", element: <AgentDirectory /> },
         { path: "buy", element: <Buy /> },
         { path: "sell", element: <Sell />},
-        { path: "rent", element: <Rent /> }
+        { path: "rent", element: <Rent /> },
+        { path: "contact", element: <Contact /> },
       ],
     },
     {
