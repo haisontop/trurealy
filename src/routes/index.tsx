@@ -1,5 +1,5 @@
 import React from "react";
-import { Suspense, lazy, ElementType } from "react";
+// import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import AboutConsumer from "../pages/about/AboutConsumer";
 import AgentDirectory from "../pages/agent directory/AgentDirectory";
@@ -30,7 +30,7 @@ export default function Router() {
         { path: 'givingback', element: <GivingBack /> },
         { path: "itp", element: <Itp /> },
         { path: "leadership", element: <LeaderShip /> },
-        { path: "agentdirectory", element: <AgentDirectory /> }
+        { path: "agentdirectory", element: <AgentDirectory /> },
       ],
     },
     {

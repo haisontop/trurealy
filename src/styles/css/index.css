@@ -1,4 +1,7 @@
 /* ensure all pages have Bootstrap CSS */
+input{
+  outline: none;
+}
 .min-height-content {
   height: min-content;
 }
