@@ -116,7 +116,7 @@ const SOCIAL_FEEDS = [
   };
   
 
-const Socialcotop = () => {
+const SocialTop = () => {
     const carouselItems = React.useMemo(() => {
         return SOCIAL_FEEDS.map((member) => {
           return (
@@ -162,4 +162,4 @@ const Socialcotop = () => {
     );
 }
 
-export default Socialcotop;
+export default SocialTop;

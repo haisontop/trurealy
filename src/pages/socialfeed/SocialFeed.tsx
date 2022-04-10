@@ -1,5 +1,6 @@
 import React from "react";
-import Socialcotop from "../../components/Socialfeeds/consumer/SocialCoTop";
+import SocialMiddle from "../../components/Socialfeeds/consumer/SocialMiddle";
+import SocialTop from "../../components/Socialfeeds/consumer/SocialTop";
 import Layout from "../../layouts/Layout";
 
 const Socialfeed = () => {
@@ -7,7 +8,8 @@ const Socialfeed = () => {
     <div>
       <Layout>
         <div className="container mx-auto">
-          <Socialcotop />
+          <SocialTop />
+          <SocialMiddle />
         </div>
       </Layout>
     </div>

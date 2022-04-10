@@ -2,6 +2,7 @@ import React from "react";
 // import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
 import About from "../pages/about/About";
+import Buy from "../pages/buy/Buy";
 import AgentDirectory from "../pages/agent-directory/AgentDirectory";
 import Faq from "../pages/faq/Faq";
 import GivingBack from "../pages/giving-back/GivingBack";
@@ -10,8 +11,11 @@ import Home from "../pages/home/Home";
 import HomeConsumer from "../pages/home/HomeConsumer";
 import Itp from "../pages/itp/Itp";
 import LeaderShip from "../pages/leader-ship/LeaderShip";
+import Sell from "../pages/sell/Sell";
 import Socialfeed from "../pages/socialfeed/SocialFeed";
 import Testimonial from "../pages/testimonial/Testimonial";
+import Rent from "../pages/rent/Rent";
+import Contact from "../pages/contact/Contact";
 
 export default function Router() {
   return useRoutes([
@@ -31,6 +35,10 @@ export default function Router() {
         { path: "itp", element: <Itp /> },
         { path: "leadership", element: <LeaderShip /> },
         { path: "agentdirectory", element: <AgentDirectory /> },
+        { path: "buy", element: <Buy /> },
+        { path: "sell", element: <Sell />},
+        { path: "rent", element: <Rent /> },
+        { path: "contact", element: <Contact /> },
       ],
     },
     {
