@@ -1,21 +1,21 @@
 import React from "react";
 // import { Suspense, lazy, ElementType } from "react";
 import { Navigate, useRoutes, useLocation } from "react-router-dom";
-import About from "../pages/about/About";
-import Buy from "../pages/buy/Buy";
-import AgentDirectory from "../pages/agent-directory/AgentDirectory";
-import Faq from "../pages/faq/Faq";
-import GivingBack from "../pages/giving-back/GivingBack";
-import AgentHome from "../pages/home/AgentHome";
-import Home from "../pages/home/Home";
-import HomeConsumer from "../pages/home/HomeConsumer";
-import Itp from "../pages/itp/Itp";
-import LeaderShip from "../pages/leader-ship/LeaderShip";
-import Sell from "../pages/sell/Sell";
-import Socialfeed from "../pages/socialfeed/SocialFeed";
-import Testimonial from "../pages/testimonial/Testimonial";
-import Rent from "../pages/rent/Rent";
-import Contact from "../pages/contact/Contact";
+import About from "../pages/About/About";
+import Buy from "../pages/Buy/Buy";
+import AgentDirectory from "../pages/AgentDirectory/AgentDirectory";
+import Faq from "../pages/Faq/Faq";
+import GivingBack from "../pages/GivingBack/GivingBack";
+import LeaderShip from "../pages/LeaderShip/LeaderShip";
+import Sell from "../pages/Sell/Sell";
+import Socialfeed from "../pages/SocialFeed/SocialFeed";
+import Testimonial from "../pages/Testimonial/Testimonial";
+import Rent from "../pages/Rent/Rent";
+import Contact from "../pages/Contact/Contact";
+import Home from "../pages/Home/Home";
+import HomeConsumer from "../pages/Home/HomeConsumer";
+import AgentHome from "../pages/Home/AgentHome";
+import Itp from "../pages/Itp/Itp";
 
 export default function Router() {
   return useRoutes([

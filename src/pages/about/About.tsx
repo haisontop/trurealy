@@ -1,14 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import AboutBanner from "../../components/about/AboutBanner";
-import AboutBottom from "../../components/about/AboutBottom";
-import AboutDefference from "../../components/about/AboutDefference";
-import AboutFeturedind from "../../components/about/AboutFeturedInd";
-import AboutMap from "../../components/about/AboutMap";
-import AboutOurmission from "../../components/about/AboutourMission";
-import AboutTrustory from "../../components/about/AboutTrustory";
-import AboutPower from "../../components/about/AboutPower";
-import AboutSmarteragent from "../../components/about/AboutSmarterAgent";
+import AboutBanner from "../../components/About/AboutBanner";
+import AboutBottom from "../../components/About/AboutBottom";
+import AboutDefference from "../../components/About/AboutDefference";
+import AboutFeturedind from "../../components/About/AboutFeturedInd";
+import AboutMap from "../../components/About/AboutMap";
+import AboutOurmission from "../../components/About/AboutourMission";
+import AboutTrustory from "../../components/About/AboutTrustory";
+import AboutPower from "../../components/About/AboutPower";
+import AboutSmarteragent from "../../components/About/AboutSmarterAgent";
 import Layout from "../../layouts/Layout";
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import RentBody from '../../components/rent/RentBody'
-import SellBotom from '../../components/sell/SellBotom'
+import RentBody from '../../components/Rent/RentBody'
+import SellBotom from '../../components/Sell/SellBotom'
 import Layout from '../../layouts/Layout'
 
 export default function Rent() {

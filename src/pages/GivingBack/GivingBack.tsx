@@ -1,8 +1,8 @@
 import React from 'react'
-import GivingBackcoBanner from '../../components/giving-back/GivingBackcoBanner'
-import GivingBackMiddle from '../../components/giving-back/GivingBackMiddle'
-import GivingBottom from '../../components/giving-back/GivingBottom'
-import GivingComapanyLogo from '../../components/giving-back/GivingComapanyLogo'
+import GivingBackcoBanner from '../../components/GivingBack/GivingBackcoBanner'
+import GivingBackMiddle from '../../components/GivingBack/GivingBackMiddle'
+import GivingBottom from '../../components/GivingBack/GivingBottom'
+import GivingComapanyLogo from '../../components/GivingBack/GivingComapanyLogo'
 import Layout from '../../layouts/Layout'
 
 function GivingBack() {

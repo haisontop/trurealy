@@ -1,16 +1,14 @@
-import React from "react";
+import React, { FC, Suspense, memo } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import useScript from "./hooks/useScript";
-import Router from "./routes";
+import PublicRoutes from "./routes/public";
+const App: FC = () => {
+    return (
+        <Suspense fallback={"Loading ..."}>
+            <BrowserRouter>
+                <PublicRoutes />
+            </BrowserRouter>
+        </Suspense>
+    );
+};
 
-function App() {
-  return (
-    <div>
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
-    </div>
-  );
-}
-
-export default App;
+export default memo(App);

@@ -1,4 +1,4 @@
-const smarter = [
+export const SMATER_DATA = [
     {
        action : "BUY",
        discription: "God help us, we are in the hands of engineers. God help us we are in the hands of engineers.",
@@ -27,4 +27,3 @@ const smarter = [
         img:"/assets/smarter-3.png"
      }
 ]
-export default  smarter;

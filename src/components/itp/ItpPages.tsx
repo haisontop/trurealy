@@ -10,7 +10,7 @@ function ItpPages() {
         </div>
         <div>
             {
-                its.map(its=> <ItpCard 
+                its.map(its=> <ItpCard
                 key={its.img}
                 title={its.title}
                 author={its.author}

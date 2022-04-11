@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../../components/home/Banner";
-import FeaturedIn from "../../components/home/FeaturedIn";
-import { JoinUs } from "../../components/home/JoinUs/JoinUs";
+import Banner from "../../components/Home/Banner";
+import FeaturedIn from "../../components/Home/FeaturedIn";
+import { JoinUs } from "../../components/Home/JoinUs/JoinUs";
 import Layout from "../../layouts/Layout";
 
 const Home = () => {
