@@ -47,6 +47,12 @@ aside {
   background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0% no-repeat
     padding-box;
 }
+.gradient-divider-3 {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0% no-repeat
+      padding-box;
+  }
 .gradient-divider-2 {
   width: 80%;
   height: 13px;
@@ -99,7 +105,7 @@ aside {
   margin-bottom: -30px;
 }
 .Agent-row {
-  padding-top: 320px;
+  padding-top: 314px;
 }
 .smarter-card-anim {
   height: 20%;
