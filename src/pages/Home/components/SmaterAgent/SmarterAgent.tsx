@@ -1,11 +1,14 @@
 import React from "react";
-import { SMATER_DATA } from "../../../constants";
-import Smartercard from "./SmarterCard";
+import { SMATER_DATA } from "../../../../constants";
+import Smartercard from "../SmarterCard";
+import styles from "./SmaterAgent.module.scss";
 
 const SmarterAgent = () => {
     return (
         <>
-            <div className="container px-0 smarter-container mx-auto">
+            <div
+                className={`container px-0 mx-auto ${styles["smarter-container"]}`}
+            >
                 <div className="smarter-agent">
                     <div className="bg-primary smarter-box text-white px-5 py-4">
                         <div>
