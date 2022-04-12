@@ -5,17 +5,15 @@ import Banner from "./components/Banner";
 import { JoinUs } from "./components/JoinUs";
 
 const Home = () => {
-  return (
-    <Layout>
-      <div>
-        <Banner />
-        <div className="mt-4">
-          <FeaturedIn />
-        </div>
-        <JoinUs />
-      </div>
-    </Layout>
-  );
+    return (
+        <Layout>
+            <Banner />
+            <div className="mt-4">
+                <FeaturedIn />
+            </div>
+            <JoinUs />
+        </Layout>
+    );
 };
 
 export default Home;
