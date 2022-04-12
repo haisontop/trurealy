@@ -7,7 +7,7 @@ const AboutDefference = () => {
         <div className={`${styles["ab-co-differrence"]} position-relative`}>
             <div className='container row mx-auto'>
                 <div className='col-6'>
-                      <img src="/assets/placeholder2.png" className='img-fluid mx-5 ab-co-d-img' width="70%" alt="" />
+                      <img src="/assets/placeholder2.png" className={`img-fluid mx-5 ${styles["ab-co-d-img"]}`} width="70%" alt="" />
                 </div>
                 <div className='col-6 text-end' >
                   <h1 className='fs-1'>THE TRU DIFFERENCE</h1>

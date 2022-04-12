@@ -6,6 +6,7 @@ import {
     FaYoutube,
     FaLinkedinIn,
 } from "react-icons/fa";
+import style from './Contact.module.scss'
 
 export default function Contact() {
     return (
@@ -68,7 +69,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="col-6">
-                    <div className="contact-box position-absolute end-0">
+                    <div className={`${style['contact-box']} position-absolute end-0`}>
                         <form
                             className="bg-primary text-white px-4 py-5"
                             style={{

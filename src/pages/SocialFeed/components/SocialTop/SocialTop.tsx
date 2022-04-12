@@ -3,6 +3,7 @@ import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import {FaInstagram} from "react-icons/fa"
 import internal from 'stream';
+import styles from './SocialTop.module.scss'
 const SOCIAL_FEEDS = [
     {
       name: "King-Kong",
@@ -50,9 +51,9 @@ const SOCIAL_FEEDS = [
       avatarURL: "/assets/Rectangle 170.png",
     },
   ];
-  
+
   const handleDragStart = (event: any) => event.preventDefault();
-  
+
   const renderDotsItem = ({ isActive } : { isActive: boolean }) => {
     return isActive ? (
       <div
@@ -72,13 +73,13 @@ const SOCIAL_FEEDS = [
       title: string;
       description: string;
   }
-  
+
   const SocialCard = (props : props) => {
     const { onDragStart, imageURL, title, description } = props;
-  
+
     return (
       <div
-        className={`flex-col gap-y-2 p-4 rounded rounded-4 social-top-carosel-box`}
+        className={`flex-col gap-y-2 p-4 rounded rounded-4 ${styles['social-top-carosel-box']}`}
         onDragStart={onDragStart}
         style={{cursor: "pointer"}}
       >
@@ -91,7 +92,7 @@ const SOCIAL_FEEDS = [
             className="mx-2"
           />
         </div>
-        <div className="text-white position-absolute p-4 fs-5 social-top-carosel mx-2" style={{backgroundColor: "#7A77B7"}}>
+        <div className={`text-white position-absolute p-4 fs-5 ${styles['social-top-carosel']} mx-2`} style={{backgroundColor: "#7A77B7"}}>
             <p>God help us, we're in the hands of engineers. Must go faster...</p>
             <p>#goldblum #dinosaurs #inthenameofprogress</p>
             <div className='d-flex justify-content-between mt-5 pt-3'>
@@ -114,7 +115,7 @@ const SOCIAL_FEEDS = [
       </div>
     );
   };
-  
+
 
 const SocialTop = () => {
     const carouselItems = React.useMemo(() => {

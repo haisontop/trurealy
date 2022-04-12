@@ -55,85 +55,11 @@ aside {
     cursor: pointer;
     color: #000;
 }
-
-.perfect-agent-container {
-    width: 500px;
-}
-
-/* ========= about consumer style ============= */
-
-
-.about-co-featuredin {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.ab-co-d-img {
-    margin-bottom: -320px;
-}
-
-
 .tru-help-btn {
     background: linear-gradient(270deg, #1592d1 0%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     border: none;
 }
-
 .z-index-100 {
     z-index: 100;
-}
-
-.faq-question-mark {
-    top: -70px;
-    width: 230px;
-}
-
-.faq-bottom-right-arc {
-    bottom: -48px;
-    right: -12px;
-    width: 400px;
-}
-.giving-banner-1 {
-    background: linear-gradient(
-        80deg,
-        rgba(16, 14, 59, 0.969625350140056) 0%,
-        rgba(20, 18, 69, 0.896796218487395) 100%
-    );
-    border-bottom-right-radius: 20px;
-}
-.giving-banner-2 {
-    background: linear-gradient(
-        80deg,
-        rgba(16, 14, 59, 0.969625350140056) 0%,
-        rgba(20, 18, 69, 0.896796218487395) 100%
-    );
-    width: 750px;
-    border-top-left-radius: 20px;
-}
-.giving-m-p {
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-left: -12px;
-}
-.social-top-carosel {
-    bottom: 0%;
-    height: 0%;
-    margin-bottom: -50px;
-    transition: all 0.5s;
-    border-radius: 25px;
-}
-.social-top-carosel-box {
-    overflow: hidden;
-    border-radius: 25px;
-}
-.social-top-carosel-box:hover .social-top-carosel {
-    height: 90%;
-    margin-bottom: 30px;
-}
-.contact-box {
-    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
-        no-repeat padding-box;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    width: 400px;
 }
