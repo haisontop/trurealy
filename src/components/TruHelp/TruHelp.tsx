@@ -5,7 +5,7 @@ interface TruHelpProps {
   children: React.ReactNode;
 }
 
-const TrueHelp = (props: TruHelpProps) => {
+export const TrueHelp = (props: TruHelpProps) => {
   const { title, children } = props;
   return (
     <div className="bg-primary text-center py-5 text-white mt-5">
@@ -14,5 +14,3 @@ const TrueHelp = (props: TruHelpProps) => {
     </div>
   );
 };
-
-export default TrueHelp;

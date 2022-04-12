@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import FeaturedIn from '../Home/FeaturedIn';
+import { FeaturedIn } from '../../../components/FeaturedIn';
 
 const AboutFeturedind = () => {
     return (

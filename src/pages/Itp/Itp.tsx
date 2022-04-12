@@ -1,5 +1,5 @@
 import React from 'react'
-import ItpPages from '../../components/Itp/ItpPages'
+import ItpPages from './components/ItpPages'
 import Layout from '../../layouts/Layout'
 
 function Itp() {

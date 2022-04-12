@@ -1,6 +1,6 @@
 import React from 'react'
-import AgentDirectoryTop from '../../components/AgentDirectory/AgentDirectoryTop';
-import AgentMiddle from '../../components/AgentDirectory/AgentMiddle';
+import AgentDirectoryTop from './components/AgentDirectoryTop';
+import AgentMiddle from './components/AgentMiddle';
 import Layout from '../../layouts/Layout';
 
 function AgentDirectory() {

@@ -1,5 +1,5 @@
 import React from "react";
-import BannerLeftText from "./shared/BannerLeftText";
+import BannerLeftText from "./BannerLeftText";
 
 const ConsumerBanner = () => {
   return (
@@ -9,7 +9,7 @@ const ConsumerBanner = () => {
         <BannerLeftText />
       </div>
       <div className="col-12 px-0">
-        <div className="gradient-divider" />
+        <div className="gradient-divider-3" />
       </div>
     </>
   );

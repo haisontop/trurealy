@@ -1,15 +1,15 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import AboutBanner from "../../components/About/AboutBanner";
-import AboutBottom from "../../components/About/AboutBottom";
-import AboutDefference from "../../components/About/AboutDefference";
-import AboutFeturedind from "../../components/About/AboutFeturedInd";
-import AboutMap from "../../components/About/AboutMap";
-import AboutOurmission from "../../components/About/AboutourMission";
-import AboutTrustory from "../../components/About/AboutTrustory";
-import AboutPower from "../../components/About/AboutPower";
-import AboutSmarteragent from "../../components/About/AboutSmarterAgent";
+import AboutBottom from "./components/AboutBottom";
+import AboutDefference from "./components/AboutDefference";
+import AboutFeturedind from "./components/AboutFeturedInd";
+import AboutMap from "./components/AboutMap";
+import AboutOurmission from "./components/AboutourMission";
+import AboutTrustory from "./components/AboutTrustory";
+import AboutPower from "./components/AboutPower";
+import AboutSmarteragent from "./components/AboutSmarterAgent";
 import Layout from "../../layouts/Layout";
+import AboutBanner from "./components/AboutBanner";
 
 const About = () => {
   return (

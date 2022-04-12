@@ -7,18 +7,17 @@ const SmarterAgent = () => {
         <>
             <div className="container px-0 smarter-container mx-auto">
                 <div className="smarter-agent">
-                    <div className="bg-primary smarter-box text-white p-5">
+                    <div className="bg-primary smarter-box text-white px-5 py-4">
                         <div>
-                            <h3 className="fw-bolder">
-                                SMARTER AGENTS MEAN BETTER EXPERIENCES
+                            <h3 className="fw-bolder"
+                            style={{fontSize: "30px"}}
+                            >
+                                HELPING YOU FIND YOUR WAY HOME
                             </h3>
                         </div>
-                        <div className="mt-4 fs-5">
-                            <p>
-                                Here at TRU Realty we’ve elevated the quality of
-                                service to our clients by providing an
-                                unprecedented amount of support to our real
-                                estate agents.{" "}
+                        <div className="mt-4 fw-medium fw-normal">
+                            <p style={{lineHeight: "28px", width: "650px", fontSize:"20px"}}>
+                            TRU Realty is a technology driven real estate brokerage that is passionate about educating its agents to better serve our clients - whether they are buying, selling, renting or investing. {" "}
                             </p>
                         </div>
                     </div>

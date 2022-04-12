@@ -1,7 +1,7 @@
 import React from 'react'
-import { SellBody } from '../../components/Sell/SellBody'
-import SellBotom from '../../components/Sell/SellBotom'
-import SellGrid from '../../components/Sell/SellGrid'
+import { SellBody } from './components/SellBody'
+import SellBotom from './components/SellBotom'
+import SellGrid from './components/SellGrid'
 import Layout from '../../layouts/Layout'
 
 export default function Sell() {

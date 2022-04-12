@@ -1,4 +1,4 @@
-export const trustory = [
+export const TRU_STORY_DATA = [
     {
         img:"/assets/trastory-1.png",
         massage: "“Great Brokerage with great agents! Highly recommended!”",

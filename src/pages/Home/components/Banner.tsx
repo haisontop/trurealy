@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import BannerLeftText from "../shared/BannerLeftText";
-import BannerRightText from "../shared/BannerRightText";
+import BannerLeftText from "./BannerLeftText";
+import BannerRightText from "./BannerRightText";
 
 const Banner = () => {
   return (

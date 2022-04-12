@@ -1,6 +1,6 @@
-const its = [
+export const ITS_DATA = [
     {
-       img: "/assets/itp-img/Arizona-companies-Inc.-5000.jpg.png",  
+       img: "/assets/itp-img/Arizona-companies-Inc.-5000.jpg.png",
        title : "117 ARIZONA COMPANIES MAKE INC. 500 LIST FOR 2021 ",
        author: "AZ BIG MEDIA",
        discription: "Arizona is home to many innovative companies that are driving the state’s economy and that is reflected in the state’s showing on this year’s Inc. 5000 list. A total of 117 Arizona companies made the Inc. 5000 list of the fastest-growing private firms in America for 2021. That is an increase of 10 Arizona companies over 2021."
@@ -42,4 +42,3 @@ const its = [
         discription: "NAPLES, Fla. – Golf Life Navigators (GLN) – the world’s only virtual marketplace to connect buyers with club communities and Golf Certified Real Estate Agents – has partnered with Tru Realty to help Arizona bound buyers find their ideal club and home."
     }
 ]
-export default its;

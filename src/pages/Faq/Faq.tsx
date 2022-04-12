@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TrueHelp from "../../components/shared/TruHelp";
+import { TrueHelp } from "../../components/TruHelp";
 import { FAQ_DATA } from "../../constants/FAQ_MOCK_DATA";
 import Layout from "../../layouts/Layout";
 import Faqcard from "./FaqCard";

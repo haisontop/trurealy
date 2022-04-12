@@ -1,8 +1,8 @@
 import React from "react";
-import TrueHelp from "../../components/shared/TruHelp";
-import TestimonialBanner from "../../components/testimonial/TestimonialBanner";
-import TestimonialMiddle from "../../components/testimonial/TestimonialMiddle";
+import TestimonialBanner from "./components/TestimonialBanner";
+import TestimonialMiddle from "./components/TestimonialMiddle";
 import Layout from "../../layouts/Layout";
+import { TrueHelp } from "../../components/TruHelp";
 
 const TestimonialConsumer = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import SocialMiddle from "../../components/Socialfeeds/consumer/SocialMiddle";
-import SocialTop from "../../components/Socialfeeds/consumer/SocialTop";
+import SocialMiddle from "./components/SocialMiddle";
+import SocialTop from "./components/SocialTop";
 import Layout from "../../layouts/Layout";
 
 const Socialfeed = () => {
