@@ -1,5 +1,6 @@
 import React from "react";
 import { TRU_STORY_DATA } from "../../../../constants";
+import styles from "./Trastory.module.scss";
 
 const Trastory = () => {
     return (
@@ -32,8 +33,8 @@ const Trastory = () => {
                 </div>
             </div>
             <div className="col-6">
-                <div className="trastory-box">
-                    <div className="bg-primary text-white trastory-child">
+                <div className={styles["trastory-box"]}>
+                    <div className={`bg-primary text-white ${styles["trastory-child"]}`}>
                         {TRU_STORY_DATA.map((ts) => (
                             <div className="row gx-0 mt-4">
                                 <div className="col-3 d-flex justify-content-centre aling-item-centre">

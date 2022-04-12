@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import styles from "./AboutMission.module.scss";
 
-const AboutourMission = () => {
+const AboutMission = () => {
   return (
-    <div className="about-consumer-mission">
+    <div className={styles["about-consumer-mission"]}>
       <Container className="mx-auto px-0">
         <div className="row gx-4">
           <div className="col-7 ps-5 text-black">
@@ -44,4 +45,4 @@ const AboutourMission = () => {
   );
 };
 
-export default AboutourMission;
+export default AboutMission;
