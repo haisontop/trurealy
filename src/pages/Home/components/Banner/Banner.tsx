@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import { GradientDivider } from "../../../../components/GradientDivider";
-import { BannerText } from "../BannerText";
+import { BannerText } from "../BannerText/BannerText";
 import styles from "./Banner.module.scss";
 
 export const Banner = () => {

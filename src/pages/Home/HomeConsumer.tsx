@@ -1,9 +1,9 @@
 import React from "react";
 import ConsumerBanner from "./components/ConsumerBanner";
-import SmarterAgent from "./components/SmarterAgent";
+import SmarterAgent from "./components/SmaterAgent/SmarterAgent";
 import Trastory from "./components/Trastory/Trastory";
 import ParfectAgent from "./components/ParfectAgent";
-import ConsumerBottom from "./components/ConsumerBottom";
+import ConsumerBottom from "./components/ConsumerBottom/ConsumerBottom";
 import { Container } from "react-bootstrap";
 import Layout from "../../layouts/Layout";
 import { MiddleBanner } from "../../components/MiddleBanner/MiddleBanner";

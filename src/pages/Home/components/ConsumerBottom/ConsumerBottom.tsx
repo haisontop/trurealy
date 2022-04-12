@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import styles from './ConsumerBottom.module.scss';
 
 const ConsumerBottom = () => {
   return (
-    <div className="consumer-bottom py-5">
+    <div className={`${styles["consumer-bottom"]} py-5`}>
       <Container className="mx-auto text-white">
         <h1 className="text-center fw-bold">
           BUY OR SELL YOUR HOME FASTER <br /> AND SAFER WITH TRU

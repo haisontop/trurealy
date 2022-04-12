@@ -1,6 +1,6 @@
 import React from "react";
 import { SMATER_DATA } from "../../../../constants";
-import Smartercard from "../SmarterCard";
+import Smartercard from "../SmarterCard/SmarterCard";
 import styles from "./SmaterAgent.module.scss";
 
 const SmarterAgent = () => {

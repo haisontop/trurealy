@@ -37,12 +37,7 @@ aside {
     min-height: calc(100vh - 83px - 80px - 16px);
 }
 
-.banner-cols {
-    bottom: 0%;
-    background: rgba(13, 19, 61, 0.38);
-    height: 50%;
-    transition: all 0.5s;
-}
+
 .banner-col-parents {
     cursor: pointer;
 }
@@ -80,18 +75,6 @@ aside {
 .Agent-row {
     padding-top: 314px;
 }
-.smarter-card-anim {
-    height: 20%;
-    border-radius: 20px;
-    transition: all 0.5s;
-}
-.smarter-card-anim:hover {
-    cursor: pointer;
-    height: 100%;
-}
-.smarter-box-2 {
-    border-radius: 20px;
-}
 
 /* trastory styling */
 .trastory-box {
@@ -127,15 +110,6 @@ aside {
 
 .perfect-agent-container {
     width: 500px;
-}
-.consumer-bottom {
-    background: linear-gradient(
-        107deg,
-        rgba(86, 25, 255, 1) 0%,
-        rgba(182, 22, 59, 1) 100%,
-        rgba(195, 22, 32, 1) 100%,
-        rgba(16, 14, 51, 1) 100%
-    );
 }
 
 /* ========= about consumer style ============= */

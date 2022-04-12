@@ -1,0 +1,12 @@
+.smarter-box-2 {
+    border-radius: 20px;
+}
+.smarter-card-anim {
+    height: 20%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.smarter-card-anim:hover {
+    cursor: pointer;
+    height: 100%;
+}
