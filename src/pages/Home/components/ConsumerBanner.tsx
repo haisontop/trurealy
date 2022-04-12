@@ -1,4 +1,5 @@
 import React from "react";
+import { GradientDivider } from "../../../components/GradientDivider";
 import { BannerText } from "./BannerText";
 
 const ConsumerBanner = () => {
@@ -16,7 +17,7 @@ const ConsumerBanner = () => {
                 />
             </div>
             <div className="col-12 px-0">
-                <div className="gradient-divider-3" />
+                <GradientDivider size="xs" direction="rtl" />
             </div>
         </>
     );

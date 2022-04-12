@@ -1,4 +1,5 @@
 import React from 'react'
+import { GradientDivider } from '../../../components/GradientDivider'
 
 function GivingBackcoBanner() {
   return (
@@ -16,7 +17,7 @@ function GivingBackcoBanner() {
                <p className='mt-3'>Our culture is defined by our values. At the core of those values is generosity. We believe in developing relationships with organizations and causes that positively impact their communities. Giving back is what we do, it’s who we are as an organization. </p>
           </div>
     </div>
-    <div className="gradient-divider" />
+    <GradientDivider />
     </>
   )
 }

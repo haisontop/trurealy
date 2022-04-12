@@ -1,3 +1,5 @@
+import { GradientDivider } from "../GradientDivider";
+
 export type Item = {
     image?: string;
     title?: string;
@@ -62,7 +64,7 @@ const Banner = ({ className, data }: BannerProps) => {
             </div>
             <div className="row">
                 <div className="col-12 px-0">
-                    <div className="gradient-divider" />
+                    <GradientDivider />
                 </div>
             </div>
         </div>

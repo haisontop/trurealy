@@ -1,10 +1,14 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import { BannerText } from "./BannerText";
+import { GradientDivider } from "../../../../components/GradientDivider";
+import { BannerText } from "../BannerText";
+import styles from "./Banner.module.scss";
 
-const Banner = () => {
+export const Banner = () => {
     return (
-        <div className="container banner-full-height px-0 width-100 overflow-hidden">
+        <div
+            className={`container px-0 width-100 overflow-hidden ${styles["banner-full-height"]}`}
+        >
             <div className="row no-gutters h-100">
                 <div className="col-6 overflow-hidden px-0 h-100 position-relative banner-col-parents">
                     <Image
@@ -27,13 +31,6 @@ const Banner = () => {
                     />
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12 px-0">
-                    <div className="gradient-divider" />
-                </div>
-            </div>
         </div>
     );
 };
-
-export default Banner;
