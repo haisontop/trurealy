@@ -5,18 +5,30 @@
 
 $default: #172b4d !default;
 $primary: #292670 !default;
-$primary-gray: #A6A4CF !default;
-$pink: #9C2791 !default;
+$dark-primary: #0f0e4d !default;
+$light-primary: #575698 !default;
+$primary-gray: #a6a4cf !default;
+$semi-primary: #9796c6 !default;
+$pink: #9c2791 !default;
+$danger: #fd084f !default;
+$info: #1492d1 !default;
+$blue: #3b46f2 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
-  (
-    "default": $default,
-    "primary": $primary,
-    "primary-gray": $primary-gray,
-    "pink" : $pink,
-  ),
-  $theme-colors
+    (
+        "default": $default,
+        "primary": $primary,
+        "primary-gray": $primary-gray,
+        "dark-primary": $dark-primary,
+        "light-primary": $light-primary,
+        "semi-primary": $semi-primary,
+        "danger": $danger,
+        "info": $info,
+        "pink": $pink,
+        "blue": $blue,
+    ),
+    $theme-colors
 );
 
 @import "./containers";
