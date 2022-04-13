@@ -13,7 +13,7 @@ export const MiddleBanner = (props: MiddleBannerProps) => {
     return (
         <>
             <div
-                className={`${styles["middle-banner-container"]} mt-5 py-5 text-white`}
+                className={`${styles["middle-banner-container"]} py-5 text-white`}
             >
                 <h1 className="pt-4 fw-bolder">{title}</h1>
                 <h2 className="fw-lighter pb-4">{description}</h2>

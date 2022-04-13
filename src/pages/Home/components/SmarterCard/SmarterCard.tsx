@@ -19,7 +19,7 @@ const Smartercard = ({ actions, discription, link, img }: SmaterCardProps) => {
   return (
     <div className="col-4">
       <div className={`position-relative overflow-hidden ${styles['smarter-box-2']}`}>
-        <img src={img} alt="" className="img-fluid" />
+        <img src={img} alt="" className="img-fluid"  />
         <div className={`position-absolute bottom-0 bg-pink px-3 py-2 text-white ${styles["smarter-card-anim"]}`}>
           <h3 className="fw-normal mb-0">{actions}</h3>
           <hr

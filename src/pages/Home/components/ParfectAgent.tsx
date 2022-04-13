@@ -22,7 +22,7 @@ const ParfectAgent = () => {
         <h2 className="fw-bolder fs-4">
           WHAT MAKES A TRU AGENT THE PERFECT AGENT FOR YOU?
         </h2>
-        <ul className="text-primary fs-6 mt-5 fw-bold">
+        <ul className="text-primary fs-6 mt-5 fw-light">
           <li className="mt-3">
             They are provided with innovated <br /> technology to give you the
             best.

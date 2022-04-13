@@ -4,29 +4,26 @@ import styles from "./Trastory.module.scss";
 
 const Trastory = () => {
     return (
-        <div className="container row mx-auto px-3 position-relative py-5">
+        <div className={`container row mx-auto px-3 position-relative ${styles["trastory"]}`}>
             <div className="col-6 text-primary">
                 <div>
                     <h3 className="fw-bold">
-                        We love our clients <br /> & they love us back.
+                        We love our clients & <br /> they love us back.
                     </h3>
-                    <h1 className="my-5 fw-bold" style={{ fontSize: "60px" }}>
-                        #TRUSTORY <sup>❤</sup>
-                    </h1>
                 </div>
                 <div>
-                    <h3 className="mb-4 fw-bolder">WHY CHOOSE TRU?</h3>
-                    <p className="fw-bold">
-                        Tru Realty is a leader in industry education and is an
-                        advocate for reshaping and protecting the consumer
-                        experience for the real estate industry as a whole. The
-                        goal has always been to provide outstanding client
-                        service and support the communities we serve. Tru Realty
-                        has accomplished that and much more for over a decade!
-                    </p>
+                    <h3 className="fw-bolder mt-5">WHY CHOOSE TRU?</h3>
+                    <div className={styles["peragraph"]}>
+                       <p className="m-t0">
+                          We’re committed to being the most <br /> knowledgable agents in the USA.
+                       </p>
+                       <p className="mt-5">
+                       We’re powered by TRU local agent experts who know every amenity, style, floor plan, shopping mall, park and school district. Our agents are passionate and qualified, competent and confident. The goal has always been to provide outstanding client service and support the communities we serve. Whether it’s your first home or a high-end luxury purchase, partner with TRU and experience real estate like never before.
+                       </p>
+                    </div>
                     <button
-                        className="bg-pink px-4 fs-5 le py-1 border-0 text-white mt-3"
-                        style={{ borderRadius: "10px" }}
+                        className="bg-pink px-4 fs-5 le py-1 border-0 text-white"
+                        style={{ borderRadius: "10px", marginTop: "100px" }}
                     >
                         FIND AN AGENT
                     </button>
@@ -35,8 +32,14 @@ const Trastory = () => {
             <div className="col-6">
                 <div className={styles["trastory-box"]}>
                     <div className={`bg-primary text-white ${styles["trastory-child"]}`}>
+                    <div className="d-flex ms-4">
+                       <h1>#TRUSTORY</h1>
+                       <div className="ms-3">
+                         <img src="/assets/love.png" width="70px" alt="" />
+                       </div>
+                    </div>
                         {TRU_STORY_DATA.map((ts) => (
-                            <div className="row gx-0 mt-4">
+                            <div className="row gx-0 mt-5">
                                 <div className="col-3 d-flex justify-content-centre aling-item-centre">
                                     <img
                                         src={ts.img}
@@ -45,7 +48,7 @@ const Trastory = () => {
                                         alt=""
                                     />
                                 </div>
-                                <div className="col-9">
+                                <div className="col-6">
                                     <p className="my-0">{ts.massage}</p>
                                     <p className="my-0 fw-bold">{ts.name}</p>
                                 </div>
