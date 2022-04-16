@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="col-2">
           <ul style={{ listStyle: "none", textDecoration: "none" }}>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/building-blox-podcast" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Building Box prodcust</span>
               </Link>
             </li>
@@ -37,7 +37,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/consumer/givingback" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Giving Back</span>
               </Link>
             </li>
@@ -67,17 +67,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/in-the-press" style={{ textDecoration: "none" }}>
                 <span className="footer-list">In The Press</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/blog" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Blog</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/refund-policy" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Refund Policy</span>
               </Link>
             </li>
@@ -86,22 +86,22 @@ const Footer = () => {
         <div className="col-3">
           <ul style={{ listStyle: "none", textDecoration: "none" }}>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/privacy-policy" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Privacy Policy</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/terms-of-service" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Terms of Service</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/DMCA-notice" style={{ textDecoration: "none" }}>
                 <span className="footer-list">DMCA Notice</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/cookie-policy" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Cookie Policy</span>
               </Link>
             </li>
@@ -111,17 +111,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/accessibility-statement" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Accessibility Statement</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/fair-housing-statement" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Fair Housing Statement</span>
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/MLS-compliance-statements" style={{ textDecoration: "none" }}>
                 <span className="footer-list">MLS Compliance Statements</span>
               </Link>
             </li>

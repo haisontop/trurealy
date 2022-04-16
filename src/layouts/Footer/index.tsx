@@ -77,7 +77,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/refund-policy" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Refund Policy</span>
               </Link>
             </li>
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="col-3">
           <ul style={{ listStyle: "none", textDecoration: "none" }}>
             <li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/privacy-policy" style={{ textDecoration: "none" }}>
                 <span className="footer-list">Privacy Policy</span>
               </Link>
             </li>

@@ -1,5 +1,6 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "bootstrap/scss/functions";
+@import './components/components.scss';
 
 // 2. Include any default variable overrides here
 
@@ -53,3 +54,9 @@ $theme-colors: map-merge(
 
 // 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "bootstrap/scss/utilities/api";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+a {
+    text-decoration: none !important;
+}

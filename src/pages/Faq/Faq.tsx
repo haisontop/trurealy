@@ -3,7 +3,6 @@ import { TrueHelp } from "../../components/TruHelp";
 import { FAQ_DATA } from "../../constants/FAQ_MOCK_DATA";
 import Layout from "../../layouts/Layout";
 import Faqcard from "./FaqCard";
-import styles from "./Faq.module.scss";
 
 const Faq = () => {
     return (
@@ -13,7 +12,7 @@ const Faq = () => {
                     <img
                         src="/assets/gradient-arc-with-question.png"
                         alt="gradient-question"
-                        className={`position-absolute left-0 ${styles["faq-question-mark"]}`}
+                        className="position-absolute left-0 faq-question-mark"
                     ></img>
 
                     <div className="container mx-auto ">
@@ -42,7 +41,7 @@ const Faq = () => {
                             <img
                                 src="/assets/gradient-arc.png"
                                 alt="gradient-bottom"
-                                className={`position-absolute ${styles["faq-bottom-right-arc"]}`}
+                                className="position-absolute faq-bottom-right-arc"
                             ></img>
                         </div>
                     </div>

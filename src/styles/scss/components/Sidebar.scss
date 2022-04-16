@@ -1,0 +1,51 @@
+.MainSidebar {
+	// width: 442px;
+	// height: 100vh;
+	// position: fixed;
+	// top: 17%;
+	background: #fff;
+	box-shadow: 0px 4px 6px 3px #ccc;
+	// right: 0;
+    .SidebarMainSection{
+        height: 83vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .sidebarsection {
+            padding: 25px 0px 0px 58px;
+            .sidebarsection_title {
+                h1 {
+                    font-size: 50px;
+                    margin: 0px;
+                    color: #a6a4cf;
+                    font-weight: 300;
+                }
+                p {
+                    width: 290px;
+                    font-size: 20px;
+                    margin: 0px;
+                    color: #a6a4cf;
+                }
+            }
+        }
+        .sidebar-chat {
+            background-image: linear-gradient(to left,#3b46f2, #fa084f);
+            padding: 10px;
+            width: 345px;
+            display: flex;
+            float: right;
+            color: #fff;
+            border-radius: 11px;
+            margin: 0px 66px;
+            margin-bottom: 14px;
+            .chat-img{
+                max-width: 100%;
+                width: 102px;
+            }
+            p{
+                margin-left: 20px;
+            }
+        }
+    }
+	
+}
