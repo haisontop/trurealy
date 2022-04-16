@@ -1,0 +1,22 @@
+.default {
+    width: 100%;
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+}
+
+.xsmall {
+    height: 10px;
+}
+
+.small {
+    height: 13px;
+}
+
+.medium {
+    height: 16px;
+}
+
+.rtl {
+    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
+        no-repeat padding-box;
+}

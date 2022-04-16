@@ -1,0 +1,41 @@
+.HeaderMain{
+    background-color: #0F0E4D;
+    .HeaderAgent{
+        .navbar{
+            font-family: 'Futura';
+            justify-content: space-between;
+            width: 100%;                     
+            .navbar-brand{
+                color:#575698;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            .HederConsumer{
+                display: flex;
+                h1{
+                    color: #575698;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    line-height: 42px;
+                }
+                .btn-primary{
+                    width:93px;
+                    height:43px;
+                    background-color: #575698;
+                    border: 0;
+                    border-radius: 25px;
+                }
+            }
+            .navbar-text{
+                color:#575698;
+                a{
+                    color:#575698;
+                }
+            }
+            .navbar-collapse{
+                display: block !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+/* ensure all pages have Bootstrap CSS */
+input {
+    outline: none;
+}
+.min-height-content {
+    height: min-content;
+}
+
+.nav-height {
+    height: 100vh;
+}
+
+.middle-nav {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.massage-input {
+    outline: none;
+}
+
+aside {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 1px solid #111;
+}
+
+.side-nav {
+    min-height: calc(100vh - 83px - 80px - 16px);
+}
+
+.banner-cols {
+    bottom: 0%;
+    background: rgba(13, 19, 61, 0.38);
+    height: 50%;
+    transition: all 0.5s;
+}
+.banner-col-parents {
+    cursor: pointer;
+}
+
+.banner-col-parents:hover .banner-cols {
+    height: 20%;
+}
+
+.social-feed .alice-carousel__dots {
+    position: absolute;
+    top: -60px;
+}
+.footer-list {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+/* smarter container style */
+
+.smarter-container {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.smarter-agent {
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 25px 0px 0px 25px;
+    width: 950px;
+    position: absolute;
+    right: 0;
+}
+.smarter-box {
+    border-radius: 25px 0px 0px 25px;
+    margin-bottom: -30px;
+}
+.Agent-row {
+    padding-top: 314px;
+}
+.smarter-card-anim {
+    height: 20%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.smarter-card-anim:hover {
+    cursor: pointer;
+    height: 100%;
+}
+.smarter-box-2 {
+    border-radius: 20px;
+}
+
+/* trastory styling */
+.trastory-box {
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    border-radius: 15px 0px 0px 15px;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+.trastory-box-2 {
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+.trastory-child {
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: -120px;
+}
+
+.perfect-agent-container {
+    width: 500px;
+}
+.consumer-bottom {
+    background: linear-gradient(
+        107deg,
+        rgba(86, 25, 255, 1) 0%,
+        rgba(182, 22, 59, 1) 100%,
+        rgba(195, 22, 32, 1) 100%,
+        rgba(16, 14, 51, 1) 100%
+    );
+}
+
+/* ========= about consumer style ============= */
+.about-Consumer-banner-Box {
+    margin-top: -150px;
+    position: absolute;
+    z-index: -100;
+}
+.about-Consumer-banner-Box h1 {
+    margin-top: 130px;
+    margin-left: 5%;
+    font-size: 50px;
+}
+.about-consumer-mission {
+    margin-top: 200px;
+}
+.about-consumer-mission h1 {
+    font-size: 70px;
+}
+.about-co-featuredin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-defference-box {
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 0px 25px 25px 0px;
+    width: 800px;
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+.about-defference-child-box {
+    border-radius: 0px 25px 25px 0px;
+    margin-bottom: -30px;
+}
+.ab-co-d-img {
+    margin-bottom: -320px;
+}
+.ab-co-differrence {
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+
+.tru-help-btn {
+    background: linear-gradient(270deg, #1592d1 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    border: none;
+}
+
+.z-index-100 {
+    z-index: 100;
+}
+
+.faq-question-mark {
+    top: -70px;
+    width: 230px;
+}
+
+.faq-bottom-right-arc {
+    bottom: -48px;
+    right: -12px;
+    width: 400px;
+}
+.giving-banner-1 {
+    background: linear-gradient(
+        80deg,
+        rgba(16, 14, 59, 0.969625350140056) 0%,
+        rgba(20, 18, 69, 0.896796218487395) 100%
+    );
+    border-bottom-right-radius: 20px;
+}
+.giving-banner-2 {
+    background: linear-gradient(
+        80deg,
+        rgba(16, 14, 59, 0.969625350140056) 0%,
+        rgba(20, 18, 69, 0.896796218487395) 100%
+    );
+    width: 750px;
+    border-top-left-radius: 20px;
+}
+.giving-m-p {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: -12px;
+}
+.social-top-carosel {
+    bottom: 0%;
+    height: 0%;
+    margin-bottom: -50px;
+    transition: all 0.5s;
+    border-radius: 25px;
+}
+.social-top-carosel-box {
+    overflow: hidden;
+    border-radius: 25px;
+}
+.social-top-carosel-box:hover .social-top-carosel {
+    height: 90%;
+    margin-bottom: 30px;
+}
+.contact-box {
+    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
+        no-repeat padding-box;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 400px;
+}

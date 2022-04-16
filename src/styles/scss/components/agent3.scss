@@ -1,0 +1,351 @@
+.MainAgentpage{
+
+    .NewAgentSection{
+        background: #0E0D4C;
+        width: 100%;
+        // height: 100vh;
+        .Agentmain{
+            max-width: 100% !important;
+            .allAgentmain{
+                padding: 60px 100px 60px;
+                @media(max-width:1399px){
+                    padding: 60px 30px 60px; 
+                }
+                @media(max-width:767px){
+                    padding: 60px 15px 60px; 
+                }
+                .agentTitle{
+                    h1{
+                        font-size:75px;
+                        text-align: center;
+                        color: #ffffff;
+                        margin-bottom: 35px;
+                        @media(max-width:1200px){
+                            font-size: 50px;
+                        }
+                        @media(max-width:991px){
+                            font-size: 45px;
+                        }
+                        @media(max-width:575px){
+                            font-size: 30px;
+                        }
+                    }
+                    p{
+                        font-size:20px;
+                        text-align: center;
+                        color: #ffffff;
+                        @media(max-width:1200px){
+                            font-size: 18px;
+                        }
+                        @media(max-width:991px){
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .mainagentbox{
+                    background: #232064;
+                    padding: 30px;
+                    @media(max-width:767px){
+                        padding: 20px 15px; 
+                    }
+                    .agentstep{
+                        font-size:18px;
+                        font-weight: 600;
+                        color: #5c5c5c;
+                        margin-bottom: 45px;
+                        @media(max-width:991px){
+                            font-size: 16px;
+                        }
+                    }
+                    .agentProgess{
+                        margin-bottom: 20px;
+                        .progress{
+                            height: 30px;
+                            border-radius:20px;
+                            .progress-bar{
+                                text-align:end;
+                                padding-right: 15px;
+                                font-size: 18px;
+                                font-weight: 600;
+                                @media(max-width:991px){
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                    .agentSign{
+                        .agentname{
+                            font-size:18px;
+                            color: #ffffff;
+                            margin: 0px 0px 20px;
+                            font-weight: 600;
+                            span{
+                                font-size: 16px;
+                                color: red;
+                                margin-left: 10px;
+                            }
+                        }
+                        .agenttextarea{
+                            width: 100%;
+                            height: 120px;
+                            background: unset;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                            margin: 15px 0px 20px;
+                        }
+                        .agentnamestepthree{
+                            line-height:30px;
+                            color: #4f40e2;
+                        }
+                        .agentnewconatin{
+                            font-size:18px;
+                            color: #ffffff;
+                            font-weight: 600;
+                            @media(max-width:991px){
+                                font-size: 16px;
+                            }
+                        }
+                        
+                    }
+                    .agentSelect{
+                        .agentYes{
+                            label{
+                                font-size:18px;
+                                font-weight: 600;
+                                color: #ffffff;
+                                margin-left: 12px;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                    .agentaddress{
+                        margin-top:50px;
+                        h3{
+                            font-size:20px;
+                            font-weight: 600;
+                            color: #ffffff;
+                            margin-bottom: 8px;
+                        }
+                        .agentname{
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .firstName{
+                        width: 100%;
+                        margin:15px 0px 0px;
+                        input{
+                            border: 1px solid #ffffff;
+                            overflow: unset;
+                            background: unset;
+                            border-radius: 5px;
+                            padding: 10px 5px;
+                            width: 100%;
+                        }
+                        label{
+                            font-size:18px;
+                            color: #ffffff;
+                            font-weight: 600;
+                            margin: 10px 0px;
+                            @media(max-width:991px){
+                                font-size: 16px;
+                            }
+                        }
+                        .form-select{
+                            border-radius: 0px;
+                            padding: 8px 5px;
+                            font-size:18px;
+                        }
+                    }
+                    .secondStepdown{
+                        margin-bottom:25px;
+                    }
+                    .firstDate{
+                        input{
+                            color: #626262;
+                            font-weight: 700;
+                            font-size: 17px;
+                        }
+                    }
+                    .stepDate{
+                        width:60%;
+                    }
+                    .Nextbtn{
+                        margin: 20px 0px;
+                        .agentPrevious{
+                            background:#fff;
+                            color: #292791;
+                            margin-right: 15px;
+                        }
+                        button{
+                            background:#9C2791;
+                            border: none;
+                            overflow: unset;
+                            width: 270px;
+                            padding: 7px 10px;
+                            color: #ffffff;
+                            font-size: 18px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            height: 50px;
+                            @media(max-width:991px){
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .agentsidebarsection{
+            @media(max-width:767px){
+                display: none;
+            }
+            .agentSidebar{
+                width: 100%;
+                height: 100%;
+                background:#232064;
+                box-shadow: -16px 20px 13px 12px #0f0e4d;
+                .sidebarsection{
+                    position:absolute;
+                    bottom:0px;
+                    .sidebar_chat{
+                        background-image: linear-gradient(to left, #3b46f2, #fa084f);
+                        padding: 10px;
+                        display: flex;
+                        float: right;
+                        color: #fff;
+                        border-radius: 11px;
+                        margin: 0px 60px;
+                        margin-bottom: 30px;
+                        @media(max-width:1700px){
+                            margin: 0px 22px 30px;
+                        }
+                        @media(max-width:991px){
+                            margin: 0px 5px 30px;
+                        }
+                        p{
+                            margin-left: 20px;
+                            @media(max-width:1200px){
+                                margin-left: 15px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .agentsidehalp{
+                        display: flex;
+                        padding: 20px 60px 20px 60px;
+                        border-top: 1px solid #575698;
+                        border-bottom: 1px solid #575698;
+                        @media(max-width:1700px){
+                            padding: 20px 40px;
+                        }
+                        @media(max-width:1200px){
+                            padding: 20px 10px;
+                            font-size: 12px;
+                        }
+                        @media(max-width:991px){
+                            padding: 20px 5px;
+                        }
+                        .helptitle{
+                            width: 70%;
+                            @media(max-width:991px){
+                                width: 85%;
+                            }
+                            p{
+                                color: #575698;
+                                margin: 0px;
+                                border-bottom:1px solid #575698;
+                                text-align:end;
+                                @media(max-width:1200px){
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainindex{
+        background: #0F0E4D !important;
+        .agentlinks{
+            color: #575698 !important;
+        }
+        .agentConsumers{
+            background:unset !important;
+            color: #575698 !important;
+            border: unset !important;
+        }
+        .agentConsumer{
+            background:#575698 !important;
+            color: #0F0E4D !important;
+            border: unset !important;
+        }
+    }
+    .agentheadertwo{
+        background: #fff !important;
+        box-shadow: 7px 10px 4px 6px #000;
+        a{
+            color: #292670 !important;
+            @media(max-width:1200px){
+                font-size: 19px !important;
+            }
+        }
+    }
+    .agentFooter{
+        background: #0F0E4D !important;
+        color: #fff !important;
+        @media(max-width:425px){
+            padding: 40px 25px;
+        }
+        .FooterCorporate{
+            margin-bottom:50px;
+        }
+        .footerLogo{
+            @media(max-width:991px){
+                margin-bottom:50px;
+            }
+        }
+        .row{
+            .FooterBuilding{
+                @media(max-width:767px){
+                    margin-bottom:50px;
+                }
+                ul{
+                @media(max-width:991px){
+                    padding: 0px;
+                }
+                    li{
+                        a{
+                            color: #fff !important;
+                            @media(max-width:1700px){
+                                font-size:20px;
+                            }
+                            
+                        }
+                    }
+                } 
+            } 
+        } 
+        .footermedia{
+            @media(max-width:991px){
+                padding: 0px;
+            }
+            li{
+                list-style: none;
+                width: 45px;
+                height: 45px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 25px;
+                text-align: center;
+                @media(max-width:425px){
+                    margin-right: 20px;
+                }
+                a{
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
