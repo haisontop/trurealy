@@ -78,11 +78,7 @@ const TestimonialBanner = () => {
             <div
                 className={style["gradient-driver"]}
                 style={{
-                    fontSize: "75px",
-                    position: "absolute",
-                    top: "0%",
-                    left: "0%",
-                    zIndex: 2,
+
                 }}
             >
                 Real people. Tru stories.
