@@ -5,11 +5,11 @@ import Layout from "../../layouts/Layout";
 import Faqcard from "./FaqCard";
 import style from "./Faq.module.scss";
 
-const Faq = () => {
+const AgentFaq = () => {
     return (
         <div className="">
             <Layout>
-                <div className="position-relative pt-4">
+                <div className="position-relative pt-4" style={{backgroundColor: "#0F0E4D", paddingBottom: "300px"}}>
                     <img
                         src="/assets/question-marks.png"
                         alt="gradient-question"
@@ -17,9 +17,9 @@ const Faq = () => {
                     ></img>
 
                     <div className="container mx-auto ">
-                        <div className="text-center fw-light mb-5 pt-3 px-5">
+                        <div className="text-center fw-light py-5 px-5">
                             <h1
-                                className="fw-bold text-primary"
+                                className="fw-bold text-white"
                                 style={{ fontSize: "60px" }}
                             >
                                 FREQUENTLY ASKED QUESTIONS
@@ -38,17 +38,10 @@ const Faq = () => {
                              </div>
                         </div>
                     </div>
-                    <TrueHelp title="Still Have A Few Questions?">
-                        <>
-                            <button className="py-1 text-white px-5 fs-4 me-4 tru-help-btn">
-                                Contact Us Todsy
-                            </button>
-                        </>
-                    </TrueHelp>
                 </div>
             </Layout>
         </div>
     );
 };
 
-export default Faq;
+export default AgentFaq;

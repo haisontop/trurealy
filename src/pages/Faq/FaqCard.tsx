@@ -9,10 +9,9 @@ const Faqcard = ({title, discription}: props) => {
         <div className='my-5 text-center'>
         <div onClick={() => setOpen(!open)} style={{cursor: "pointer"}}>
            <p className='fw-normar fs-3'>{title}</p>
-           <hr style={{width: "50%", height: "3px" , marginLeft: "20%"}} />
         </div>
         { open &&
-            <p className='text-start' style={{width: "50%",  marginLeft: "20%"}}>
+            <p className='text-start ps-5' style={{width: "70%", marginLeft:"20px"}}>
                 {discription}
             </p>
         }

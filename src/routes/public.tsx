@@ -36,6 +36,7 @@ import FairHousingStatement from "../pages/FairHousingStatement/FairHousingState
 import MLScomplianceStatements from "../pages/MLScomplianceStatements/MLScomplianceStatements";
 import BuildingBloxPodcast from "../pages/BuildingBloxPodcast/BuildingBloxPodcast";
 import Locations from "../pages/Locations/Locations";
+import AgentFaq from "../pages/Faq/AgentFaq";
 
 export default function PublicRoutes() {
     return useRoutes([
@@ -74,6 +75,7 @@ export default function PublicRoutes() {
                 { path: "step6", element: <Agent6 /> },
                 { path: "step7", element: <Agent7 /> },
                 { path: "about", element: <About /> },
+                { path: "faq" , element: <AgentFaq />}
             ],
         },
         { path: "privacy-policy", element: <PrivacyPolicy /> },
