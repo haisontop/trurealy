@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./TruCareers.module.scss";
 
-export default function TRUcareers() {
+export default function TRUCareers() {
     return (
         <div className="container px-0 mx-auto position-relative">
             <div className={style["tru-carees"]}>
