@@ -37,6 +37,7 @@ import MLScomplianceStatements from "../pages/MLScomplianceStatements/MLScomplia
 import BuildingBloxPodcast from "../pages/BuildingBloxPodcast/BuildingBloxPodcast";
 import Locations from "../pages/Locations/Locations";
 import AgentFaq from "../pages/Faq/AgentFaq";
+import PrelicenseNCTemplets from "../pages/PrelicenseNCTemplets/PrelicenseNCTemplets";
 
 export default function PublicRoutes() {
     return useRoutes([
@@ -75,7 +76,8 @@ export default function PublicRoutes() {
                 { path: "step6", element: <Agent6 /> },
                 { path: "step7", element: <Agent7 /> },
                 { path: "about", element: <About /> },
-                { path: "faq" , element: <AgentFaq />}
+                { path: "faq" , element: <AgentFaq />},
+                { path: "prelicense", element: <PrelicenseNCTemplets />}
             ],
         },
         { path: "privacy-policy", element: <PrivacyPolicy /> },
