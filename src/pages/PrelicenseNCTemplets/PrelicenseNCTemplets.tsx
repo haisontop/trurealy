@@ -1,7 +1,9 @@
 import React from 'react'
 import Layout from '../../layouts/Layout'
 import PrelicenseBanner from './Components/PrelicenseBanner/PrelicenseBanner'
+import PrelicenseBottom from './Components/PrelicenseBottom/PrelicenseBottom'
 import PrelicenseMiddleCard from './Components/PrelicenseCard/PrelicenseMiddleCard'
+import TRUcareers from './Components/TRU careers/TRUcareers'
 
 export default function PrelicenseNCTemplets() {
   return (
@@ -9,6 +11,8 @@ export default function PrelicenseNCTemplets() {
         <div className='container mx-auto px-0 pb-5' style={{backgroundColor: "#0F0E4D"}}>
           <PrelicenseBanner />
           <PrelicenseMiddleCard />
+          <TRUcareers />
+          <PrelicenseBottom />
         </div>
     </Layout>
   )
