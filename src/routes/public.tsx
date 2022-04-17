@@ -76,8 +76,12 @@ export default function PublicRoutes() {
                 { path: "step6", element: <Agent6 /> },
                 { path: "step7", element: <Agent7 /> },
                 { path: "about", element: <About /> },
-                { path: "faq" , element: <AgentFaq />},
-                { path: "prelicense", element: <PrelicenseNCTemplets />}
+                { path: "faq", element: <AgentFaq /> },
+                { path: "prelicense", element: <PrelicenseNCTemplets /> },
+                {
+                    path: "testimonial",
+                    element: <Testimonial bgTheme="dark" />,
+                },
             ],
         },
         { path: "privacy-policy", element: <PrivacyPolicy /> },
