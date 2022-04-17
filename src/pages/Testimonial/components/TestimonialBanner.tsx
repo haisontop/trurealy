@@ -1,6 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import style from "./Testimonial.module.scss";
 
 const renderDotsItem = ({ isActive }: { isActive: boolean }) => {
   return isActive ? (
@@ -49,16 +50,9 @@ const TestimonialBanner = () => {
     />,
   ];
   return (
-    <div className="container mx-auto overflow-hidden mt-5">
-      <div
-        className="mb-5 mx-auto"
-        style={{ borderBottom: "2px solid black", maxWidth: "900px" }}
-      >
-        <h1 className="fs-1 fw-normal text-center text-black text-uppercase">
-          Real people. Tru stories.
-        </h1>
-      </div>
-      <div className="mx-auto" style={{ maxWidth: "900px" }}>
+    <div className="container position-relative mx-auto overflow-hidden mt-5">
+
+      <div className="mx-auto" style={{ maxWidth: "900px", marginTop: "170px" }}>
         <AliceCarousel
           renderKey={0}
           mouseTracking
@@ -78,6 +72,9 @@ const TestimonialBanner = () => {
             },
           }}
         />
+      </div>
+      <div className={style["gradient-driver"]} style={{fontSize: "75px", position: "absolute", top: "0%", left: "0%"}}>
+         Real people. Tru stories.
       </div>
     </div>
   );
