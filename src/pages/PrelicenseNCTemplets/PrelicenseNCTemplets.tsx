@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "../../layouts/Layout";
-import PrelicenseBanner from "./Components/PrelicenseBanner/PrelicenseBanner";
-import PrelicenseBottom from "./Components/PrelicenseBottom/PrelicenseBottom";
-import PrelicenseMiddleCard from "./Components/PrelicenseCard/PrelicenseMiddleCard";
-import TRUcareers from "./Components/TRU careers/TRUcareers";
+import PrelicenseBanner from "./components/PrelicenseBanner/PrelicenseBanner";
+import PrelicenseBottom from "./components/PrelicenseBottom/PrelicenseBottom";
+import PrelicenseMiddleCard from "./components/PrelicenseCard/PrelicenseMiddleCard";
+import TRUcareers from "./components/TRU careers/TRUcareers";
 
 export default function PrelicenseNCTemplets() {
     return (
