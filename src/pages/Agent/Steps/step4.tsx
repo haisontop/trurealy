@@ -1,20 +1,14 @@
 import React from 'react';
 import { FormSelect, Navbar, ProgressBar } from 'react-bootstrap';
-import Navigation from '../../../layouts/Navigation';
-import Footer2 from '../../../layouts/Footer/Footer2';
 import SideBar from '../../../components/SideBar';
-import { useNavigate } from 'react-router-dom';
 
-export default function Agent4() {
-	let navigate = useNavigate()
+export default function Agent4({onSubmit, onPrevious}:any) {
 	const now = 100;
 	return (
-		<div className="MainAgentpage">
-			<Navigation />
 			<div className="NewAgentSection">
 				<div className="container-fluid Agentmain">
 					<div className="row">
-						<div className="col-lg-9 col-md-9 col-12 allAgentmain g-0">
+						<div className="col-lg-9 col-md-12 col-12 allAgentmain g-0">
 							<div className="agentTitle">
 								<h1>New Agent sign up</h1>
 								<p>Welcome to TRU Realty. Ready to get started? Please fill out the form below.</p>
@@ -147,7 +141,7 @@ export default function Agent4() {
 								</div>
 								<div className="agentSign">
 									<p className="agentname">
-										Are You Ready To Satrt Your Career With Tru Realty ?<span>(Required)</span>
+										Are You Ready To Start Your Career With Tru Realty ?<span>(Required)</span>
 									</p>
 								</div>
 								<div className="agentSelect">
@@ -162,10 +156,10 @@ export default function Agent4() {
 								</div>
 								<div className="row">
 									<div className="Nextbtn">
-										<button type="submit" className="agentPrevious">
+										<button type="submit" className="agentPrevious" onClick={onPrevious}>
 											Previous
 										</button>
-										<button type="submit" onClick={() => navigate("/agent/step5")}>Continue</button>
+										<button type="submit" onClick={onSubmit}>Continue</button>
 									</div>
 								</div>
 							</div>
@@ -174,7 +168,5 @@ export default function Agent4() {
 					</div>
 				</div>
 			</div>
-			<Footer2 />
-		</div>
 	);
 }

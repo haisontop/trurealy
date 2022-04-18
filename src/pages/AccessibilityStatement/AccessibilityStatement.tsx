@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../../layouts";
+import Layout from "../../layouts/Layout";
 import "./AccessibilityStatement.scss";
 
 function AccessibilityStatement(props: any) {

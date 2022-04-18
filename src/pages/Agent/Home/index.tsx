@@ -1,5 +1,5 @@
 import Banner, { Item as BannerItemType } from "../../../components/Banner";
-import Layout from "../../../layouts";
+import Layout from "../../../layouts/Layout";
 import { Col, Container } from "react-bootstrap";
 import TextBanner from "../../../components/TextBanner";
 import classnames from "classnames";

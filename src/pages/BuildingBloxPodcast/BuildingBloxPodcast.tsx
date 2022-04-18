@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./BuildingBloxPodcast.scss";
-import Layout from "../../layouts";
+import Layout from "../../layouts/Layout";
 import SliderWraper from "./components/SliderWraper";
 function BuildingBloxPodcast() {
     return (

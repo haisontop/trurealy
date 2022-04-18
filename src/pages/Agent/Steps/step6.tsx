@@ -2,7 +2,7 @@ import React from "react";
 import { FormSelect, Navbar, ProgressBar } from "react-bootstrap";
 import SideBar from "../../../components/SideBar";
 
-export default function Agent7({ onSubmit, onPrevious }: any) {
+export default function Agent6({ onSubmit, onPrevious }: any) {
     const now = 100;
     return (
         <div className="NewAgentSection">
@@ -184,19 +184,12 @@ export default function Agent7({ onSubmit, onPrevious }: any) {
                                 <div className="agentYes">
                                     <input type="radio" value="Yes" />
                                     <label>Yes, I'am ready to begin</label>
-                                </div>
+ 
+                               </div>
                                 <div className="agentNo agentYes">
                                     <input type="radio" value="No" />
                                     <label>No, I need more information</label>
                                 </div>
-                            </div>
- 
-                           <div className="agentSign agentaddress">
-                                <p className="agentname">
-                                    What Kind Of Information Are You Looking For
-                                    ?<span>(Required)</span>
-                                </p>
-                                <textarea className="agenttextarea"></textarea>
                             </div>
                             <div className="row">
                                 <div className="Nextbtn">
@@ -207,7 +200,9 @@ export default function Agent7({ onSubmit, onPrevious }: any) {
                                     >
                                         Previous
                                     </button>
-                                    <button type="submit">Continue</button>
+                                    <button type="submit" onClick={onSubmit}>
+                                        Continue
+                                    </button>
                                 </div>
                             </div>
                         </div>

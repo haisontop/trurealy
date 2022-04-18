@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { AiOutlineAlignRight, AiFillCaretRight } from "react-icons/ai";
-import Footer from "./Footer";
-import Navigation from "./Navigation";
+import Footer from "../Footer";
+import Navigation from "../Navigation";
 import "./Layout.scss";
 interface LayoutProps {
     children?: React.ReactNode;

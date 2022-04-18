@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../layouts";
+import Layout from "../../layouts/Layout";
 import click_icon from "../../../src/assets/image/click_icon.png";
 import "./ListingTasks.scss";
 import Navigation from "../../layouts/Navigation";

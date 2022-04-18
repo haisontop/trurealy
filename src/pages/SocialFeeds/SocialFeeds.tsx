@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../layouts";
+import Layout from "../../layouts/Layout";
 import frame_img from "../../../src/assets/image/frame_img.png";
 import "./SocialFeeds.scss";
 function SocialFeeds() {
@@ -30,9 +30,9 @@ function SocialFeeds() {
                             <div className="col-lg-5 col-md-5 twitter_txt_section">
                                 <div className="twitter_txt">
                                     <p>God help us, we're in the hands of engineers. Must go
-                                         faster... go, go, go, go, go! What do they got in there? 
-                                         King Kong? God creates dinosaurs. God destroys dinosaurs. 
-                                         God creates Man. Man destroys God. Man creates Dinosaurs. 
+                                         faster... go, go, go, go, go! What do they got in there?
+                                         King Kong? God creates dinosaurs. God destroys dinosaurs.
+                                         God creates Man. Man destroys God. Man creates Dinosaurs.
                                          Yes, Yes, without the oops!</p>
                                     <ul>
                                         <li>11</li>
