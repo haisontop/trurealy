@@ -8,7 +8,7 @@ const FEEDS = [
     name: "A",
     description:
       "I cannot say enough good things about TRU Realty. I decided to work with Sarah Kirsch Richardson because her knowledge of the market was immediately obvious. I was especially impressed with her ability to listen and understand my unique needs and present not just one, but several options that worked perfectly for me. When you walk into the TRU Realty offices you instantly get a sense of their commitment to delivering best in class service. I’d recommend them to anyone.-Krysta Dos Santos",
-    imageURL: "/assets/social.png",
+    imageURL: "/assets/images.png",
   },
   {
     name: "B",
@@ -18,7 +18,7 @@ const FEEDS = [
   {
     name: "C",
     description: "This is Test content",
-    imageURL: "/assets/social.png",
+    imageURL: "/assets/images.png",
   },
 ];
 

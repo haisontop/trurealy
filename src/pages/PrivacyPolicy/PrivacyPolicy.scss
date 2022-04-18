@@ -1,7 +1,6 @@
 .PrivacyPolicyWrap {
     padding: calc(75 / 16 * 1rem);
-    font-family: "Futura PT";
-    font-weight: 500;
+    // font-family: "Futura PT";
     h1 {
         font-size: calc(75 / 16 * 1rem);
         margin-bottom: 2rem;
@@ -20,6 +19,7 @@
     p {
         font-size: calc(25 / 16 * 1rem);
         margin-bottom: 2rem;
+        font-weight: 400;
         word-break: break-all;
     }
     ul {

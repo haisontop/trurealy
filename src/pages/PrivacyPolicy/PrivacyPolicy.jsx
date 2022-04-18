@@ -6,16 +6,16 @@ function PrivacyPolicy() {
     return (
         <Layout>
             <section className='PrivacyPolicyWrap'>
-                <h1>PRIVACY POLICY</h1>
+                <h1 className="fw-medium">PRIVACY POLICY</h1>
                 <p>Last updated: August 21, 2021</p>
                 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
                 <p>
                     We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
                 </p>
-                <h2> INTERPRETATION AND DEFINITIONS</h2>
-                <h3>INTERPRETATION</h3>
+                <h2 className='fw-normal'> INTERPRETATION AND DEFINITIONS</h2>
+                <h3 className='fw-normal'>INTERPRETATION</h3>
                 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                <h3>DEFINITIONS</h3>
+                <h3 className='fw-normal'>DEFINITIONS</h3>
                 <p> For the purposes of this Privacy Policy: </p>
                 <ul>
                     <li>
@@ -84,29 +84,29 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>COLLECTING AND USING YOUR PERSONAL DATA TYPES OF DATA COLLECTED</h2>
-                <h3>PERSONAL DATA</h3>
+                <h2 className='fw-normal'>COLLECTING AND USING YOUR PERSONAL DATA TYPES OF DATA COLLECTED</h2>
+                <h3 className='fw-normal'>PERSONAL DATA</h3>
                 <p>
                     While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
-                <ul>
-                    <li>Email address</li>
-                    <li>First name and last name</li>
-                    <li>Phone number</li>
-                    <li>Address, State, Province, ZIP/Postal code, City</li>
-                    <li>Bank account information in order to pay for products and/or services within the Service</li>
-                    <li>Usage Data</li>
+                <ul className='mb-5'>
+                    <li className='m-0'>Email address</li>
+                    <li className='m-0'>First name and last name</li>
+                    <li className='m-0'>Phone number</li>
+                    <li className='m-0'>Address, State, Province, ZIP/Postal code, City</li>
+                    <li className='m-0'>Bank account information in order to pay for products and/or services within the Service</li>
+                    <li className='m-0'>Usage Data</li>
 
                 </ul>
 
                 <p>When You pay for a product and/or a service via bank transfer, We may ask You to provide information to facilitate this transaction and to verify Your identity. Such information may include, without limitation:
                 </p>
-                <ul>
-                    <li>Date of birth</li>
-                    <li>Passport or National ID card</li>
-                    <li>Bank card statement</li>
-                    <li>Other information linking You to an address</li>
+                <ul className='mb-5'>
+                    <li className='m-0'>Date of birth</li>
+                    <li className='m-0'>Passport or National ID card</li>
+                    <li className='m-0'>Bank card statement</li>
+                    <li className='m-0'>Other information linking You to an address</li>
                 </ul>
-                <h2>USAGE DATA</h2>
+                <h2 className='fw-normal'>USAGE DATA</h2>
                 <p>Usage Data is collected automatically when using the Service. </p>
                 <p>Usage Data may include information such as Your Device’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
 
@@ -114,14 +114,14 @@ function PrivacyPolicy() {
                     When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
                 <p>
                     We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
-                <h2>INFORMATION FROM THIRD-PARTY SOCIAL MEDIA SERVICES</h2>
+                <h2 className='fw-normal'>INFORMATION FROM THIRD-PARTY SOCIAL MEDIA SERVICES</h2>
                 <p>
                     The Company allows You to create an account and log in to use the Service through the following Third-party Social Media Services:</p>
 
                 <ul>
-                    <li>Google</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
+                    <li className='m-0'>Google</li>
+                    <li className='m-0'>Facebook</li>
+                    <li className='m-0'>Twitter</li>
                 </ul>
                 <p>
                     If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service’s account, such as Your name, Your email address, Your activities or Your contact list associated with that account.
@@ -129,7 +129,7 @@ function PrivacyPolicy() {
                 <p>
                     You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service’s account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.
                 </p>
-                <h2>TRACKING TECHNOLOGIES AND COOKIES</h2>
+                <h2 className='fw-normal'>TRACKING TECHNOLOGIES AND COOKIES</h2>
                 <p>
                     We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:
                 </p>
@@ -187,7 +187,7 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2> USE OF YOUR PERSONAL DATA</h2>
+                <h2 className='fw-normal'> USE OF YOUR PERSONAL DATA</h2>
                 <p>The Company may use Personal Data for the following purposes:</p>
                 <ul>
                     <li>To provide and maintain our Service, including to monitor the usage of our Service.</li>
@@ -225,14 +225,14 @@ function PrivacyPolicy() {
                     <li><b>With Your consent:</b> We may disclose Your personal information for any other purpose with Your consent.</li>
 
                 </ul>
-                <h2>RETENTION OF YOUR PERSONAL DATA</h2>
+                <h2 className='fw-normal'>RETENTION OF YOUR PERSONAL DATA</h2>
                 <p>
                     The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
                 </p>
                 <p>
                     The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
                 </p>
-                <h2>TRANSFER OF YOUR PERSONAL DATA</h2>
+                <h2 className='fw-normal'>TRANSFER OF YOUR PERSONAL DATA</h2>
                 <p>
                     Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
                 </p>
@@ -242,15 +242,15 @@ function PrivacyPolicy() {
                 <p>
                     The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
                 </p>
-                <h2>DISCLOSURE OF YOUR PERSONAL DATA</h2>
-                <h3>BUSINESS TRANSACTIONS</h3>
+                <h2 className='fw-normal'>DISCLOSURE OF YOUR PERSONAL DATA</h2>
+                <h3 className='fw-normal'>BUSINESS TRANSACTIONS</h3>
                 <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
                 </p>
-                <h3>LAW ENFORCEMENT</h3>
+                <h3 className='fw-normal'>LAW ENFORCEMENT</h3>
                 <p>
                     Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
                 </p>
-                <h3>OTHER LEGAL REQUIREMENTS</h3>
+                <h3 className='fw-normal'>OTHER LEGAL REQUIREMENTS</h3>
                 <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
                 <ul>
                     <li>Comply with a legal obligation</li>
@@ -260,7 +260,7 @@ function PrivacyPolicy() {
                     <li>Protect against legal liability</li>
 
                 </ul>
-                <h3>SECURITY OF YOUR PERSONAL DATA</h3>
+                <h3 className='fw-normal'>SECURITY OF YOUR PERSONAL DATA</h3>
                 <p>
                     The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
 
@@ -333,7 +333,7 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>ADVERTISING</h2>
+                <h2 className='fw-normal'>ADVERTISING</h2>
                 <p>
                     We may use Service Providers to show advertisements to You to help support and maintain Our Service.
                 </p>
@@ -365,7 +365,7 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>EMAIL MARKETING</h2>
+                <h2 className='fw-normal'>EMAIL MARKETING</h2>
                 <p>
                     We may use Your Personal Data to contact You with newsletters, marketing or promotional materials and other information that may be of interest to You.
                     You may opt-out of receiving any, or all, of these communications from Us by following the unsubscribe link or instructions provided in any email We send or by contacting Us.
@@ -398,7 +398,7 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>PAYMENTS</h2>
+                <h2 className='fw-normal'>PAYMENTS</h2>
                 <p>We may provide paid products and/or services within the Service. In that case, we may use third-party services for payment processing (e.g. payment processors).</p>
                 <p>
                     We will not store or collect Your payment card details. That information is provided directly to Our third-party payment processors whose use of Your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.
@@ -481,7 +481,7 @@ function PrivacyPolicy() {
                     When You use Our Service to pay a product and/or service via bank transfer, We may ask You to provide information to facilitate this transaction and to verify Your identity.
                 </p>
 
-                <h2>BEHAVIORAL REMARKETING</h2>
+                <h2 className='fw-normal'>BEHAVIORAL REMARKETING</h2>
                 <p>
                     The Company uses remarketing services to advertise to You after You accessed or visited our Service. We and Our third-party vendors use cookies and non-cookie technologies to help Us recognize Your Device and understand how You use our Service so that We can improve our Service to reflect Your interests and serve You advertisements that are likely to be of more interest to You.
                 </p>
@@ -572,7 +572,7 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>USAGE, PERFORMANCE AND MISCELLANEOUS</h2>
+                <h2 className='fw-normal'>USAGE, PERFORMANCE AND MISCELLANEOUS</h2>
                 <p>
                     We may use third-party Service Providers to provide better improvement of our Service.
                 </p>
@@ -606,8 +606,8 @@ function PrivacyPolicy() {
                     </li>
 
                 </ul>
-                <h2>GDPR PRIVACY</h2>
-                <h3>LEGAL BASIS FOR PROCESSING PERSONAL DATA UNDER GDPR</h3>
+                <h2 className='fw-normal'>GDPR PRIVACY</h2>
+                <h3 className='fw-normal'>LEGAL BASIS FOR PROCESSING PERSONAL DATA UNDER GDPR</h3>
                 <p>
                     We may process Personal Data under the following conditions:
                 </p>
@@ -634,7 +634,7 @@ function PrivacyPolicy() {
                 <p>
                     In any case, the Company will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.
                 </p>
-                <h2>YOUR RIGHTS UNDER THE GDPR</h2>
+                <h2 className='fw-normal'>YOUR RIGHTS UNDER THE GDPR</h2>
                 <p>The Company undertakes to respect the confidentiality of Your Personal Data and to guarantee You can exercise Your rights.</p>
                 <p>
                     You have the right under this Privacy Policy, and by law if You are within the EU, to:
@@ -660,21 +660,21 @@ function PrivacyPolicy() {
                     </li>
                 </ul>
 
-                <h2>EXERCISING OF YOUR GDPR DATA PROTECTION RIGHTS</h2>
+                <h2 className='fw-normal'>EXERCISING OF YOUR GDPR DATA PROTECTION RIGHTS</h2>
                 <p>
                     You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us. Please note that we may ask You to verify Your identity before responding to such requests. If You make a request, We will try our best to respond to You as soon as possible.
                 </p>
                 <p>
                     You have the right to complain to a Data Protection Authority about Our collection and use of Your Personal Data. For more information, if You are in the European Economic Area (EEA), please contact Your local data protection authority in the EEA.
                 </p>
-                <h2>
+                <h2 className='fw-normal'>
                     FACEBOOK FAN PAGE
                 </h2>
-                <h3>DATA CONTROLLER FOR THE FACEBOOK FAN PAGE</h3>
+                <h3 className='fw-normal'>DATA CONTROLLER FOR THE FACEBOOK FAN PAGE</h3>
                 <p>
                     The Company is the Data Controller of Your Personal Data collected while using the Service. As operator of the Facebook Fan Page https://www.facebook.com/trurealty/, the Company and the operator of the social network Facebook are Joint Controllers. The Company has entered into agreements with Facebook that define the terms for use of the Facebook Fan Page, among other things. These terms are mostly based on the Facebook Terms of Service: https://www.facebook.com/terms.php Visit the Facebook Privacy Policy https://www.facebook.com/policy.php for more information about how Facebook manages Personal data or contact Facebook online, or by mail: Facebook, Inc. ATTN, Privacy Operations, 1601 Willow Road, Menlo Park, CA 94025, United States.
                 </p>
-                <h3>
+                <h3 className='fw-normal'>
                     FACEBOOK INSIGHTS
                 </h3>
                 <p>
@@ -689,11 +689,11 @@ function PrivacyPolicy() {
                 <p>
                     For more information on the privacy practices of Facebook, please visit Facebook Privacy Policy here:  <a href="https://www.facebook.com/privacy/explanation">https://www.facebook.com/privacy/explanation</a>
                 </p>
-                <h3>CCPA PRIVACY</h3>
+                <h3 className='fw-normal'>CCPA PRIVACY</h3>
                 <p>
                     This privacy notice section for California residents supplements the information contained in Our Privacy Policy and it applies solely to all visitors, users, and others who reside in the State of California.
                 </p>
-                <h3>CATEGORIES OF PERSONAL INFORMATION COLLECTED</h3>
+                <h3 className='fw-normal'>CATEGORIES OF PERSONAL INFORMATION COLLECTED</h3>
                 <p>
                     We collect information that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular Consumer or Device. The following is a list of categories of personal information which we may collect or may have been collected from California residents within the last twelve (12) months.
                 </p>
@@ -783,7 +783,7 @@ function PrivacyPolicy() {
                 </ul>
 
 
-                <h2>SOURCES OF PERSONAL INFORMATION</h2>
+                <h2 className='fw-normal'>SOURCES OF PERSONAL INFORMATION</h2>
                 <p>
                     We obtain the categories of personal information listed above from the following categories of sources:
                 </p>
@@ -801,7 +801,7 @@ function PrivacyPolicy() {
                         <b>From Service Providers.</b> For example, third-party vendors to monitor and analyze the use of our Service, third-party vendors to provide advertising on our Service, third-party vendors to deliver targeted advertising to You, third-party vendors for payment processing, or other third-party vendors that We use to provide the Service to You.
                     </li>
                 </ul>
-                <h2>USE OF PERSONAL INFORMATION FOR BUSINESS PURPOSES OR COMMERCIAL PURPOSES</h2>
+                <h2 className='fw-normal'>USE OF PERSONAL INFORMATION FOR BUSINESS PURPOSES OR COMMERCIAL PURPOSES</h2>
                 <p>
                     We may use or disclose personal information We collect for "business purposes" or "commercial purposes" (as defined under the CCPA), which may include the following examples:
                 </p>
@@ -834,7 +834,7 @@ function PrivacyPolicy() {
                 <p>
                     If We decide to collect additional categories of personal information or use the personal information We collected for materially different, unrelated, or incompatible purposes We will update this Privacy Policy.
                 </p>
-                <h2>DISCLOSURE OF PERSONAL INFORMATION FOR BUSINESS PURPOSES OR COMMERCIAL PURPOSES</h2>
+                <h2 className='fw-normal'>DISCLOSURE OF PERSONAL INFORMATION FOR BUSINESS PURPOSES OR COMMERCIAL PURPOSES</h2>
                 <p>
                     We may use or disclose and may have used or disclosed in the last twelve (12) months the following categories of personal information for business or commercial purposes:
                 </p>
@@ -851,7 +851,7 @@ function PrivacyPolicy() {
                     When We disclose personal information for a business purpose or a commercial purpose, We enter a contract that describes the purpose and requires the recipient to both keep that personal information confidential and not use it for any purpose except performing the contract.
                 </p>
 
-                <h2>SALE OF PERSONAL INFORMATION</h2>
+                <h2 className='fw-normal'>SALE OF PERSONAL INFORMATION</h2>
                 <p>
                     As defined in the CCPA, "sell" and "sale" mean selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer's personal information by the business to a third party for valuable consideration. This means that We may have received some kind of benefit in return for sharing personal information, but not necessarily a monetary benefit.
                 </p>
@@ -868,7 +868,7 @@ function PrivacyPolicy() {
                     <li>Category D: Commercial information</li>
                     <li>Category F: Internet or other similar network activity</li>
                 </ul>
-                <h2>SHARE OF PERSONAL INFORMATION</h2>
+                <h2 className='fw-normal'>SHARE OF PERSONAL INFORMATION</h2>
                 <p>We may share Your personal information identified in the above categories with the following categories of third parties:</p>
                 <ul>
                     <li>Service Providers</li>
@@ -879,14 +879,14 @@ function PrivacyPolicy() {
                         Third party vendors to whom You or Your agents authorize Us to disclose Your personal information in connection with products or services We provide to You
                     </li>
                 </ul>
-                <h2>SALE OF PERSONAL INFORMATION OF MINORS UNDER 16 YEARS OF AGE</h2>
+                <h2 className='fw-normal'>SALE OF PERSONAL INFORMATION OF MINORS UNDER 16 YEARS OF AGE</h2>
                 <p>
                     We do not sell the personal information of Consumers We actually know are less than 16 years of age, unless We receive affirmative authorization (the "right to opt-in") from either the Consumer who is between 13 and 16 years of age, or the parent or guardian of a Consumer less than 13 years of age. Consumers who opt-in to the sale of personal information may opt-out of future sales at any time. To exercise the right to opt-out, You (or Your authorized representative) may submit a request to Us by contacting Us.
                 </p>
                 <p>
                     If You have reason to believe that a child under the age of 13 (or 16) has provided Us with personal information, please contact Us with sufficient detail to enable Us to delete that information.
                 </p>
-                <h2>YOUR RIGHTS UNDER THE CCPA </h2>
+                <h2 className='fw-normal'>YOUR RIGHTS UNDER THE CCPA </h2>
                 <p>
 
                     The CCPA provides California residents with specific rights regarding their personal information. If You are a resident of California, You have the following rights:
@@ -945,7 +945,7 @@ function PrivacyPolicy() {
                     <li>Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services.</li>
                 </ul>
 
-                <h2>EXERCISING YOUR CCPA DATA PROTECTION RIGHTS</h2>
+                <h2 className='fw-normal'>EXERCISING YOUR CCPA DATA PROTECTION RIGHTS</h2>
                 <p>
                     In order to exercise any of Your rights under the CCPA, and if You are a California resident, You can contact Us:
                 </p>
@@ -968,11 +968,11 @@ function PrivacyPolicy() {
                 <p>
                     For data portability requests, We will select a format to provide Your personal information that is readily useable and should allow You to transmit the information from one entity to another entity without hindrance.
                 </p>
-                <h2>DO NOT SELL MY PERSONAL INFORMATION</h2>
+                <h2 className='fw-normal'>DO NOT SELL MY PERSONAL INFORMATION</h2>
                 <p>
                     You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt-out, please contact Us. The Service Providers we partner with (for example, our analytics or advertising partners) may use technology on the Service that sells personal information as defined by the CCPA law. If you wish to opt out of the use of Your personal information for interest-based advertising purposes and these potential sales as defined under CCPA law, you may do so by following the instructions below. Please note that any opt out is specific to the browser You use. You may need to opt out on every browser that You use.
                 </p>
-                <h2>WEBSITE</h2>
+                <h2 className='fw-normal'>WEBSITE</h2>
                 <p>You can opt out of receiving ads that are personalized as served by our Service Providers by following our instructions presented on the Service:</p>
                 <ul className='list-unstyled'>
                     <li>The NAI's opt-out platform: <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a></li>
@@ -982,7 +982,7 @@ function PrivacyPolicy() {
                 <p>
                     The opt out will place a cookie on Your computer that is unique to the browser You use to opt out. If you change browsers or delete the cookies saved by your browser, You will need to opt out again.
                 </p>
-                <h2>MOBILE DEVICES</h2>
+                <h2 className='fw-normal'>MOBILE DEVICES</h2>
                 <p>
                     Your mobile device may give You the ability to opt out of the use of information about the apps You use in order to serve You ads that are targeted to Your interests:
                 </p>
@@ -993,12 +993,12 @@ function PrivacyPolicy() {
                 <p>
                     You can also stop the collection of location information from Your mobile device by changing the preferences on Your mobile device.
                 </p>
-                <h2>"DO NOT TRACK" POLICY AS REQUIRED BY CALIFORNIA ONLINE PRIVACY PROTECTION ACT (CALOPPA)</h2>
+                <h2 className='fw-normal'>"DO NOT TRACK" POLICY AS REQUIRED BY CALIFORNIA ONLINE PRIVACY PROTECTION ACT (CALOPPA)</h2>
                 <p>Our Service does not respond to Do Not Track signals.</p>
                 <p>
                     However, some third party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.
                 </p>
-                <h2>CHILDREN'S PRIVACY</h2>
+                <h2 className='fw-normal'>CHILDREN'S PRIVACY</h2>
                 <p>
                     The Service may contain content appropriate for children under the age of 13. As a parent, you should know that through the Service children under the age of 13 may participate in activities that involve the collection or use of personal information. We use reasonable efforts to ensure that before we collect any personal information from a child, the child's parent receives notice of and consents to our personal information practices.
                 </p>
@@ -1008,7 +1008,7 @@ function PrivacyPolicy() {
                 <p>
                     We may ask a User to verify its date of birth before collecting any personal information from them. If the User is under the age of 13, the Service will be either blocked or redirected to a parental consent process.
                 </p>
-                <h2>INFORMATION COLLECTED FROM CHILDREN UNDER THE AGE OF 13</h2>
+                <h2 className='fw-normal'>INFORMATION COLLECTED FROM CHILDREN UNDER THE AGE OF 13</h2>
                 <p>
                     The Company may collect and store persistent identifiers such as cookies or IP addresses from Children without parental consent for the purpose of supporting the internal operation of the Service.
                 </p>
@@ -1032,7 +1032,7 @@ function PrivacyPolicy() {
                 <p>
                     For further details on the information We might collect, You can refer to the "Types of Data Collected" section of this Privacy Policy. We follow our standard Privacy Policy for the disclosure of personal information collected from and about children.
                 </p>
-                <h3>PARENTAL ACCESS</h3>
+                <h3 className='fw-normal'>PARENTAL ACCESS</h3>
                 <p> A parent who has already given the Company permission to collect and use his child personal information can, at any time: </p>
                 <ul>
                     <li>Review, correct or delete the child's personal information</li>
@@ -1041,7 +1041,7 @@ function PrivacyPolicy() {
                 <p>
                     To make such a request, You can write to Us using the contact information provided in this Privacy Policy.
                 </p>
-                <h2>YOUR CALIFORNIA PRIVACY RIGHTS (CALIFORNIA'S SHINE THE LIGHT LAW)</h2>
+                <h2 className='fw-normal'>YOUR CALIFORNIA PRIVACY RIGHTS (CALIFORNIA'S SHINE THE LIGHT LAW)</h2>
                 <p>
                     Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes. If you'd like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below. CALIFORNIA PRIVACY RIGHTS FOR MINOR USERS (CALIFORNIA BUSINESS AND PROFESSIONS CODE SECTION 22581) California Business and Professions Code section 22581 allow California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted. To request removal of such data, and if You are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account. Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances. LINKS TO OTHER WEBSITES Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services. CHANGES TO THIS PRIVACY POLICY We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page. CONTACT US If you have any questions about this Privacy Policy, You can contact us:
                 </p>
