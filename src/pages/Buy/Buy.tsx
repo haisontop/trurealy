@@ -1,6 +1,6 @@
 import React from 'react'
-import BuyBody from './components/BuyBody'
-import BuyBottom from './components/BuyBottom'
+import BuyBody from './components/Buybody/BuyBody'
+import BuyBottom from './components/BuyBottom/BuyBottom'
 import Layout from '../../layouts/Layout'
 
 export default function Buy() {

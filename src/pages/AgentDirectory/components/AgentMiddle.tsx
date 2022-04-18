@@ -1,6 +1,6 @@
 import React from "react";
 import { AGENT_DIRECTORY_DATA } from "../../../constants";
-import AgentMiddleCard from "./AgentMiddleCard";
+import AgentMiddleCard from "./AgentMiddleCard/AgentMiddleCard";
 
 function AgentMiddle() {
     return (

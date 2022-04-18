@@ -1,5 +1,5 @@
 import React from 'react'
-import AgentDirectoryTop from './components/AgentDirectoryTop';
+import AgentDirectoryTop from './components/AgentDirectoryTop/AgentDirectoryTop';
 import AgentMiddle from './components/AgentMiddle';
 import Layout from '../../layouts/Layout';
 

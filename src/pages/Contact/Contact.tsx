@@ -6,13 +6,13 @@ import {
     FaYoutube,
     FaLinkedinIn,
 } from "react-icons/fa";
+import style from "./Contect.module.scss";
 
 export default function Contact() {
     return (
         <Layout>
             <div
-                className="container mx-auto row mt-5 pt-5 position-relative"
-                style={{ width: "900px" }}
+                className={`container mx-auto row mt-5 pt-5 position-relative ${style["contact"]}`}
             >
                 <div className="col-6">
                     <div>
@@ -35,7 +35,7 @@ export default function Contact() {
                     <div className="d-flex mt-5">
                         <FaFacebookF
                             size="40"
-                            className="p-2 rounded rounded-circle text-primary me-4"
+                            className={`p-2 rounded rounded-circle text-primary me-4 ${style["icon"]}`}
                             style={{
                                 border: "1px solid #292670",
                                 cursor: "pointer",
@@ -43,27 +43,15 @@ export default function Contact() {
                         />
                         <FaInstagram
                             size="40"
-                            className="p-2 rounded rounded-circle text-primary me-4"
-                            style={{
-                                border: "1px solid #292670",
-                                cursor: "pointer",
-                            }}
+                            className={`p-2 rounded rounded-circle text-primary me-4 ${style["icon"]}`}
                         />
                         <FaYoutube
                             size="40"
-                            className="p-2 rounded rounded-circle text-primary me-4"
-                            style={{
-                                border: "1px solid #292670",
-                                cursor: "pointer",
-                            }}
+                            className={`p-2 rounded rounded-circle text-primary me-4 ${style["icon"]}`}
                         />
                         <FaLinkedinIn
                             size="40"
-                            className="p-2 rounded rounded-circle text-primary me-4"
-                            style={{
-                                border: "1px solid #292670",
-                                cursor: "pointer",
-                            }}
+                            className={`p-2 rounded rounded-circle text-primary me-4 ${style["icon"]}`}
                         />
                     </div>
                 </div>
@@ -71,11 +59,6 @@ export default function Contact() {
                     <div className="contact-box position-absolute end-0">
                         <form
                             className="bg-primary text-white px-4 py-5"
-                            style={{
-                                borderRadius: "20px",
-                                marginBottom: "-30px",
-                                marginLeft: "-30px",
-                            }}
                         >
                             <div className="w-100">
                                 <span>
@@ -86,10 +69,6 @@ export default function Contact() {
                                     type="text"
                                     name="name"
                                     className="w-100 px-2 py-2 bg-primary text-white mt-1"
-                                    style={{
-                                        border: "2px solid #44498C",
-                                        borderRadius: "7px",
-                                    }}
                                 />
                             </div>
                             <div className="mt-4">
@@ -101,10 +80,6 @@ export default function Contact() {
                                     type="text"
                                     name="number"
                                     className="w-100 px-2 py-2 bg-primary text-white mt-1"
-                                    style={{
-                                        border: "2px solid #44498C",
-                                        borderRadius: "7px",
-                                    }}
                                 />
                             </div>
                             <div className="mt-4">
@@ -116,10 +91,6 @@ export default function Contact() {
                                     type="email"
                                     name="email"
                                     className="w-100 px-2 py-2 bg-primary text-white mt-1"
-                                    style={{
-                                        border: "2px solid #44498C",
-                                        borderRadius: "7px",
-                                    }}
                                 />
                             </div>
                             <div className="mt-4">
@@ -131,11 +102,6 @@ export default function Contact() {
                                 <textarea
                                     name="massage"
                                     className="w-100 px-2 py-2 bg-primary text-white mt-1"
-                                    style={{
-                                        border: "2px solid #44498C",
-                                        borderRadius: "7px",
-                                        outline: "none",
-                                    }}
                                 />
                             </div>
                             <div className="text-center">

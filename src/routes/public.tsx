@@ -38,7 +38,7 @@ import BuildingBloxPodcast from "../pages/BuildingBloxPodcast/BuildingBloxPodcas
 import Locations from "../pages/Locations/Locations";
 import AgentFaq from "../pages/Faq/AgentFaq";
 import PrelicenseNCTemplets from "../pages/PrelicenseNCTemplets/PrelicenseNCTemplets";
-import Commercial from "../pages/commercial/Commercial";
+import Commercial from "../pages/Commercial/Commercial";
 
 export default function PublicRoutes() {
     return useRoutes([

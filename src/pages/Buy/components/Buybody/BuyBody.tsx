@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import style from './BuyBody.module.scss'
 
 export default function BuyBody() {
   return (
     <div className='position-relative'>
-      <div className='mx-auto mt-5' style={{width: "900px"}}>
+      <div className={`mx-auto mt-5 ${style['buy-body']}`} >
          <div>
-             <h1 className='fw-normal' style={{fontSize:"60px"}}>FIND YOUR TRU HOME</h1>
-             <hr style={{height: "5px"}} />
+             <h1 className='fw-normal'>FIND YOUR TRU HOME</h1>
+             <hr />
              <p className='mt-4 fs-4'>A home purchase is more than a transaction, it’s a life changer. Tru Realty works with you throughout the buying process, from browsing properties to making a carefully negotiated offer. If you’re looking to buy a home, our friendly and knowledgeable real estate agents are here to help you exceed your real estate goals.</p>
              <p className='mt-5 pt-3 fs-4'>Tru agents will help you explore the many wonderful homes for sale in the communities you might call home.</p>
            </div>
@@ -15,13 +16,13 @@ export default function BuyBody() {
            </div>
            <div className='text-center mt-5 pt-5'>
              <form className='mx-auto'>
-                 <input type="text" className='px-2 fs-5 me-2' placeholder='Seach by Address, City, Zip Code, etc.' style={{width: "300px", borderTop: "2px", borderLeft: "2px", borderRight:"2px" , borderColor: "black"}} />
+                 <input type="text" className='px-2 fs-5 me-2' placeholder='Seach by Address, City, Zip Code, etc.'/>
                  <button className='tru-help-btn fs-5 px-3 py-1 text-white'>SEARCH</button>
              </form>
            </div>
       </div>
-      <img src="/assets/Path 114.png" className='img-fluid position-absolute top-0 end-0' width="200px" alt="" style={{marginTop: "-50px", zIndex: "-100"}} />
-      <img src="/assets/Path 107.png" className='img-fluid position-absolute start-0 bottom-0' width="300px" alt="" style={{marginBottom: "-50px", zIndex: "-100"}} />
+      <img src="/assets/Path 114.png" className={`img-fluid position-absolute top-0 end-0 ${style["img-1"]}`} />
+      <img src="/assets/Path 107.png" className={`img-fluid position-absolute start-0 bottom-0 ${style["img-2"]}`} />
     </div>
   )
 }

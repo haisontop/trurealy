@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import {FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import {FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
+import style from "./AgentMiddleCard.module.scss"
 interface props {
     img : string;
     name: string;
@@ -8,28 +9,30 @@ interface props {
     about: string;
     website: string;
 }
+
+
 function AgentMiddleCard({img, name, about, email, website} : props) {
     const [click, setClick] = useState(false);
   return (
-    <div className='col-4' style={{cursor: "pointer"}}>
+    <div className={`col-4 ${style["agent-middle-card"]}`}>
         <div onClick={()=> setClick(!click)}>
         <img src={img} className="img-fluid" width="100%" alt="" />
-        <div className='px-4 py-2 text-white' style={{backgroundColor: "#9796C6", borderBottomLeftRadius: "20px", borderBottomRightRadius: "20px"}}>
+        <div className={`px-4 py-2 text-white ${style["card-lebel"]}`}>
             <h4 className='fw-bold'>{name}</h4>
             <p className='my-1'>555.555.5555</p>
             <p>{email}</p>
         </div>
         </div>
         {
-            click && 
-            <div className='position-absolute overflow-hidden top-0 bg-primary' style={{width: "950px", borderRadius: "20px", left:"5%"}}>
+            click &&
+            <div className={`position-absolute overflow-hidden top-0 bg-primary ${style["card-about"]}`}>
              <div className='position-relative text-white'>
-                 <button onClick={()=> setClick(!click)} className='position-absolute end-0 bg-primary border-0' style={{top: "10px"}}>
+                 <button onClick={()=> setClick(!click)} className='position-absolute end-0 bg-primary border-0'>
                     <img src="/assets/cross.png" className='img-fluid' width="70px" alt="" />
                  </button>
                  <div className='row'>
                    <div className='col-4'>
-                       <img src={img} className="img-fluid" style={{borderRadius: "25px"}} alt="" />
+                       <img src={img} className={`img-fluid ${style["agent-img"]}`} alt="" />
                        <div className='px-3 py-3'>
                           <h4 className='fw-bold'>{name}</h4>
                           <p className='m-0'>555555.55555</p>
@@ -73,7 +76,7 @@ function AgentMiddleCard({img, name, about, email, website} : props) {
                      <div className='col-5'>
                       <label className='w-100'>
                           <span>Message</span> <br />
-                          <textarea className='w-100 p-2' style={{outline: "none", borderRadius: "15px", height: "185px"}} />
+                          <textarea className='w-100 p-2' />
                       </label>
                      </div>
                  </form>

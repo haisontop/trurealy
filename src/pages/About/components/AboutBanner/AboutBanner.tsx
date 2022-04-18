@@ -1,4 +1,5 @@
 import React from "react";
+import style from './AboutBanner.module.scss'
 
 const AboutBanner = () => {
     return (
@@ -11,7 +12,7 @@ const AboutBanner = () => {
                     alt=""
                 />
             </div>
-            <div className="about-Consumer-banner-Box">
+            <div className={`${style["about-Consumer-banner-Box"]}`}>
                 <div className="position-relative">
                     <img
                         src="/assets/Group 130.png"

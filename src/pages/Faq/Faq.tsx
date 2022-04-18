@@ -7,7 +7,7 @@ import style from "./Faq.module.scss";
 
 const Faq = () => {
     return (
-        <div className="">
+        <div className={`${style["faq-container"]}`}>
             <Layout>
                 <div className="position-relative pt-4">
                     <img
@@ -20,7 +20,6 @@ const Faq = () => {
                         <div className="text-center fw-light mb-5 pt-3 px-5">
                             <h1
                                 className="fw-bold text-primary"
-                                style={{ fontSize: "60px" }}
                             >
                                 FREQUENTLY ASKED QUESTIONS
                             </h1>
