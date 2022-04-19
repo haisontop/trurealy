@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import style from "./faq.module.scss"
 interface props {
     title: string;
     discription: string;
