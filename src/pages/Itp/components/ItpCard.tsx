@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import style from './Itp.module.scss'
 interface props{
     key: string;
     author: string;
@@ -15,7 +16,7 @@ function ItpCard({author, title, img, discription} : props) {
          </div>
          <div className='col-7'>
             <h3 className='fw-normal'>{title}</h3>
-            <p className='mt-1 fw-normal' style={{color: "#8F8F8F"}}>{author}</p>
+            <p className='mt-1 fw-normal text-full-gray'>{author}</p>
             <p>{discription}</p>
          </div>
     </div>

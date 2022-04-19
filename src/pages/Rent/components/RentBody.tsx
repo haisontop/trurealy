@@ -1,4 +1,5 @@
 import React from "react";
+import style from "./RentBody.module.scss";
 
 const RentBody = () =>{
 return (

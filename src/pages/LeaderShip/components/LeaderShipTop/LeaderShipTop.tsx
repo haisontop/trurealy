@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import style from './LeaderShipTop.module.scss';
 
 export default function LeaderShipTop() {
   return (
-    <div className='position-relative px-5'>
-        <h1 className='fw-normal' style={{fontSize: "60px"}}>LEADING REAL ESTATE INTO <br /> THE FUTURE</h1>
-        <p  style={{width: "600px", right: "40px", top: "110px"}} className='position-absolute fw-bold'>Behind every successful business is a group of dedicated leaders. Tru Realty Executives and Division Leaders each bring a diversified skill set to our brokerage. As a result, we have assembled a dynamic and well-rounded support team. From strategists to educators, they uphold Tru Realty’s values to better serve our clients, our agents, and our community.</p>
+    <div className={`position-relative px-5 ${style["leaderShip-top"]}`}>
+        <h1 className='fw-normal'>LEADING REAL ESTATE INTO <br /> THE FUTURE</h1>
+        <p className='position-absolute fw-bold'>Behind every successful business is a group of dedicated leaders. Tru Realty Executives and Division Leaders each bring a diversified skill set to our brokerage. As a result, we have assembled a dynamic and well-rounded support team. From strategists to educators, they uphold Tru Realty’s values to better serve our clients, our agents, and our community.</p>
         <div className='row g-5'>
              <div className='col-4'>
                 <div className=''>

@@ -9,7 +9,7 @@ const AgentFaq = () => {
     return (
         <div className="">
             <Layout>
-                <div className="position-relative pt-4" style={{backgroundColor: "#0F0E4D", paddingBottom: "300px"}}>
+                <div className={`position-relative pt-4 ${style["faq-agent"]}`}>
                     <img
                         src="/assets/question-marks.png"
                         alt="gradient-question"
@@ -20,7 +20,6 @@ const AgentFaq = () => {
                         <div className="text-center fw-light py-5 px-5">
                             <h1
                                 className="fw-bold text-white"
-                                style={{ fontSize: "60px" }}
                             >
                                 FREQUENTLY ASKED QUESTIONS
                             </h1>

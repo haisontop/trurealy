@@ -1,6 +1,6 @@
 import React from 'react'
 import LeaderShipMiddle from './components/LeaderShipMiddle'
-import LeaderShipTop from './components/LeaderShipTop'
+import LeaderShipTop from './components/LeaderShipTop/LeaderShipTop'
 import Layout from '../../layouts/Layout'
 
 export default function LeaderShip() {

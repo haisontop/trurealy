@@ -14,6 +14,7 @@ $pink: #9c2791 !default;
 $danger: #fd084f !default;
 $info: #1492d1 !default;
 $blue: #3b46f2 !default;
+$full-gray: #8F8F8F !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -28,6 +29,7 @@ $theme-colors: map-merge(
         "info": $info,
         "pink": $pink,
         "blue": $blue,
+        "full-gray" : $full-gray,
     ),
     $theme-colors
 );

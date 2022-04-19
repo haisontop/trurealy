@@ -1,17 +1,14 @@
 import React from "react";
 import { ITS_DATA } from "../../../constants";
 import ItpCard from "./ItpCard";
+import style from "./Itp.module.scss"
 
 function ItpPages() {
     return (
         <div>
             <div className="my-5">
                 <h1
-                    className="fw-normal"
-                    style={{
-                        fontSize: "50px",
-                        borderBottom: "2px solid black",
-                    }}
+                    className={`fw-normal ${style["itp-title"]}`}
                 >
                     IN THE PRESS
                 </h1>
