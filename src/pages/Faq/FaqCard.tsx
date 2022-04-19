@@ -3,7 +3,6 @@ interface props {
     title: string;
     discription: string;
 }
-import style from "./faq.module.scss"
 const Faqcard = ({title, discription}: props) => {
     const [open, setOpen] = useState(false);
     return (
