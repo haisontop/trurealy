@@ -22,19 +22,11 @@ const SmarterCard = ({ actions, discription, link, img, bgColor = "bg-pink" }: S
                 <div
                     className={`position-relative overflow-hidden ${styles["smarter-box-2"]}`}
                 >
-                    <img src={img} alt="" className="img-fluid" />
+                    <img src={img} alt="" className="img-fluid" width="100%" />
                     <div
                         className={`position-absolute bottom-0 ${bgColor} px-3 py-2 text-white ${styles["smarter-card-anim"]}`}
                     >
-                        <h3 className="fw-normal mb-0">{actions}</h3>
-                        <hr
-                            style={{
-                                height: "3px",
-                                backgroundColor: "white",
-                                width: "70%",
-                            }}
-                            className="mt-1 bg-white border-0"
-                        />
+                        <h3 className="fw-normal mb-3">{actions}</h3>
                         <p className="mt-1 fw-lighter">{discription}</p>
                         <div className="mt-5 pt-4">
                             <Link

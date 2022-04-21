@@ -5,7 +5,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 const Footer = () => {
   return (
     <div className="container mt-5 pt-5 mb-4 ">
-      <div className={`row gx-0 bg-white text-dark gx-4 gy-4`}>
+      <div className={`row gx-0 bg-white text-primary gx-4 gy-4`}>
         <div className="col-12 col-md-5 col-lg-3">
           <div>
             <h5 className="fw-bold">CORPORATE HEAQUARTERS</h5>

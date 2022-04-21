@@ -30,7 +30,7 @@ export const AgentWelcome = () => {
                         <div className="display-1 text-white">
                             WELCOME HOME
                         </div>
-                        <div className="fs-6 fw-bold text-white">
+                        <div className="fs-5 fw-normal text-white mt-2">
                             At TRU Realty, our mission is to create a diverse
                             and inclusive culture focused on training and
                             education, coupled with innovative technology, in

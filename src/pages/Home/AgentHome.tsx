@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 import Layout from "../../layouts/Layout";
 import { MiddleBanner } from "../../components/MiddleBanner/MiddleBanner";
 import TruIntro from "../../components/TruIntro";
-import AgentBanner from "./components/AgentBanner";
+import AgentBanner from "./components/AgentBanner/AgentBanner";
 import YourTools from "./components/YourTools";
 import { AgentBottomBanner } from "./components/AgentBottomBanner/AgentBottomBanner";
 import { AgentWelcome } from "./components/AgentWelcome";

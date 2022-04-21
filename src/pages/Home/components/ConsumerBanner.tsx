@@ -1,6 +1,6 @@
 import React from "react";
 import { GradientDivider } from "../../../components/GradientDivider";
-import { BannerText } from "./BannerText";
+import { BannerText } from "./BannerText/BannerText";
 
 const ConsumerBanner = () => {
     return (

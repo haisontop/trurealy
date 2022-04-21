@@ -1,11 +1,12 @@
 import React from "react";
-import { GradientDivider } from "../../../components/GradientDivider";
-import { BannerText } from "./BannerText";
+import { GradientDivider } from "../../../../components/GradientDivider";
+import { BannerText } from "../BannerText/BannerText";
+import style from './AgentBanner.module.scss';
 
 const AgentBanner = () => {
     return (
         <>
-            <div className="container verflow-hidden px-0 position-relative">
+            <div className={`container verflow-hidden px-0 position-relative ${style["agent-banner"]}`}>
                 <img
                     src="/assets/agent1.png"
                     alt=""
