@@ -1,0 +1,26 @@
+.buy-body{
+    width: 900px;
+    h1{
+        font-size: 60px;
+    }
+    hr{
+        height: 5px;
+    }
+    input{
+        width: 300px;
+        border-top: 2px;
+        border-left: 2px;
+        border-right: 2px;
+        border-color: black;
+    }
+}
+.img-1{
+    width: 200px;
+    margin-top: -50px;
+    z-index: -100;
+}
+.img-2{
+    width: 300px;
+    margin-bottom: -50px;
+    z-index: -100;
+}

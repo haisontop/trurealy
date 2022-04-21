@@ -1,0 +1,26 @@
+.thankyou{
+    padding: 112px 30px 60px;
+    text-align: center;
+    @media (max-width: 991px) {
+        padding: 60px 0;
+    }
+    h2{
+        font-size: 75px;
+        color: #fff;
+        font-weight: 900;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+        @media (max-width: 991px) {
+            font-size: 40px;
+        }
+    }
+    p{
+        font-size: 25px;
+        color: #fff;
+        // font-weight: 900;
+        margin-bottom: 75px;
+        @media (max-width: 991px) {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,176 @@
+body.darkMode {
+    .AfterLoginHeader {
+        .ColorMode {
+            color: var(--bs-primary);
+        }
+        .layerTwo {
+            background-color: #fff;
+            ul {
+                li {
+                    a {
+                        color: var(--bs-primary);
+                        img {
+                            filter: brightness(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.AfterLoginHeader {
+    position: relative;
+    z-index: 100;
+    background-color: #fff;
+    .ColorMode {
+        position: absolute;
+        left: 2rem;
+        top: 1.75rem;
+        font-family: "Futura PT";
+        font-weight: 100;
+        color: #fff;
+        font-style: italic;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .layerTwo {
+        padding: 1rem 0 1.3rem;
+        background-color: var(--bs-primary);
+        ul {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            li {
+                padding: 0 calc(35 / 16 * 1rem);
+                a {
+                    font-weight: 500;
+                    color: #fff;
+                    position: relative;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    font-family: "Futura";
+                    display: flex;
+                    i {
+                        width: 2.25rem;
+                        height: 2.25rem;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        margin-top: -1rem;
+                        margin-left: 4px;
+                        color: #fff;
+                        background-color: var(--bs-info);
+                        font-family: "Futura PT";
+                    }
+                }
+                img {
+                    height: 4.25rem;
+                    filter: brightness(100);
+                }
+            }
+        }
+    }
+
+    .layerThree {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1700px) {
+    header {
+        .layerTwo {
+            ul {
+                li {
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        z-index: inherit;
+
+        .layerTwo {
+            display: none;
+        }
+        .layerThree {
+            display: block;
+            padding: 0 10px;
+            .partOne {
+                padding: 1rem 0;
+                img {
+                    height: 40px;
+                }
+                button {
+                    display: flex;
+                    background-image: linear-gradient(to right, #fd084f, #3b46f2);
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 8px;
+                    // margin: 15px;
+                    color: #fff;
+                }
+            }
+            .mobNav {
+                position: fixed;
+                left: -250px;
+                top: 0;
+                height: 100vh;
+                width: 250px;
+                background-color: #292768;
+                z-index: 999992;
+                transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
+                &.active {
+                    left: 0;
+                }
+                .lineOne {
+                    padding: 15px;
+                    background-color: #1f1d5b;
+                    img {
+                        height: 30px;
+                    }
+                    .btn {
+                        color: #fff;
+                    }
+                }
+
+                ul {
+                    li {
+                        padding: 1rem;
+                        border-bottom: 1px solid rgba(#fff, 0.1);
+                        a {
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .mobMenuCloseSkinBackdrop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#000, 0.7);
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        cursor: pointer;
+        transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
+        backdrop-filter: blur(5px);
+        &.active {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

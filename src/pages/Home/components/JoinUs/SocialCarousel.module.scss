@@ -1,0 +1,28 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    top: -37px;
+    left: 130px;
+}
+
+@include media-breakpoint-down(lg) {
+    .container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-card {
+        height: 300px;
+        img {
+            object-fit: cover;
+        }
+    }
+}
