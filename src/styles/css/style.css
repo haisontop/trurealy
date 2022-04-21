@@ -1,0 +1,737 @@
+@font-face {
+    font-family: "Futura PT Medium";
+    src: local("Futura PT Medium"),
+        url(../../assets/Font/FuturaPTMedium.ttf) format("TrueType");
+}
+@font-face {
+    font-family: "Futura PT Bold";
+    src: local("Futura PT Bold"),
+        url(../../assets/Font/FuturaPTBold.ttf) format("TrueType");
+}
+@font-face {
+    font-family: "Futura PT Book";
+    src: local("Futura PT Book"),
+        url(../../assets/Font/FuturaPTBook.ttf) format("TrueType");
+}
+@font-face {
+    font-family: "Futura Oblique";
+    src: local("Futura Oblique"),
+        url(../../assets/Font/FuturaMediumOblique.otf) format("OpenType");
+}
+@font-face {
+    font-family: "FuturaHeavyOblique";
+    src: local("FuturaHeavyOblique"),
+        url(../../assets/Font/FuturaHeavyOblique.otf) format("OpenType");
+}
+@font-face {
+    font-family: "FuturaHeavy";
+    src: local("FuturaHeavy"),
+        url(../../assets/Font/FuturaPTHeavy.ttf) format("TrueType");
+}
+
+.pd-60-85 {
+    padding: 60px 85px;
+}
+
+.inner-title {
+    color: #000000;
+    font-size: 75px;
+    line-height: 80px;
+    font-family: "Futura PT Medium";
+    word-break: break-word;
+}
+p {
+    font-family: "Futura PT Medium";
+    font-size: 25px;
+    line-height: 33px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.sub-title {
+    font-size: 40px;
+    line-height: 51px;
+    color: #ffffff;
+    font-family: "Futura PT Bold";
+    margin-bottom: 22px;
+}
+.whitedesc .sub-title {
+    color: #000;
+    font-family: "Futura PT Medium";
+}
+.whitedesc .sub-title.sub {
+    font-size: 35px;
+}
+.desc-list {
+    padding-left: 100px;
+    font: normal normal 25px/33px Futura PT Medium;
+    color: #000000;
+}
+.desc-list li {
+    margin-bottom: 15px;
+}
+.desc-list li .newtext {
+    margin-top: 15px;
+    display: block;
+}
+.emergin-tech {
+    background: #292670;
+    position: relative;
+}
+.tech .emergin-tech .triangle {
+    background: transparent linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
+    position: absolute;
+    bottom: -42px;
+    right: 0px;
+    left: -1px;
+    height: 31px;
+    transform: rotate(358deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 80%);
+    z-index: 1;
+}
+.tech .emergin-tech .triangle-bottom {
+    background: #292670;
+    position: absolute;
+    bottom: -42px;
+    right: 0px;
+    left: -1px;
+    height: 80px;
+    transform: rotate(358deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 80%);
+}
+.emergin-tech .img-fluid {
+    margin-top: -55%;
+}
+.emergin-tech .sub-title {
+    max-width: 520px;
+}
+.emergin-tech ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.emergin-tech p {
+    color: #ffffff;
+}
+.tech-break.pd-60-85 {
+    padding-top: 150px;
+}
+.tech-break .inner-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #9c2791;
+}
+.tech-break .inner-title .sub-comp {
+    font-size: 25px;
+}
+.tech-break .inner-title .sub-comp span:not(:last-child) {
+    padding-right: 30px;
+}
+.tech-break .detail-sec {
+    margin-top: 60px;
+}
+.tech-break .detail-sec .col-sm-4 {
+    margin: 40px 0;
+}
+.tech-break .detail-sec .title {
+    color: #000000;
+    font-family: "Futura PT Bold";
+    margin-bottom: 0;
+}
+.amazing-sec {
+    background: #292670;
+    position: relative;
+}
+.tech .amazing-sec .triangle {
+    background: transparent linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
+    position: absolute;
+    z-index: 1;
+    top: -42px;
+    right: 0px;
+    left: 0;
+    height: 31px;
+    transform: rotate(358deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 80%);
+}
+.tech .amazing-sec .triangle-bottom {
+    background: #292670;
+    position: absolute;
+    top: -42px;
+    right: 0px;
+    left: -1px;
+    height: 90px;
+    transform: rotate(358deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 0 80%);
+    transform: skew(0deg, -2deg);
+}
+.amazing-sec .inner-title {
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.tech .amazing-sec .column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+.amazing-sec .logo-dis {
+    padding: 27px 14px;
+}
+.amazing-sec .logo-dis .inner {
+    background: #ffffff;
+    padding: 72px 0;
+    border-radius: 40px;
+}
+.program-sec .inner-title {
+    margin-bottom: 40px;
+}
+.program-sec .description {
+    font-size: 35px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 44px;
+}
+.program-sec ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+}
+.program-sec ul li {
+    background: #504ca1;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 35px;
+    line-height: 87px;
+}
+.cta-sec {
+    background: #292670;
+    padding: 60px 175px !important;
+}
+.cta-sec .inner-title {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.cta-sec .link {
+    font-size: 35px;
+    line-height: 45px;
+    color: #ffffff;
+    background: transparent linear-gradient(270deg, #1492d1 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
+    border: 0;
+    border-radius: 0;
+    margin: 10px 35px;
+    padding: 16px 40px;
+    font-family: "Futura Oblique";
+}
+.carousel-sec {
+    background-color: #292670;
+    border-bottom: 28px solid #504ca1;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-sec.pd-60-85 {
+    padding: 60px 85px 100px;
+}
+.semi-circle {
+    background-image: linear-gradient(to right, #4742e7, #f00c59);
+    border-radius: 0 0 50% 50%;
+    height: 100%;
+    min-height: 300px;
+    position: absolute;
+    left: -10%;
+    right: -10%;
+    top: -60%;
+}
+.carousel-sec .inner-title {
+    max-width: 1200px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-sec .desc {
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 45px;
+    max-width: 1150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-sec .row {
+    position: relative;
+}
+.carousel-sec .carousel {
+    padding-bottom: 50px;
+}
+.carousel-sec .carousel-indicators {
+    bottom: -50px;
+}
+.carousel-sec .carousel-indicators button {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-left: 8px;
+    border: 0;
+    background: #ffffff;
+    opacity: 1;
+}
+.carousel-sec .carousel-indicators button.active {
+    background: #9c2791;
+}
+.slide_img {
+    max-width: 899px;
+    margin: 60px auto 90px;
+}
+.carousel-sec p {
+    font-size: 35px;
+    line-height: 45px;
+    font-family: "Futura PT Medium";
+    padding-left: 80px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+}
+.carousel-sec .quote:before {
+    position: absolute;
+    content: url("../../assets/image/quote2.png");
+    left: 40px;
+    top: -25px;
+}
+.carousel-sec .carousel-control-next,
+.carousel-sec .carousel-control-prev {
+    top: auto;
+    bottom: -40px;
+    width: 85%;
+    opacity: 1;
+    z-index: 99;
+}
+.carousel-sec .carousel-control-prev-icon {
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-right: 37px solid white;
+}
+.carousel-sec .carousel-control-next-icon {
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 37px solid white;
+}
+.training-platform .inner-title {
+    margin-bottom: 60px;
+}
+.training-platform p {
+    font-size: 35px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.learn-sec {
+    padding: 50px 0;
+}
+.learn-sec .inner-title {
+    padding-left: 80px;
+}
+.learn-sec p {
+    font-size: 35px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 585px;
+    padding-left: 80px;
+}
+.learn-sec .link {
+    background-color: #9c2791;
+    width: 100%;
+    border: 0;
+    font-family: "Futura PT Bold";
+    font-size: 40px;
+    line-height: 51px;
+    padding: 35px 10px;
+    border-radius: 0;
+}
+.theme.link {
+    background: #9c2791;
+    border-radius: 14px;
+    text-transform: uppercase;
+    font: normal normal 25px/55px Futura PT Medium;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding: 0px 48px;
+    border: 0;
+}
+.consumer-bg-type-two {
+    background-image: linear-gradient(
+            270deg,
+            rgba(41, 38, 112, 0.5) 0%,
+            rgba(253, 8, 79, 0.5) 100%
+        ),
+        url("../../assets/image/detail1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    position: relative;
+}
+.consumer-bg-type-two:before {
+    content: "";
+    background: transparent linear-gradient(90deg, #3b46f2 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 31px;
+}
+.consumer-bg-type-two .inner-title {
+    color: #ffffff;
+    font: normal normal 100px/128px Futura PT Medium;
+}
+.consumer-bg-type-two p {
+    color: #ffffff;
+}
+.stipe-img {
+    position: relative;
+}
+.realestate .consumer-texture .stipe-img:before {
+    background: transparent linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
+    top: -25px;
+    left: -25px;
+    right: 25px;
+    bottom: 25px;
+    z-index: -1;
+    border-radius: 25px;
+    content: "";
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    position: absolute;
+}
+.consumer-texture .stipe-img img {
+    border-radius: 25px;
+}
+.pl-90 {
+    padding-left: 90px;
+}
+.consumer-texture .title {
+    font: normal normal 40px/51px Futura PT Bold;
+    color: #292670;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.consumer-texture ul {
+    margin: 0;
+    padding-left: 25px;
+}
+.consumer-texture ul li {
+    font: normal normal 25px/33px Futura PT Medium;
+    color: #292670;
+    margin: 25px 0;
+}
+.consumer-bg-type-two.inner {
+    padding: 40px;
+    text-align: left;
+    border-radius: 25px;
+}
+.consumer-bg-type-two.inner:before {
+    display: none;
+}
+.tru-investment {
+    padding: 105px 0 50px;
+}
+.tru-investment .left-sec {
+    padding: 0 73px 0 90px;
+}
+.tru-investment .clients {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+.tru-investment .clients img {
+    border-radius: 50%;
+}
+.tru-investment .clients p {
+    padding-left: 20px;
+    margin: 0;
+}
+.tru-investment .clients .name {
+    font-family: Futura PT Bold;
+    display: block;
+}
+.consumer-bg-type-two.inner {
+    padding: 40px;
+    text-align: left;
+    border-radius: 25px;
+}
+.consumer-bg-type-two.inner h4 {
+    font: normal normal 45px/60px Futura PT Bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.consumer-bg-type-two.inner .inner-title {
+    font: normal normal 75px/97px Futura PT Bold;
+}
+.podcast-section {
+    position: relative;
+    overflow: hidden;
+}
+.pd-85-170 {
+    padding: 85px 170px;
+}
+.podcast-section .semi-circle {
+    width: 322px;
+    height: 259px;
+    background: transparent linear-gradient(270deg, #fd084f 24%, #3b46f2 80%) 0%
+        0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    border-radius: 0 0 50% 50%;
+    transform: matrix(2, 1.6, -1, 1, -1, -85);
+    z-index: -1;
+}
+.podcast-section .semi-circle-bottom {
+    background: transparent linear-gradient(270deg, #fd084f 38%, #3b46f2 79%) 0%
+        0% no-repeat padding-box;
+    border-radius: 50% 50% 50% 50%;
+    width: 452px;
+    height: 350px;
+    position: absolute;
+    left: -11%;
+    bottom: -20%;
+    transform: matrix(2, 2, -2, 2, 0, 69);
+    z-index: -1;
+}
+.podcast-section .inner-title {
+    font-size: 100px;
+    line-height: 100px;
+}
+.podcast-section .sub-title {
+    font: normal normal 75px/87px Futura PT Medium;
+    color: #000;
+}
+.podcast-section hr {
+    margin: 0;
+    border-top: 3px solid #000000;
+    opacity: 1;
+}
+.podcast-listen h1 {
+    padding: 70px;
+    border: 2px solid #707070;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.podcast-listen p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+}
+.podcast-carousel .carousel-indicators {
+    display: none;
+}
+.podcast-carousel .carousel-control-next,
+.podcast-carousel .carousel-control-prev {
+    width: 3%;
+}
+.podcast-carousel .carousel-control-prev {
+    left: -50px;
+    opacity: 1;
+}
+.podcast-carousel .pod-item {
+    position: relative;
+    margin: 20px 0;
+}
+.podcast-carousel .pod-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(41, 39, 96, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease;
+    border-radius: 25px;
+}
+.podcast-carousel .pod-item p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #e9e9e9;
+}
+.podcast-carousel .pod-item h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #e9e9e9;
+    text-transform: uppercase;
+    text-align: right;
+    bottom: 20px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+}
+.podcast-carousel .carousel-control-prev-icon {
+    background-image: url("../../assets/image/left-arrow.png");
+}
+.podcast-carousel .carousel-control-next-icon {
+    background-image: url("../../assets/image/right-arrow.png");
+}
+.podcast-carousel .carousel-control-next-icon,
+.podcast-carousel .carousel-control-prev-icon {
+    width: 24px;
+    height: 123px;
+}
+.podcast-carousel .carousel-control-next {
+    right: -50px;
+    opacity: 1;
+}
+.podcast-carousel .pod-item:hover .overlay {
+    height: 100%;
+    padding: 27px 25px;
+}
+.press-section {
+    padding: 45px 86px;
+}
+.p-60-130 {
+    padding: 60px 130px 30px;
+}
+.social-title h3 {
+    font: normal normal 35px/80px Futura PT Medium;
+    color: #000000;
+    margin: 0;
+}
+.social-list .blue-bg {
+    background-color: #292670;
+    box-shadow: 0px 7px 6px #0000004d;
+    border-radius: 25px;
+    padding: 30px;
+}
+.social-list .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 330px;
+    padding: 15px;
+}
+.social-list .b-r-b {
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.social-list .b-r-b {
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.social-list .b-b {
+    border-bottom: 1px solid #ffffff;
+}
+.social-list .b-r {
+    border-right: 1px solid #ffffff;
+}
+.social-list .b-r {
+    border-right: 1px solid #ffffff;
+}
+.social-list .item p {
+    color: #ffffff;
+    font: normal normal 25px/33px;
+    max-width: 285px;
+}
+.social-list .item .readmore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-list .item .readmore h3 {
+    color: #ffffff;
+    font: normal normal 25px/33px;
+    text-transform: uppercase;
+    margin: 0;
+    cursor: pointer;
+}
+.social-list .item .readmore svg {
+    height: 32px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 32px;
+    padding: 3px;
+}
+.social-list .detail .img {
+    padding-right: 40px;
+}
+.social-list .detail .w-100 {
+    border-radius: 25px;
+}
+.social-list .detail .item {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 0;
+    padding-right: 130px;
+}
+.social-list .detail .item:after {
+    content: "";
+    width: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 90px;
+    top: 0;
+    bottom: 0;
+}
+.social-feeds .alice-carousel__dots {
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+.social-feeds .fw-normal {
+    font: normal normal 35px/80px Futura PT Medium;
+    color: #000000;
+    margin: 0;
+}
+.buysec {
+    position: relative;
+}
+.buysec p {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font: normal normal 75px/87px Futura PT Medium;
+    color: #ffffff;
+    margin: 0;
+}
+.leadership .podcast-section .inner-title, .leadership .inner-title {
+    font-size: 75px;
+    line-height: 80px;
+    font-family: "Futura PT Bold";
+}
+.bg-grad {
+    background: transparent linear-gradient(270deg, #3B46F2 0%, #FD084F 100%) 0% 0% no-repeat padding-box;
+border-radius: 0px 0px 25px 0px;
+opacity: 1;
+max-width: 1080px;
+padding: 30px 50px;
+}
+.bg-grad.inner-title {
+    font-family: "Futura PT Bold";
+}
+.leadership .inner-title span {
+    display: flex;
+    font: normal normal 25px/30px Futura PT Bold;
+}
