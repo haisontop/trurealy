@@ -1,0 +1,39 @@
+.trastory-box {
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    border-radius: 15px 0px 0px 15px;
+    width: 55%;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+.trastory-child {
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-bottom: -120px;
+    h1{
+        font-size: 75px;
+    }
+    p{
+       width: 70%;
+       font-size: 25px;
+    }
+}
+.trastory{
+    h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 25px;
+        width: 80%;
+        font-weight: 300;
+    }
+    button{
+        border-radius: 10px;
+    }
+}

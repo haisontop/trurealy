@@ -8,8 +8,8 @@ export const JoinUs = () => {
     <div className={`d-flex flex-column w-100 ${styles["join-us-container"]}`}>
       <div className={`${styles["join-us-top-header"]}`}>
         <div className={`${styles["join-us-top-header-content"]} bg-primary`}>
-          <div className="text-white fs-2">
-            Be a part of the greatest real estate story ever told. Yours.
+          <div className="text-white">
+           <h1 className="fw-bold">Be a part of the greatest real estate story ever told. Yours.</h1>
           </div>
           <div className="text-white fs-5 mt-2 mt-xxl-5">
             Join us as we reimagine real estate through training, transparency,
@@ -45,7 +45,7 @@ export const JoinUs = () => {
           className={`${styles["join-us-bottom-header-content"]} bg-primary`}
         >
           <div className="text-white fs-2">
-            SMARTER AGENTS. UNPARALLELED EXPERIENCES.
+           <h1 className="fw-bold">SMARTER AGENTS. UNPARALLELED EXPERIENCES.</h1>
           </div>
           <div className="text-white fs-5 mt-5">
             Transformational Technology, Training And Transparency That Creates

@@ -15,7 +15,7 @@ export const SMATER_DATA = [
             name : "FIND AN AGENTS",
             href : "/"
         },
-        img:"/assets/d.png"
+        img:"/assets/11.png"
      },
      {
         action : "RENT",
@@ -24,6 +24,6 @@ export const SMATER_DATA = [
             name : "SEE OUR LISTINGS",
             href : "/"
         },
-        img:"/assets/smarter-3.png"
+        img:"/assets/12.png"
      }
 ]

@@ -1,6 +1,6 @@
 import React from "react";
 import ConsumerBanner from "./components/ConsumerBanner";
-import SmarterAgent from "./components/SmarterAgent";
+import SmarterAgent from "./components/SmarterAgent/SmarterAgent";
 import Trastory from "./components/Trastory/Trastory";
 import ParfectAgent from "./components/ParfectAgent";
 import ConsumerBottom from "./components/ConsumerBottom";
