@@ -2,7 +2,7 @@ import React from "react";
 import ConsumerBanner from "./components/ConsumerBanner";
 import SmarterAgent from "./components/SmarterAgent/SmarterAgent";
 import Trastory from "./components/Trastory/Trastory";
-import ParfectAgent from "./components/ParfectAgent";
+import ParfectAgent from "./components/PerfectAgent/ParfectAgent";
 import ConsumerBottom from "./components/ConsumerBottom";
 import { Container } from "react-bootstrap";
 import Layout from "../../layouts/Layout";

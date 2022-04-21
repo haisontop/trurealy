@@ -1,9 +1,10 @@
 import React from "react";
+import style from './ParfectAgent.module.scss';
 
 const ParfectAgent = () => {
   return (
-    <div className="row g-5 container mx-auto my-5 py-5">
-      <div className="col-6">
+    <div className={`row g-5 container mx-auto my-5 py-5 ${style["perfect-agent"]}`}>
+      <div className="col-md-6">
         <div>
           <div>
             <img
@@ -15,27 +16,27 @@ const ParfectAgent = () => {
           </div>
         </div>
       </div>
-      <div className="col-6 text-primary">
+      <div className="col-md-6 text-primary">
         <h2 className="fw-bold mb-5">
           We love our agents & <br /> they love YOU back.
         </h2>
-        <h2 className="fw-bolder fs-4">
+        <h3 className="fw-bolder">
           WHAT MAKES A TRU AGENT THE PERFECT AGENT FOR YOU?
-        </h2>
+        </h3>
         <ul className="text-primary fs-6 mt-5 fw-bold">
-          <li className="mt-3">
+          <li className="mt-4">
             They are provided with innovated <br /> technology to give you the
             best.
           </li>
-          <li className="mt-3">They love what they do, it’s their passion.</li>
-          <li className="mt-3">
+          <li className="mt-4">They love what they do, it’s their passion.</li>
+          <li className="mt-4">
             They value collaboration over <br /> competition.
           </li>
-          <li className="mt-3">
+          <li className="mt-4">
             They provide excellent transaprecny <br /> throughout your
             experience.
           </li>
-          <li className="mt-3">
+          <li className="mt-4">
             They are generous with their time, talents, <br /> and knowledge.
           </li>
         </ul>

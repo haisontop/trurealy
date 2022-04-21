@@ -8,13 +8,13 @@ const SmarterAgent = () => {
         <>
             <div className={`container px-0 ${style["smarter-container"]} mx-auto`}>
                 <div className={`${style["smarter-agent"]}`}>
-                <div className={`bg-primary smarter-box text-white px-5 py-4`}>
+                <div className={`bg-primary ${style["smarter-box"]} text-white px-5 py-4`}>
                         <div>
                             <h3 className="fw-bolder" >
                                 YOUR WAY HOME
                             </h3>
                         </div>
-                        <div className="mt-4 fw-medium fw-normal">
+                        <div className="mt-4">
                             <p>
                                 TRU Realty is a technology driven real estate
                                 brokerage that is passionate about educating its

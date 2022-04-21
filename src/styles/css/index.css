@@ -42,7 +42,7 @@ aside {
 
 .banner-cols {
     bottom: 0%;
-    background: rgba(13, 19, 61, 0.38);
+    background: rgba(13, 19, 61, 0.70);
     height: 50%;
     transition: all 0.5s;
 }
@@ -65,10 +65,7 @@ aside {
 }
 
 /* smarter container style */
-.smarter-box {
-    border-radius: 25px 0px 0px 25px;
-    margin-bottom: -30px;
-}
+
 .Agent-row {
     padding-top: 314px;
 }
