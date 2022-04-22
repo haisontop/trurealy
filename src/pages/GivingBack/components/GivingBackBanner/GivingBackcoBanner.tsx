@@ -1,0 +1,26 @@
+import React from 'react'
+import { GradientDivider } from '../../../../components/GradientDivider';
+import style from "./GivingBackBanner.module.scss";
+
+function GivingBackcoBanner() {
+  return (
+    <>
+    <div className={`position-relative ${style["givingBackBanner"]}`}>
+          <img src="/assets/bg/giving-bg.png" className='img-fluid' width="100%" alt="" />
+          <div className={`d-flex text-white position-absolute top-0 left-0 ${style["giving-banner-1"]} px-5 py-3`}>
+              <h1 className='my-auto fw-bold me-1' >#TRUCARES</h1>
+              <div>
+                <img src="/assets/Group 313.png" className='mt-4 ms-1' width="89px" alt="" />
+              </div>
+          </div>
+          <div className={`text-white position-absolute bottom-0 end-0 ${style["giving-banner-2"]} px-5 py-3`}>
+              <h2 className='my-auto fw-bold'>TRU AGENTS ARE MAKING A DIFFERENCE</h2>
+               <p className='mt-3'>Our culture is defined by our values. At the core of those values is generosity. We believe in developing relationships with organizations and causes that positively impact their communities. Giving back is what we do, it’s who we are as an organization. </p>
+          </div>
+    </div>
+    <GradientDivider />
+    </>
+  )
+}
+
+export default GivingBackcoBanner

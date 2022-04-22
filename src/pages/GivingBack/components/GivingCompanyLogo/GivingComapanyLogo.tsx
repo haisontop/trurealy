@@ -1,10 +1,11 @@
 import React from 'react'
+import style from "./GivingCompany.module.scss";
 
 function GivingComapanyLogo() {
   return (
-    <div className='container mx-auto my-5 pt-5'>
-         <p className='fs-4 text-center'>A few of the amazing organizations we have helped.</p>
-         <div className='d-flex justify-content-around mt-4'>
+    <div className={`container mx-auto my-5 pt-5 ${style["giving-company"]}`}>
+         <p className='text-center text-primary fw-bold'>AMAZING ORGANIZATIONS WE’VE HELPED</p>
+         <div className='d-flex justify-content-around mt-5'>
            <div>
              <img src="/assets/logo/FMSC-White-RGB.png" className='my-auto' alt="" />
            </div>
