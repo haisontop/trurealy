@@ -1,15 +1,19 @@
 import React from 'react'
-import BuyBody from './components/Buybody/BuyBody'
-import BuyBottom from './components/BuyBottom/BuyBottom'
 import Layout from '../../layouts/Layout'
+import BuyBody from './components/Buybody/BuyBody'
+import BuyBanner from './components/BuyBanner/BuyBanner'
+import BuyMiddle from './components/BuyMiddle/BuyMiddle'
+import BuyBottom from './components/BuyBottom/BuyBottom'
 
 export default function Buy() {
   return (
     <div>
       <Layout>
           <div className='container mx-auto px-0'>
-               <BuyBody />
-               <BuyBottom />
+              <BuyBanner />
+              <BuyMiddle />
+              <BuyBody />
+              <BuyBottom />
           </div>
       </Layout>
     </div>
