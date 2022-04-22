@@ -1,0 +1,17 @@
+.sell-bottom{
+    background: linear-gradient(135deg, rgba(4,0,93,0.6334908963585435) 0%, rgba(4,0,93,0.6643032212885154) 100%), url("../../../../../public/assets/sell-buy-rent-a-home-with-tru.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 160px;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    h1{
+        font-size: 75px;
+        text-align: center;
+        color: #fff;
+    }
+    button{
+        border-radius: 10px;
+    }
+}
