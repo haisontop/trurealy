@@ -51,6 +51,6 @@ export const TOOLS_DATA = [
             name : "SEE OUR LISTINGS",
             href : "/"
         },
-        img:"/assets/smarter-3.png"
+        img:"/assets/dfb38e273c1fda25a4783ecab384de6f.png"
      },
 ]

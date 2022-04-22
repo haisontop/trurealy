@@ -1,22 +1,15 @@
 import React from "react";
 import { ITS_DATA } from "../../../constants";
 import ItpCard from "./ItpCard";
+import style from "./Itp.module.scss"
 
 function ItpPages() {
     return (
-        <div>
-            <div className="my-5">
-                <h1
-                    className="fw-normal"
-                    style={{
-                        fontSize: "50px",
-                        borderBottom: "2px solid black",
-                    }}
-                >
-                    IN THE PRESS
-                </h1>
+        <div className={`${style["itp-pages"]}`}>
+            <div className="">
+                   <h1 className="text-white px-5 py-3">IN THE</h1>
             </div>
-            <div>
+            <div className={`${style["itp-list"]}`}>
                 {ITS_DATA.map((its) => (
                     <ItpCard
                         key={its.img}
@@ -27,6 +20,7 @@ function ItpPages() {
                     />
                 ))}
             </div>
+            <div className={`bg-primary position-absolute ${style["side-style"]}`} />
         </div>
     );
 }
