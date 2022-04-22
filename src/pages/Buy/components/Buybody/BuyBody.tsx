@@ -7,7 +7,7 @@ export default function BuyBody() {
       <div className={`mx-auto ${style['buy-body']}`} >
           <h3 className='text-primary text-center'>FIND YOUR DREAM HOME WITH TRU</h3>
            <div className='mt-5 text-center'>
-               <img src="/assets/US map.png" className="img-fluid mx-5" alt="" />
+               <img src="/assets/images/US map.png" className="img-fluid mx-5" alt="" />
            </div>
            <div className='text-center mt-5 pt-5'>
              <form className='mx-auto'>

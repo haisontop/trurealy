@@ -12,7 +12,7 @@ export default function BuyMiddle() {
        </div>
        <div className={`row pt-5`}>
          <div className={`col-md-6`}>
-          <img src="/assets/Group 312.png" className='img-fluid' width="100%" alt="" />
+          <img src="/assets/images/Group 312.png" className='img-fluid' width="100%" alt="" />
          </div>
          <div className={`col-md-6 d-flex aling-items-center`}>
              <div className='my-auto'>
