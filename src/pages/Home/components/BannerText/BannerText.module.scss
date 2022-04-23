@@ -10,3 +10,22 @@
         font-size: 25px;
     }
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 688px){
+    .banner-text{
+        hr{
+            width: 35%;
+            height: 3px;
+        }
+        h2{
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}
+/* ========== for tablet device =============== */
+@media only screen and (min-width:688px) and (max-width:992px){
+
+}

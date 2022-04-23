@@ -29,7 +29,7 @@ export const AgentOurCulture = () => {
                             alt=""
                         />
                         <button
-                            className="bg-pink px-5 w-100 text-white fs-6 fw-bold le py-2 border-0 mt-3"
+                            className="bg-pink px-5 w-100 text-white fs-4 fw-bold le py-2 border-0 mt-3"
                             style={{ borderRadius: "10px" }}
                         >
                             MATCH ME WITH AN AGENT
