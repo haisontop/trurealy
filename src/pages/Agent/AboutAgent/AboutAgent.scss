@@ -1,0 +1,566 @@
+.AboutAgentPage {
+    padding: 58px 0;
+    background-color: var(--bs-dark-primary);
+    .sectionOne {
+        figure {
+            margin: 0 0 40px;
+            display: block;
+            img {
+                display: block;
+            }
+        }
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            color: #fff;
+            font-size: calc(75 / 16 * 1rem);
+            @media (max-width: 1199px) {
+                font-size: 3.5rem;
+            }
+            @media (max-width: 767px) {
+                font-size: 2.5rem;
+            }
+            @media (max-width: 575px) {
+                font-size: 1.5rem;
+            }
+        }
+        .gline {
+            height: 1.8rem;
+            width: 100%;
+            transform: rotate(-2deg);
+            background-image: linear-gradient(to left, #3b46f2, #fd084f);
+        }
+    }
+
+    .sectionTwo {
+        color: #fff;
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(100 / 16 * 1rem);
+            @media (max-width: 1300px) {
+                font-size: 4rem;
+            }
+            @media (max-width: 575px) {
+                font-size: 2.5rem;
+            }
+        }
+        h2 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(45 / 16 * 1rem);
+            @media (max-width: 575px) {
+                font-size: 1.5rem;
+            }
+        }
+        p {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(25 / 16 * 1rem);
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    .sectionThree {
+        color: #fff;
+        .heading {
+            position: relative;
+            text-align: center;
+            i {
+                display: block;
+                height: 5px;
+                background-color: #fff;
+            }
+            span {
+                font-family: "Futura PT";
+                font-weight: 600;
+                font-size: calc(35 / 16 * 1rem);
+                text-transform: uppercase;
+                background-color: var(--bs-dark-primary);
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                @media (max-width: 575px) {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        @media (max-width: 575px) {
+            ul {
+                li {
+                    text-align: center;
+
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionFour {
+        .gradient {
+            background-image: linear-gradient(to left, #3b46f2, #fd084f);
+            border-radius: 25px;
+            color: #fff;
+            img {
+                margin-left: -2.5rem;
+            }
+
+            h3 {
+                font-family: "Futura";
+                font-weight: 700;
+                font-size: calc(40 / 16 * 1rem);
+                text-transform: uppercase;
+                @media (max-width: 575px) {
+                    font-size: 1.8rem;
+                }
+            }
+            p {
+                font-family: "Futura";
+                font-weight: 500;
+                font-size: calc(25 / 16 * 1rem);
+                @media (max-width: 575px) {
+                    font-size: 1.2rem;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .sectionFive {
+        .whiteBox {
+            border-radius: 0 25px 25px 0 !important;
+        }
+
+        .cont {
+            h3 {
+                font-family: "Futura PT";
+                font-weight: 700;
+                font-size: calc(40 / 16 * 1rem);
+                color: var(--bs-primary);
+                @media (max-width: 575px) {
+                    font-size: 1.8rem;
+                }
+            }
+            p {
+                font-family: "Futura PT";
+                font-weight: 600;
+                font-size: calc(25 / 16 * 1rem);
+                color: var(--bs-primary);
+                @media (max-width: 575px) {
+                    font-size: 1.2rem;
+                    text-align: justify;
+                }
+            }
+            .btn {
+                font-family: "Futura PT";
+                font-weight: 600;
+                font-size: calc(25 / 16 * 1rem);
+                background-color: var(--bs-pink);
+                border-radius: 14px;
+                color: #fff;
+                padding: 0.6rem 2rem;
+                &:hover {
+                    background-color: var(--bs-dark-primary);
+                }
+                @media (max-width: 575px) {
+                    font-size: 1.2rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .sectionSix {
+        .secTopPart {
+            h1 {
+                font-family: "Futura PT";
+                font-weight: 700;
+                color: #fff;
+                font-size: calc(75 / 16 * 1rem);
+                text-transform: uppercase;
+                @media (max-width: 1300px) {
+                    font-size: 4rem;
+                }
+                @media (max-width: 1199px) {
+                    font-size: 3rem;
+                }
+                @media (max-width: 575px) {
+                    font-size: 2.2rem;
+                }
+            }
+            ul {
+                li {
+                    * {
+                        display: block;
+                        text-align: center;
+                    }
+                    &:nth-child(1) {
+                        b {
+                            color: #1592d1;
+                        }
+                    }
+                    &:nth-child(2) {
+                        b {
+                            color: #93488b;
+                        }
+                    }
+                    &:nth-child(3) {
+                        b {
+                            color: #fc084f;
+                        }
+                    }
+                    b {
+                        font-family: "Futura PT";
+                        font-weight: 700;
+                        font-size: calc(75 / 16 * 1rem);
+                        font-style: italic;
+                        @media (max-width: 991px) {
+                            font-size: 3rem;
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 2rem;
+                        }
+                    }
+                    small {
+                        color: #9796c6;
+                        font-family: "Futura PT";
+                        font-weight: 600;
+                        font-size: calc(25 / 16 * 1rem);
+                        @media (max-width: 575px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .line {
+            background-image: linear-gradient(to right, #3b46f2, #fd084f);
+            height: 12px;
+        }
+
+        .customData {
+            figure {
+                display: block;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-image: linear-gradient(to left, #3b46f2, #fd084f);
+                    transform: translate(24px, -31px);
+                    border-radius: 25px;
+                    z-index: 1;
+                }
+                img {
+                    position: relative;
+                    z-index: 2;
+                }
+            }
+
+            .cont {
+                display: block;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: calc(100% + 24px);
+                    height: 100%;
+                    background-image: linear-gradient(to right, #3b46f2, #fd084f);
+                    transform: translate(-24px, -31px);
+                    border-radius: 25px 0 0 25px;
+                    z-index: 1;
+                }
+                .inner {
+                    position: relative;
+                    z-index: 2;
+                    background-color: #fff;
+                    border-radius: 25px 0 0 25px;
+
+                    h1 {
+                        font-family: "Futura PT";
+                        font-weight: 700;
+                        font-size: calc(75 / 16 * 1rem);
+                        color: var(--bs-primary);
+                        @media (max-width: 1300px) {
+                            font-size: 4rem;
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 2.2rem;
+                        }
+                    }
+                    h3 {
+                        font-family: "Futura PT";
+                        font-weight: 500;
+                        font-size: calc(75 / 16 * 1rem);
+                        color: var(--bs-primary);
+                        @media (max-width: 1300px) {
+                            font-size: 4rem;
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 2.2rem;
+                        }
+                    }
+                    h4 {
+                        font-family: "Futura PT";
+                        font-weight: 600;
+                        font-size: calc(45 / 16 * 1rem);
+                        color: var(--bs-primary);
+                        @media (max-width: 1300px) {
+                            font-size: 2.4rem;
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 1.4rem;
+                        }
+                    }
+                    p {
+                        font-family: "Futura PT";
+                        font-weight: 600;
+                        font-size: calc(25 / 16 * 1rem);
+                        color: var(--bs-primary);
+                        @media (max-width: 575px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionSeven {
+        color: #fff;
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(75 / 16 * 1rem);
+            @media (max-width: 575px) {
+                font-size: 2.2rem;
+            }
+        }
+        p {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(25 / 16 * 1rem);
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .sectionEight {
+        .dataBox {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #fff;
+                transform: translate(-34px, -31px);
+                border-radius: 0 25px 25px 0;
+                z-index: 1;
+            }
+            .inner {
+                background-image: linear-gradient(to right, #3b46f2, #fd084f);
+                position: relative;
+                z-index: 2;
+                border-radius: 0 25px 25px 0;
+            }
+            ul {
+                li {
+                    @media (max-width: 1199px) {
+                        margin-bottom: 1rem;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+            .dataCard {
+                text-align: center;
+                background-color: #fff;
+                border-radius: 25px;
+                padding: 3rem 1rem;
+                height: 100%;
+                .ico {
+                    margin-bottom: 30px;
+                    img {
+                        max-width: 100%;
+                        width: 7rem;
+                    }
+                }
+                h6 {
+                    font-family: "Futura PT";
+                    font-weight: 700;
+                    font-size: calc(25 / 16 * 1rem);
+                    color: var(--bs-primary);
+                }
+            }
+        }
+    }
+
+    .sectionNine {
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(35 / 16 * 1rem);
+            color: #fff;
+            text-transform: uppercase;
+            @media (max-width: 575px) {
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+        p {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(25 / 16 * 1rem);
+            color: var(--bs-primary);
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+        }
+        .cont {
+            display: block;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: calc(100% + 24px);
+                height: 100%;
+                background-image: linear-gradient(to right, #3b46f2, #fd084f);
+                transform: translate(-24px, -31px);
+                border-radius: 25px 0 0 25px;
+                z-index: 1;
+            }
+            .inner {
+                position: relative;
+                z-index: 2;
+                background-color: #fff;
+                border-radius: 25px 0 0 25px;
+                padding: 2rem 4.5rem;
+                @media (max-width: 575px) {
+                    padding: 2rem 2rem;
+                }
+            }
+        }
+    }
+
+    .sectionTen {
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(75 / 16 * 1rem);
+            color: #fff;
+            text-transform: uppercase;
+            @media (max-width: 1600px) {
+                font-size: 4rem;
+            }
+            @media (max-width: 1300px) {
+                font-size: 3rem;
+            }
+            @media (max-width: 1199px) {
+                font-size: 2rem;
+            }
+            @media (max-width: 575px) {
+                text-align: center;
+            }
+        }
+        p {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(35 / 16 * 1rem);
+            color: #fff;
+            @media (max-width: 1199px) {
+                font-size: 1.75rem;
+            }
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        a {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(25 / 16 * 1rem);
+            background-color: var(--bs-pink);
+            border-radius: 14px;
+            color: #fff;
+            padding: 0.6rem 2rem;
+            display: block;
+            text-align: center;
+            &:hover {
+                background-color: var(--bs-primary);
+            }
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .sectionEleven {
+        overflow: hidden;
+        position: relative;
+        color: #fff;
+        img {
+            width: calc(100% + 6rem);
+            margin-left: -3rem;
+            max-width: inherit !important;
+            @media (max-width: 1300px) {
+                width: calc(100% + 8rem);
+                margin-left: -4rem;
+            }
+        }
+        .cont {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: "Futura PT";
+            font-weight: 700;
+            font-size: calc(75 / 16 * 1rem);
+            color: #fff;
+            text-transform: uppercase;
+            @media (max-width: 1600px) {
+                font-size: 4rem;
+            }
+            @media (max-width: 1300px) {
+                font-size: 3.5rem;
+            }
+            @media (max-width: 1199px) {
+                font-size: 2rem;
+            }
+            @media (max-width: 575px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        a {
+            font-family: "Futura PT";
+            font-weight: 600;
+            font-size: calc(25 / 16 * 1rem);
+            background-color: var(--bs-pink);
+            border-radius: 14px;
+            color: #fff;
+            padding: 0.6rem 2rem;
+            text-align: center;
+            &:hover {
+                background-color: var(--bs-primary);
+            }
+            @media (max-width: 575px) {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

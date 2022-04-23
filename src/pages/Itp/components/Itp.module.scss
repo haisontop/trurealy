@@ -1,0 +1,52 @@
+.itp-pages {
+    position: relative;
+    h1 {
+        background: linear-gradient(270deg, #4144ed 0%, #fd084f 100%) 0% 0%
+            no-repeat padding-box;
+        font-size: 75px;
+        width: 40%;
+        position: absolute;
+        left: -15px;
+        top: -10px;
+        border-bottom-right-radius: 25px;
+    }
+}
+.itp-list {
+    padding-top: 144px;
+}
+.col-image {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.side-style {
+    width: 23%;
+    height: 100%;
+    top: 10%;
+    z-index: -100;
+    left: -30px;
+}
+.col-img-anim {
+    background: linear-gradient(
+        135deg,
+        rgba(65, 68, 237, 0.41780462184873945) 0%,
+        rgba(65, 68, 237, 0.4150035014005602) 100%
+    );
+    backdrop-filter: blur(10px);
+    width: 91%;
+    height: 100%;
+    top: 0%;
+    border-radius: 20px;
+    cursor: pointer;
+    p {
+        font-size: 60px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 80px;
+        margin-top: 140px;
+    }
+}
+.itp-card {
+    border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+.footerElement {
+    .darkMode {
+        display: none;
+    }
+    .lightMode {
+        display: block;
+    }
+}
+
+body {
+    &.darkMode {
+        .footerElement {
+            background-color: var(--bs-dark-primary) !important;
+            color: #fff !important;
+
+            .lightMode {
+                display: none;
+            }
+            .darkMode {
+                display: block;
+            }
+
+            ul {
+                .footer-list {
+                    color: #fff;
+                }
+            }
+
+            .footerSocial {
+                a {
+                    color: #fff;
+                    span {
+                        border-color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+}

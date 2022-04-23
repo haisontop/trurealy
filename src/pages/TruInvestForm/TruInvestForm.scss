@@ -1,0 +1,31 @@
+.investForm {
+    .info {
+        font-family: "Futura PT";
+        color: #0f0e4d;
+    }
+    .gradBox {
+        width: 95%;
+        background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
+            no-repeat padding-box;
+        position: relative;
+        border-radius: 20px;
+    }
+    .innerGradBox {
+        position: relative;
+        top: 15px;
+        right: 15px;
+        background-color: #262670;
+        color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .inputBoxes {
+        input,
+        textarea {
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid #a9a9f8;
+            border-radius: 5px;
+        }
+    }
+}

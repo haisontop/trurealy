@@ -1,0 +1,6 @@
+.banner-full-height {
+    height: calc(100vh - 83px - 48px);
+    @media (max-width: 767px) {
+        height: auto;
+    }
+}

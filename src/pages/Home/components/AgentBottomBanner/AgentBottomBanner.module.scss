@@ -1,0 +1,26 @@
+.banner-full-height {
+    height: 753px;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    z-index: 2;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 35px;
+        line-height: 47px;
+        font-weight: 100;
+    }
+}
+
+.banner-left:hover {
+    background: linear-gradient(
+        135deg,
+        rgba(112, 38, 64, 0.6446953781512605) 0%,
+        rgba(112, 38, 112, 0) 100%
+    );
+}

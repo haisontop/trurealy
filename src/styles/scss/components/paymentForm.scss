@@ -1,0 +1,298 @@
+.agentbody {
+    max-width: 100% !important;
+    background-color: #292670;
+    .agentsidebarsection{
+        @media(max-width:767px){
+            display: none;
+        }
+        .agentSidebar{
+            width: 100%;
+            height: 100%;
+            background:#232064;
+            box-shadow: -16px 20px 13px 12px #0f0e4d;
+            .sidebarsection{
+                position:absolute;
+                bottom:0px;
+                .sidebar_chat{
+                    background-image: linear-gradient(to left, #3b46f2, #fa084f);
+                    padding: 10px;
+                    display: flex;
+                    float: right;
+                    color: #fff;
+                    border-radius: 11px;
+                    margin: 0px 60px;
+                    margin-bottom: 30px;
+                    @media(max-width:1700px){
+                        margin: 0px 22px 30px;
+                    }
+                    @media(max-width:991px){
+                        margin: 0px 5px 30px;
+                    }
+                    p{
+                        margin-left: 20px;
+                        @media(max-width:1200px){
+                            margin-left: 15px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .agentsidehalp{
+                    display: flex;
+                    padding: 20px 60px 20px 60px;
+                    border-top: 1px solid #575698;
+                    border-bottom: 1px solid #575698;
+                    @media(max-width:1700px){
+                        padding: 20px 40px;
+                    }
+                    @media(max-width:1200px){
+                        padding: 20px 10px;
+                        font-size: 12px;
+                    }
+                    @media(max-width:991px){
+                        padding: 20px 5px;
+                    }
+                    .helptitle{
+                        width: 70%;
+                        @media(max-width:991px){
+                            width: 85%;
+                        }
+                        p{
+                            color: #575698;
+                            margin: 0px;
+                            border-bottom:1px solid #575698;
+                            text-align:end;
+                            @media(max-width:1200px){
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .agentleftsection {
+        padding: 60px 100px 60px;
+
+        @media(max-width:1399px) {
+            padding: 60px 30px 60px;
+        }
+
+        @media(max-width:767px) {
+            padding: 60px 15px 60px;
+        }
+
+        .new-class {
+            display: flex;
+            .secure-code{
+                margin-left: 10px;
+            }
+
+            img {
+                width: 36px;
+                height: 36px;
+                margin-top: 10px;
+            }
+        }
+
+        .leftSection {
+            padding: 50px 70px 80px;
+            background: #fff;
+
+            .toptital {
+                color: #000;
+                font-size: 20px;
+                position: relative;
+                text-align: center;
+                font-weight: 500;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 42%;
+                    height: 1px;
+                    background: #ccc;
+                    top: 50%;
+                    left: 0px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 42%;
+                    height: 1px;
+                    background: #ccc;
+                    top: 50%;
+                    right: 0px;
+                }
+            }
+
+            .agentlogosection {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                .agentlogos {
+                    width: 140px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .newstepTitle {
+                margin: 50px 0px 25px;
+
+                h1 {
+                    font-size: 25px;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #ccc;
+                }
+            }
+
+            .academytitle {
+                margin: 10px 0px 25px;
+
+                h1 {
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+            }
+
+            .infotitle {
+                h2 {
+                    font-size: 20px;
+                    color: #000;
+                    margin: 0px 0px 20px;
+                    font-weight: 400;
+
+                    span {
+                        font-size: 18px;
+                        color: red;
+                        margin-left: 10px;
+                        font-style: italic;
+                    }
+                }
+
+                h5 {
+                    margin: 10px 0px 25px;
+                    font-size: 19px;
+                    color: #000;
+                    font-weight: 400;
+                }
+
+                .imgcol {
+                    float: left;
+                    width: 5%;
+                    padding: 5px;
+                }
+
+                .imgrow::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+            }
+
+            .nameinput {
+                width: 100%;
+                margin-bottom: 50px;
+
+                input {
+                    width: 100%;
+                    padding: 12px 10px;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    background: #e5e5e5;
+                    height: 54px;
+                }
+
+                label {
+                    font-size: 18px;
+                    color: #000;
+                    font-weight: 500;
+                    margin: 10px 0px;
+
+                    @media(max-width:991px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .inputdown {
+                    border: none;
+                    box-shadow: 1px 2px 2px 1px #ccc;
+                    outline: unset;
+                    padding: 12px 30px 12px 15px;
+                    font-size: 18px;
+                    color: #6a6a6a;
+                }
+            }
+
+            .newinput {
+                margin-bottom: 15px;
+            }
+
+            .academycheck_title {
+                label {
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 400;
+                    margin: 10px 0px;
+
+                    span {
+                        color: red;
+                    }
+                }
+            }
+
+            .acadamyCheck {
+                margin-bottom: 30px;
+
+                .checkclick {
+                    margin-bottom: 10px;
+
+                    label {
+                        font-size: 17px;
+                        font-weight: 600;
+                        margin-left: 10px;
+                    }
+                }
+
+                .Newcheckclick {
+                    label {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .agentconatin_lorem {
+                border: 1px solid #ccc;
+                padding: 15px 10px;
+                margin-bottom: 20px;
+
+                p {
+                    line-height: 32px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .agenat_btn {
+                button {
+                    background: #9C2791;
+                    border: 0px;
+                    outline: none;
+                    width: 180px;
+                    height: 50px;
+                    border-radius: 15px;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

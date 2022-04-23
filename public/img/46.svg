@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.722" height="129.722" viewBox="0 0 129.722 129.722">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_588" data-name="Rectangle 588" width="68.912" height="70.594" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_326" data-name="Group 326" transform="translate(-1148.639 -5683.277)">
+    <g id="Ellipse_128" data-name="Ellipse 128" transform="translate(1152.639 5687.277)" fill="none" stroke="#292670" stroke-width="4">
+      <circle cx="60.861" cy="60.861" r="60.861" stroke="none"/>
+      <circle cx="60.861" cy="60.861" r="62.861" fill="none"/>
+    </g>
+    <g id="Group_280" data-name="Group 280" transform="translate(1178.592 5713.703)">
+      <g id="Group_197" data-name="Group 197" clip-path="url(#clip-path)">
+        <rect id="Rectangle_586" data-name="Rectangle 586" width="58.055" height="58.055" rx="9.075" transform="translate(1.765 1.765)" fill="none" stroke="#292670" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <rect id="Rectangle_587" data-name="Rectangle 587" width="58.055" height="58.055" rx="9.075" transform="translate(9.092 10.773)" fill="none" stroke="#292670" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_238" data-name="Path 238" d="M36.116,56.393V53.154A1.219,1.219,0,0,1,37.724,52c3.357,1.1,8.851-.072,11.018-.617a1.219,1.219,0,0,0,.92-1.185V41.845a1.222,1.222,0,0,1,.457-.954l1.9-1.527a1.224,1.224,0,0,0,.364-1.423L49.753,31.6a1.235,1.235,0,0,1-.1-.439,21.625,21.625,0,0,0-1.971-8.529c-1.976-3.809-6.915-4.092-6.915-4.092S24.5,16.729,24.5,29.083" transform="translate(-2.881 -2.169)" fill="none" stroke="#292670" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Path_239" data-name="Path 239" d="M28.239,32.5s-4.412,3.531,0,6.619" transform="translate(-3.09 -3.821)" fill="none" stroke="#292670" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_107" data-name="Line 107" y2="10.968" transform="translate(23.188 38.637)" fill="none" stroke="#292670" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../../fonts/Futura\ Bold.TTF');
+    src: url('../../fonts/Futura\ Regular.otf');
+    src: url('../../fonts/Futura\ Medium.ttc');
+    }
+
+@import 'Mainsection.scss';
+@import 'Sidebar.scss';
+@import 'Footer.scss';
+@import 'Second.scss';
+@import 'Header.scss';
+@import 'agent.scss';
+@import 'newAgentSignupOne.scss';
+@import 'paymentForm.scss';
+@import 'thankyou.scss';
+

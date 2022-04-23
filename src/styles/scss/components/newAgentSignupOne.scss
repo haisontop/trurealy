@@ -1,0 +1,78 @@
+.MainAgentpage{
+    .NewAgentSection{
+        .Agentmain{
+            .allAgentmain{
+                .mainagentbox{
+                    .agentSelect{
+                        .agentYes{
+                            label{
+                                font-size:18px;
+                                font-weight: 600;
+                                color: #ffffff;
+                                margin-left: 12px;
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                    .agentaddress{
+                        h3{
+                            font-size:20px;
+                            font-weight: 600;
+                            color: #ffffff;
+                            margin-bottom: 8px;
+                        }
+                    }
+                    .firstName{
+                        .form-select{
+                            border-radius: 0px;
+                            padding: 8px 5px;
+                            font-size:18px;
+                        }
+                    }
+                    .firstDate{
+                        input{
+                            color: #626262;
+                            font-weight: 700;
+                            font-size: 17px;
+                        }
+                    }
+                    .Nextbtn{
+                        .agentPrevious{
+                            background:#fff;
+                            color: #292791;
+                            margin-right: 15px;
+                        }
+                        button{
+                            background:#9C2791;
+                            border: none;
+                            overflow: unset;
+                            width: 270px;
+                            padding: 7px 10px;
+                            color: #ffffff;
+                            font-size: 18px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            height: 50px;
+                            @media(max-width:991px){
+                                font-size: 16px;
+                                width: 220px !important;
+                            }
+                            @media(max-width:575px){
+                                font-size: 16px;
+                                width: 180px !important;
+                            }
+                            @media(max-width:450px){
+                                font-size: 16px;
+                                margin-bottom:15px;
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navigeationtwo{
+        background: #fff !important;
+    }
+}
