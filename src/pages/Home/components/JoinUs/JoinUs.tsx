@@ -25,7 +25,7 @@ export const JoinUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container px-2 px-xxl-4 my-5 pt-5">
+            <div className="container px-2 px-xxl-4">
                 <div className="row gx-2 gx-xxl-4">
                     <div className="col-12 col-md-12 col-lg-3 col-xxl-4">
                         <SocialCarousel />

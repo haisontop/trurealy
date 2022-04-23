@@ -11,30 +11,30 @@ export const AgentWelcome = () => {
                 <div
                     className={`${styles["join-us-top-header-content"]} bg-light`}
                 >
-                    <div className="text-primary fs-2 fw-bold lh-1 text-uppercase">
+                    <h2 className="text-primary fw-bold lh-1 text-uppercase">
                         Technology, training & transparency that reshapes how
                         you build your business
-                    </div>
-                    <div className="text-primary fs-5 mt-2">
+                    </h2>
+                    <p className="text-primary mt-2">
                         Increase your revenue streams at TRU Realty through our
                         amazing revenue sharing programs, agent equity offerings
                         and agent influencer opportunities. Together, we’ll help
                         you become a smarter agent, launch a better business and
                         build relationships that will last a lifetime.
-                    </div>
+                    </p>
                 </div>
             </div>
             <div className="container px-2 px-xxl-4">
                 <div className="row gx-2 gx-xxl-4 justify-content-md-center">
-                    <div className="col-12 col-md-12 col-lg-10 col-xxl-8 text-center">
-                        <div className="display-1 text-white">WELCOME HOME</div>
-                        <div className="fs-5 fw-normal text-white mt-2">
+                    <div className={`col-12 col-md-12 col-lg-10 col-xxl-8 text-center ${styles["welcome-middle"]}`}>
+                        <div className="display-1 fw-normal text-white">WELCOME HOME</div>
+                        <p className="fw-normal text-white mt-2">
                             At TRU Realty, our mission is to create a diverse
                             and inclusive culture focused on training and
                             education, coupled with innovative technology, in
                             order to provide an unparalleled level of service to
                             our agents and the communities we serve.
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -50,22 +50,24 @@ export const AgentWelcome = () => {
                                 <div
                                     className={`${styles["join-us-bottom-header-content-title"]} fw-bold`}
                                 >
+                                <h1 className="fw-bold">
                                     1/3 of TRU Agents
-                                </div>
-                                <div className="fs-2 fw-bold lh-1">
+                                </h1>
+                                <p className="fw-bold lh-1 mt-3">
                                     close their first deal in 60 to 90 days and
                                     our agent success rate is 2.5X higher than
                                     the industry average.
+                                </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-12 col-lg-10 col-xxl-4 text-left">
-                        <div className="ps-5 pt-2">
+                        <div className={`ps-5 pt-2`}>
                             <div className="fs-1 fw-bold text-white">
                                 Broker support?
                             </div>
-                            <div className="fs-2 text-white lh-1 text-uppercase">
+                            <div className="fs-1 mt-2 text-white lh-5 text-uppercase">
                                 TRU leads the industry in broker response time
                             </div>
                         </div>

@@ -9,17 +9,27 @@
 
 .join-us-top-header {
     position: absolute;
-    top: 100px;
+    top: 130px;
     right: 0;
-
     left: 100px;
     z-index: 2;
 }
 
 .join-us-top-header-content {
     border-radius: 25px 0px 0px 25px;
+    h2{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    p{
+        font-size: 25px;
+        line-height: 33px;
+    }
 }
-
+.welcome-middle{
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
 .join-us-top-header-content::before {
     content: "";
     background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
@@ -47,12 +57,18 @@
     width: 100%;
     top: 0px;
     border-radius: 0px 25px 25px 0px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 30px 40px;
 }
 
 .join-us-bottom-header-content-title {
     font-size: 4.5rem;
+    h1{
+        font-size: 70px;
+    }
+    p{
+        width: 90%;
+        font-size: 35px;
+    }
 }
 
 @include media-breakpoint-only(sm) {

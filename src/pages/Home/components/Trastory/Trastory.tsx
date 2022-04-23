@@ -5,7 +5,7 @@ import style from "./Trastory.module.scss";
 const Trastory = () => {
     return (
         <div
-            className={`container row mx-auto px-3 position-relative py-5 ${style["trastory"]}`}
+            className={`container row mx-auto px-md-5 position-relative py-5 ${style["trastory"]}`}
         >
             <div className="col-6 text-primary">
                 <h2 className="mt-4">
@@ -28,7 +28,7 @@ const Trastory = () => {
                     purchase, partner with TRU and experience real estate like
                     never before.
                 </p>
-                <button className="bg-pink fs-4 text-white border-0 px-5 py-2 mt-4">
+                <button className="bg-pink fs-4 text-white border-0 px-5 py-2 mt-2">
                     FIND AN AGENT
                 </button>
             </div>

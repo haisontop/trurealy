@@ -15,12 +15,11 @@ export const AgentOurCulture = () => {
                         Our Culture
                     </div>
                     <div className="text-primary fs-2 fw-bold lh-2">
-                        “We love our TRU. We don’t just make money, <br /> we make a
-                        difference!”
+                    “Sarah Richardson, Founder & CEO of TRU, has created an environment of collaboration and energy that is incredible and contagious”   -Tammy Peil, TRU Agent
                     </div>
                 </div>
             </div>
-            <div className="container px-2 px-xxl-4 mt-5">
+            <div className={`container px-2 px-xxl-4 ${styles["row-container"]}`}>
                 <div className="row container mx-auto px-5 gx-5">
                     <div className="col-5">
                         <img
@@ -35,22 +34,24 @@ export const AgentOurCulture = () => {
                             MATCH ME WITH AN AGENT
                         </button>
                     </div>
-                    <div className="col-7 text-white d-flex aling-item-center">
+                    <div className="col-6 text-white d-flex aling-item-center">
                         <div className="">
-                            <p className="">
+                            <p className="fw-medium">
                                 At TRU Realty we believe that having fun, loving
                                 what you do and who you’re doing it with are
                                 essential to delivering the unparalleled real
                                 estate experiences TRU agents provide each and
                                 every day.
-                                <br />
+                            </p>
+                            <p className="fw-medium my-4">
                                 We don’t take ourselves too seriously, just the
                                 amazing service we provide our communities! We
                                 love our social events, hosted by our awesome
                                 brand ambassadors, such as First Friday’s, Book
                                 of the Month, Wine Down Wednesday’s and Awards
                                 Night.
-                                <br />
+                            </p>
+                            <p className="fw-medium">
                                 We love listening, designing, teaching, cooking,
                                 helping, creating, leading, writing, singing,
                                 learning, but most of all, we love collaborating

@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import style from "./TruIntro.module.scss";
 
 const TruIntro = () => {
   return (
-    <div className="consumer-bottom py-5">
+    <div className={`consumer-bottom ${style["tru-intro"]}`}>
       <Container className="mx-auto text-white">
         <h1 className="text-center fw-bold">
           BUY OR SELL YOUR HOME FASTER <br /> AND SAFER WITH TRU

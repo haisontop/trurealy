@@ -26,7 +26,7 @@ const Smartercard = ({ actions, discription, link, img }: SmaterCardProps) => {
             className="mt-1 bg-white border-0"
           />
           <p className="mt-1 fw-lighter">{discription}</p>
-          <div className="mt-5 pt-4">
+          <div className="mt-5 pt-5">
             <Link to={link.href} style={{ textDecoration: "none" }}>
               <div className="text-white">
                 <span style={{ cursor: "pointer" }} className="fs-5">

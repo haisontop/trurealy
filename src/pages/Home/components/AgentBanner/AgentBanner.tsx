@@ -11,7 +11,7 @@ const AgentBanner = () => {
             >
                 <img src="/assets/agent1.png" alt="" className="img-fluid" />
                 <BannerText
-                    title={`BECOME A SMARTER AGENT & SCALE FASTER WITH TRU`}
+                    title={`Become a better agent at tru`}
                     description={`Belong to a diverse group of tech-centric agents scaling their businesses faster than the competition.`}
                 />
             </div>

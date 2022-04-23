@@ -10,8 +10,8 @@ export const TRU_STORY_DATA = [
         name: "- Paul Peterson",
     },
     {
-        img:"/assets/trastory-3.png",
-        massage: "“Great company that is changing the way that Real Estate is done.”",
-        name: "- Eric Herbert",
+        img:"/assets/images/IMG_6041.png",
+        massage: "“This company has been amazing to work with. I highly recommend them to anyone.”",
+        name: "- Holly Justeson",
     }
 ]

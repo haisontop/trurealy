@@ -42,12 +42,7 @@ aside {
     min-height: calc(100vh - 83px - 80px - 16px);
 }
 
-.banner-cols {
-    bottom: 0%;
-    background: rgba(13, 19, 61, 0.7);
-    height: 50%;
-    transition: all 0.5s;
-}
+
 .banner-col-parents {
     cursor: pointer;
 }

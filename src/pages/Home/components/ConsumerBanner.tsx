@@ -12,7 +12,7 @@ const ConsumerBanner = () => {
                     className="img-fluid"
                 />
                 <BannerText
-                    title={`ENJOY An UNPARALLELED buying & selling EXPERIence`}
+                    title={`FIND YOUR WAY HOME WITH TRU`}
                     description={`Partner with smarter agents and enjoy an unparalleled real estate experience with TRU.`}
                 />
             </div>

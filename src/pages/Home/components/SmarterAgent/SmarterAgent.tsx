@@ -14,7 +14,7 @@ const SmarterAgent = () => {
                         className={`bg-primary ${style["smarter-box"]} text-white px-5 py-4`}
                     >
                         <div>
-                            <h3 className="fw-bolder">YOUR WAY HOME</h3>
+                            <h3 className="fw-bolder">FIND YOUR WAY HOME</h3>
                         </div>
                         <div className="mt-4">
                             <p>
@@ -26,7 +26,7 @@ const SmarterAgent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container row Agent-row gx-5 mx-auto">
+                <div className="container px-md-5 row Agent-row gx-5 mx-auto">
                     {SMATER_DATA.map((sm) => (
                         <SmarterCard
                             key={sm.img}
@@ -34,6 +34,7 @@ const SmarterAgent = () => {
                             discription={sm.discription}
                             link={sm.link}
                             img={sm.img}
+                            bgColor="bg-pink"
                         />
                     ))}
                 </div>
