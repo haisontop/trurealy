@@ -27,7 +27,7 @@ const ConsumerBottom = () => {
                 </div>
                 <div className="d-flex justify-content-center mt-5">
                     <button
-                        className="bg-white px-5 text-default fs-5 fw-normal le py-2 border-0 mt-3"
+                        className="bg-white px-5 text-default fs-3 fw-normal le py-2 border-0 mt-3"
                         style={{ borderRadius: "10px" }}
                     >
                         Learn more about TRU’s Tech

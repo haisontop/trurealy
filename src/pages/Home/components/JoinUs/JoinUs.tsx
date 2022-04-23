@@ -18,7 +18,7 @@ export const JoinUs = () => {
                             told. Yours.
                         </h1>
                     </div>
-                    <div className="text-white fs-5 mt-2 mt-xxl-5">
+                    <div className="text-white fs-3 mt-2 mt-xxl-5">
                         Join us as we reimagine real estate through training,
                         transparency, innovation and inclusivity for consumers
                         and agents alike.
@@ -38,14 +38,14 @@ export const JoinUs = () => {
                                 borderRadius: "25px",
                             }}
                         >
-                            <div className="text-white fs-4 xxl:fs-2">
+                            <div className="text-white fs-1 xxl:fs-2">
                                 In 2018, TRU Realty was the first brokerage in
                                 the United States to execute an investor cash
                                 transaction on the Blockchain using the Ethereum
                                 protocol.
                             </div>
-                            <Button className="mt-2 btn-pink px-5">
-                                LEARN MORE
+                            <Button className="mt-4 py-2 fs-4 btn-pink px-5">
+                               LEARN MORE ABOUT TRU
                             </Button>
                         </div>
                     </div>
@@ -55,14 +55,12 @@ export const JoinUs = () => {
                 <div
                     className={`${styles["join-us-bottom-header-content"]} bg-primary`}
                 >
-                    <h1 className="fw-bold">
+                    <h1 className="fw-bold text-white">
                         SMARTER AGENTS. UNPARALLELED EXPERIENCES.
                     </h1>
-                    <div className="text-white fs-5 mt-5">
-                        Transformational Technology, Training And Transparency
-                        That Creates Smarter Agents And Unparalleled
-                        Experiences.
-                    </div>
+                    <p className="text-white fs-3 mt-5 fw-medium">
+                    TRU Realty’s Transformational Technology, Training And Transparency Creates Smarter Agents And Unparalleled Real Estate Experiences.
+                    </p>
                 </div>
             </div>
         </div>

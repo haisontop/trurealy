@@ -23,10 +23,10 @@ const Smartercard = ({ actions, discription, link, img }: SmaterCardProps) => {
         <div className={`position-absolute bottom-0 bg-pink px-4 pt-2 pb-3 text-white ${style["smarter-card-anim"]}`}>
           <h3 className="fw-normal mb-0">{actions}</h3>
           <p className="mt-4">{discription}</p>
-          <div className="mt-5 pt-2">
+          <div className="mt-5 pt-5">
             <Link to={link.href} style={{ textDecoration: "none" }}>
               <div className="text-white d-flex">
-                <p className="pointer fw-lighter">
+                <p className="pointer fw-normal">
                   {link.name}
                 </p>
                 <AiOutlineArrowRight size="30px" className="ms-2 mb-2" />
