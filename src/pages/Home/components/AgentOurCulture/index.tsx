@@ -28,13 +28,13 @@ export const AgentOurCulture = () => {
                             alt=""
                         />
                         <button
-                            className="bg-pink px-5 w-100 text-white fs-4 fw-bold le py-2 border-0 mt-3"
+                            className="bg-pink px-5 w-100 text-white fs-4 fw-bold le py-2 border-0 mt-5"
                             style={{ borderRadius: "10px" }}
                         >
-                            MATCH ME WITH AN AGENT
+                            Join TRU Realty
                         </button>
                     </div>
-                    <div className="col-6 text-white d-flex aling-item-center">
+                    <div className="col-7 text-white d-flex aling-item-center">
                         <div className="">
                             <p className="fw-medium">
                                 At TRU Realty we believe that having fun, loving
@@ -57,9 +57,9 @@ export const AgentOurCulture = () => {
                                 learning, but most of all, we love collaborating
                                 to make your dreams come true.
                             </p>
-                            <h2 className="fw-bold">
-                                WE LOVE BEING DIFFERENT. WE LOVE BEING TRU!
-                            </h2>
+                            <h4 className="fw-bold">
+                                WE ARE INCLUSIVE INNOVATIVE, DIVERES AND DETERMINED TO SUCCEED.
+                            </h4>
                         </div>
                     </div>
                 </div>

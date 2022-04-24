@@ -35,12 +35,12 @@ function ItpCard({ author, title, img, discription }: props) {
                     </div>
                 )}
             </div>
-            <div className="col-7 text-primary">
+            <div className={`col-7 text-primary ${style["itp-card-body"]}`}>
                 <h3 className="fw-bold">{title}</h3>
-                <p className="mt-1 fw-medium" style={{ color: "#8F8F8F" }}>
+                <p className="fw-medium">
                     {author}
                 </p>
-                <p className="fw-medium">{discription}</p>
+                <p className="fw-medium m-0">{discription}</p>
             </div>
         </div>
     );

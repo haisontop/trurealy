@@ -14,8 +14,7 @@ export const JoinUs = () => {
                 >
                     <div className="text-white">
                         <h1 className="fw-bold">
-                            Be a part of the greatest real estate story ever
-                            told. Yours.
+                            BE A PARTS OF THE GREATEST REAL ESTATE STORY EVER TOLD. YOURS.
                         </h1>
                     </div>
                     <div className="text-white fs-3 mt-2 mt-xxl-5">

@@ -5,7 +5,7 @@ export default function BuyBody() {
     return (
         <div className="position-relative">
             <div className={`mx-auto ${style["buy-body"]}`}>
-                <h3 className="text-primary text-center">
+                <h3 className="text-primary text-center fw-bold">
                     FIND YOUR DREAM HOME WITH TRU
                 </h3>
                 <div className="mt-5 text-center">
@@ -22,7 +22,7 @@ export default function BuyBody() {
                             className="px-2 fs-5 me-2"
                             placeholder="Seach by Address, City, Zip Code, etc."
                         />
-                        <button className="tru-help-btn fs-5 px-3 py-1 text-white">
+                        <button className="bg-pink fs-4 border-0 px-3 py-1 text-white">
                             SEARCH
                         </button>
                     </form>

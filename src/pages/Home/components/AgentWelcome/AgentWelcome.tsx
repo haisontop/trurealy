@@ -4,6 +4,7 @@ import styles from "./AgentWelcome.module.scss";
 
 export const AgentWelcome = () => {
     return (
+        <div className="position-relative">
         <div
             className={`d-flex flex-column w-100 ${styles["join-us-container"]}`}
         >
@@ -26,7 +27,7 @@ export const AgentWelcome = () => {
             </div>
             <div className="container px-2 px-xxl-4">
                 <div className="row gx-2 gx-xxl-4 justify-content-md-center">
-                    <div className={`col-12 col-md-12 col-lg-10 col-xxl-8 text-center ${styles["welcome-middle"]}`}>
+                    <div className={`col-12 col-md-12 col-lg-10 col-xxl-10 text-center ${styles["welcome-middle"]}`}>
                         <div className="display-1 fw-normal text-white">WELCOME HOME</div>
                         <p className="fw-normal text-white mt-2">
                             At TRU Realty, our mission is to create a diverse
@@ -65,7 +66,7 @@ export const AgentWelcome = () => {
                     <div className="col-12 col-md-12 col-lg-10 col-xxl-4 text-left">
                         <div className={`ps-5 pt-2`}>
                             <div className="fs-1 fw-bold text-white">
-                                Broker support?
+                                BROKER SUPPORT?
                             </div>
                             <div className="fs-1 mt-2 text-white lh-5 text-uppercase">
                                 TRU leads the industry in broker response time
@@ -75,5 +76,6 @@ export const AgentWelcome = () => {
                 </div>
             </div>
         </div>
+    </div>
     );
 };

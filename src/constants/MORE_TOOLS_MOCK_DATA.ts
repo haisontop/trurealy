@@ -1,6 +1,6 @@
 export const TOOLS_DATA = [
     {
-        action: "TRU U",
+        action: "THE UNIVERISTY",
         discription:
             "God help us, we are in the hands of engineers. God help us we are in the hands of engineers.",
         link: {

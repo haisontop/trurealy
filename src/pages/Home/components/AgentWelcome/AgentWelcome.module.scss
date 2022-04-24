@@ -3,15 +3,14 @@
 @import "bootstrap/scss/mixins/_breakpoints";
 
 .join-us-container {
-    position: relative;
     padding-top: 440px;
 }
 
 .join-us-top-header {
     position: absolute;
     top: 130px;
-    right: 0;
-    left: 100px;
+    left: 120px !important;
+    width: 90%;
     z-index: 2;
 }
 
@@ -27,7 +26,7 @@
     }
 }
 .welcome-middle{
-    margin-top: 190px;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 .join-us-top-header-content::before {
