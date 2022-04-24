@@ -10,7 +10,7 @@ function AgentMiddle() {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "10px",
+        centerPadding: "0px",
         slidesToShow: 3,
         speed: 500,
         rows: 3,
