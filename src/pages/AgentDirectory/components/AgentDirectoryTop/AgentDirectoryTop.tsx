@@ -4,19 +4,17 @@ import style from './AgentDirectory.module.scss';
 function AgentDirectoryTop() {
   return (
     <div className={style["agent-directory-top"]}>
-        <h1 className='text-center fw-normal my-5'>HERE FOR YOU. HAPPY TO HELP.</h1>
-        <form className='mx-auto row px-4 mt-5 mx-auto'>
-            <div className='col-4'>
-              <input type="text" className='border-0 w-100' placeholder="search by Agent Name"/>
-              <hr className='mt-1'/>
+        <div className={`${style["top-text"]}`}>
+        <h1 className='text-center fw-bold text-white'>HERE FOR YOU. HAPPY TO HELP.</h1>
+        </div>
+        <form className='gap-5 d-flex px-5'>
+            <div className='w-100'>
+               <input type="text" placeholder='Search by Agent Name' className='px-3 py-2 fs-4 text-primary' />
             </div>
-            <div className='col-6'>
-                <input type="text" className='border-0 w-100' placeholder="search by, City, Zip Code etc." />
-                <hr className='mt-1' />
+            <div className='w-100'>
+               <input type="text" placeholder='Seach by Address, City, Zip Code, etc.' className='px-3 py-2 fs-4 text-primary' />
             </div>
-             <div className='col-2'>
-               <button className='tru-help-btn text-white px-3 py-1'>SEARCH</button>
-             </div>
+            <button className='fs-5 px-3 py-1 border-0 bg-pink text-white'>SEARCH</button>
         </form>
     </div>
   )

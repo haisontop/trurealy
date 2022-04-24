@@ -17,22 +17,26 @@ export default function Contact() {
                 <div className="col-6 text-primary">
                     <div>
                         <h1 className="fw-bold">GET IN TOUCH</h1>
-                        <h5 className="fw-normal mt-1">WE'D LOVE TO HEAR FROM YOU.</h5>
+                        <h5 className="fw-normal mt-1">
+                            WE'D LOVE TO HEAR FROM YOU.
+                        </h5>
                     </div>
                     <div className={`${style["phone-address"]}`}>
-                    <div>
-                        <h5 className="fw-medium">Phone</h5>
-                        <p className="mt-2">555.555.5555</p>
-                    </div>
-                    <div className="mt-5">
-                        <h5 className="fw-medium">Email</h5>
-                        <p className="mt-2">Info@trurealty.com</p>
-                    </div>
-                    <div className="mt-5">
-                        <h5 className="fw-medium">Corporate Headquarters</h5>
-                        <p className="my-2">7373 N. Scottsdale Rd A100</p>
-                        <p className="my-0">Scottsdale, AZ 85253</p>
-                    </div>
+                        <div>
+                            <h5 className="fw-medium">Phone</h5>
+                            <p className="mt-2">555.555.5555</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="fw-medium">Email</h5>
+                            <p className="mt-2">Info@trurealty.com</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="fw-medium">
+                                Corporate Headquarters
+                            </h5>
+                            <p className="my-2">7373 N. Scottsdale Rd A100</p>
+                            <p className="my-0">Scottsdale, AZ 85253</p>
+                        </div>
                     </div>
                     <div className="d-flex mt-5">
                         <FaFacebookF

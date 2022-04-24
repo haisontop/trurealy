@@ -34,7 +34,7 @@ function AgentMiddleCard({img, name, about, email, website} : props) {
                    <div className='col-4'>
                        <img src={img} className={`img-fluid ${style["agent-img"]}`} alt="" />
                        <div className='px-3 py-3'>
-                          <h4 className='fw-bold'>{name}</h4>
+                          <h3 className='fw-bold'>{name}</h3>
                           <p className='m-0'>555555.55555</p>
                           <p className='m-0'>{email}</p>
                           <p className='m-0'>{website}</p>

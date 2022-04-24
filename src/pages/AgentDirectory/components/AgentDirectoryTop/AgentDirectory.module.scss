@@ -1,9 +1,13 @@
 .agent-directory-top{
     h1{
-        font-size: 50px;
+        font-size: 75px;
     }
     form{
-        width: 1000px;
+        width: 100%;
+        margin-top: 79px;
+        button{
+            border-radius: 20px;
+        }
     }
     input{
         outline: none;
@@ -11,4 +15,21 @@
     hr{
         height: 2px;
     }
+    input{
+        border-bottom: 3px solid #9796C6;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        width: 100%;
+    }
+
+}
+.top-text{
+    background: linear-gradient(270deg, #3E45F0 0%, #fd084f 100%) 0% 0%
+    no-repeat padding-box;
+    width: 95%;
+    padding: 46px 5px;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
