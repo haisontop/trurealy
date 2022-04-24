@@ -14,7 +14,7 @@ interface props {
 function AgentMiddleCard({img, name, about, email, website} : props) {
     const [click, setClick] = useState(false);
   return (
-    <div className={`col-4 ${style["agent-middle-card"]}`}>
+    <div className={` m-4 ${style["agent-middle-card"]}`}>
         <div onClick={()=> setClick(!click)}>
         <img src={img} className="img-fluid" width="100%" alt="" />
         <div className={`px-4 py-2 text-white ${style["card-lebel"]}`}>
@@ -25,7 +25,7 @@ function AgentMiddleCard({img, name, about, email, website} : props) {
         </div>
         {
             click &&
-            <div className={`position-absolute overflow-hidden top-0 bg-primary ${style["card-about"]}`}>
+            <div className={`overflow-hidden top-0 bg-primary ${style["card-about"]}`}>
              <div className='position-relative text-white'>
                  <button onClick={()=> setClick(!click)} className='position-absolute end-0 bg-primary border-0'>
                     <img src="/assets/cross.png" className='img-fluid' width="70px" alt="" />
@@ -62,15 +62,15 @@ function AgentMiddleCard({img, name, about, email, website} : props) {
                      <div className='col-7'>
                          <label className='w-100'>
                             <span>Name</span> <br />
-                            <input type="text" name='name' className='w-100 rounded rounded-4 border-0 p-2' />
+                            <input type="text" name='name' className='w-100 rounded rounded-4 border-0 px-2 py-3' />
                          </label>
                          <label className='w-100 mt-2'>
                             <span>Email <sup className='text-danger'>*</sup> </span> <br />
-                            <input type="email" name='email' className='w-100 rounded rounded-4 border-0 p-2' />
+                            <input type="email" name='email' className='w-100 rounded rounded-4 border-0 px-2 py-3' />
                          </label>
                          <label className='w-100 mt-2'>
                             <span>Phone</span> <br />
-                            <input type="text" name='Phone' className='w-100 rounded rounded-4 border-0 p-2' />
+                            <input type="text" name='Phone' className='w-100 rounded rounded-4 border-0 px-2 py-3' />
                          </label>
                      </div>
                      <div className='col-5'>
