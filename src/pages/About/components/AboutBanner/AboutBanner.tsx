@@ -1,14 +1,14 @@
 import React from "react";
-import style from './AboutBanner.module.scss'
+import style from "./AboutBanner.module.scss";
 
 const AboutBanner = () => {
     return (
         <div className="position-relative">
             <div>
                 <img
-                    src="/assets/placeholder.png"
+                    src="/assets/images/Mask Group 36.png"
                     className="img-fluid m-5"
-                    width="90%"
+                    width="93%"
                     alt=""
                 />
             </div>

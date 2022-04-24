@@ -1,0 +1,19 @@
+.AboutFeturedin {
+    h2 {
+        font-size: 40px;
+    }
+}
+.Feturedin-row {
+    margin: 160px 0px;
+}
+.lineir-bg {
+    width: 90%;
+    position: absolute;
+    top: 39%;
+    right: 3%;
+    height: 540px;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #394bf1 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
+    z-index: -2;
+}

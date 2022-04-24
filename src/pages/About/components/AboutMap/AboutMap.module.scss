@@ -1,0 +1,30 @@
+.About-map{
+    margin-top: 41px;
+    h3{
+        font-size: 40px;
+        width: 60%;
+    }
+}
+.style-box{
+    padding: 20px 61px;
+    border-start-start-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50%;
+    p{
+        font-size: 25px;
+        line-height: 33px;
+    }
+}
+.style-box::before{
+    content: "";
+    background: linear-gradient(270deg, #fd084f 0%, #4244EC 100%) 0% 0%
+        no-repeat padding-box;
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 22px);
+    z-index: -1;
+    top: -27px;
+    left: -22px;
+    right: 0;
+    border-radius: 25px 0px 0px 25px;
+}

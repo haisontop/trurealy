@@ -21,7 +21,7 @@ export const FeaturedIn = () => {
                         color: "#292670",
                     }}
                 >
-                    Featured In
+                  FEATURED IN
                 </span>
             </div>
             <div className="container mt-4">
