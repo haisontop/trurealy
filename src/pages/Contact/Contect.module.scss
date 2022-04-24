@@ -1,5 +1,5 @@
 .contact{
-    width: 900px;
+
     form{
         border-radius: 20px;
         margin-bottom: -30px;
@@ -13,9 +13,40 @@
         border: 2px solid #44498C;
         border-radius: 7px;
         outline: none;
+        height: 182px !important;
+    }
+    h1{
+        font-size: 75px;
+    }
+    h5{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
     }
 }
 .icon{
     border: 1px solid #292670;
     cursor: pointer;
+}
+.phone-address{
+    margin-top: 55px;
+}
+.input-div{
+    margin-top: 39px;
+}
+.contact-box {
+    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
+        no-repeat padding-box;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: absolute;
+    width: 500px;
+}
+.contact-from{
+    margin-bottom: -100px;
+    button{
+        border-radius: 10px;
+    }
 }

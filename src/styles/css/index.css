@@ -171,11 +171,3 @@ aside {
     height: 90%;
     margin-bottom: 30px;
 }
-.contact-box {
-    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
-        no-repeat padding-box;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    width: 400px;
-}
