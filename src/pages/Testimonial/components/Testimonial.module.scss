@@ -2,11 +2,26 @@
     background: linear-gradient(270deg, #3e44ee 25%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     color: white;
-    padding: 30px 30px 100px 30px;
+    padding: 30px 30px 100px 147px;
     border-radius: 0px 20px 0px 0px;
     font-size: 75px;
-    position: "absolute";
+    position: absolute;
     top: 0%;
     left: 0%;
-    z-index: 2;
+    z-index: -2;
+}
+.testimonial-banner{
+    img{
+        border-radius: 25px;
+    }
+}
+.test-card{
+    margin-top: 106px;
+    p{
+        font-size: 25px;
+        margin-top: -70px;
+    }
+    h1{
+        font-size: 100px;
+    }
 }

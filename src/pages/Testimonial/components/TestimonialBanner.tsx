@@ -50,7 +50,7 @@ const TestimonialBanner = () => {
         />,
     ];
     return (
-        <div className="container position-relative mx-auto overflow-hidden mt-5">
+        <div className={`container position-relative mx-auto overflow-hidden mt-5 ${style["testimonial-banner"]}`}>
             <div
                 className="mx-auto"
                 style={{ maxWidth: "900px", marginTop: "170px" }}
@@ -76,10 +76,7 @@ const TestimonialBanner = () => {
                 />
             </div>
             <div
-                className={style["gradient-driver"]}
-                style={{
-
-                }}
+                className={`fw-bold ${style["gradient-driver"]}`}
             >
                 Real people. Tru stories.
             </div>
