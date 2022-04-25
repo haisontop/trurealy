@@ -14,7 +14,7 @@
     @media (max-width: 600px) {
         padding: 80px 15px;
     }
-    button{
+    button {
         border-radius: 10px;
     }
 }
@@ -155,12 +155,17 @@
 }
 
 @include media-breakpoint-up(xxl) {
-    .join-us-top-header-content,
-    .join-us-bottom-header-content {
+    .join-us-top-header-content {
         padding-top: 58px;
         padding-bottom: 32px;
         padding-left: 130px;
         padding-right: 120px;
+    }
+    .join-us-bottom-header-content {
+        padding-top: 58px;
+        padding-bottom: 32px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 
     .join-us-top-header {

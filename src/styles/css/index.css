@@ -42,7 +42,6 @@ aside {
     min-height: calc(100vh - 83px - 80px - 16px);
 }
 
-
 .banner-col-parents {
     cursor: pointer;
 }
@@ -109,18 +108,12 @@ aside {
     margin-top: 20px;
 }
 
-
 .perfect-agent-container {
     width: 500px;
 }
 .consumer-bottom {
-    background: linear-gradient(
-        107deg,
-        rgba(86, 25, 255, 1) 0%,
-        rgba(182, 22, 59, 1) 100%,
-        rgba(195, 22, 32, 1) 100%,
-        rgba(16, 14, 51, 1) 100%
-    );
+    background: transparent linear-gradient(111deg, #3b46f2 0%, #fd084f 100%) 0%
+        0% no-repeat padding-box;
 }
 
 /* ========= about consumer style ============= */

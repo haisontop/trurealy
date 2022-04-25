@@ -14,7 +14,8 @@ export const JoinUs = () => {
                 >
                     <div className="text-white">
                         <h1 className="fw-bold">
-                            BE A PARTS OF THE GREATEST REAL ESTATE STORY EVER TOLD. YOURS.
+                            BE A PARTS OF THE GREATEST REAL ESTATE STORY EVER
+                            TOLD. YOURS.
                         </h1>
                     </div>
                     <div className="text-white fs-3 mt-2 mt-xxl-5">
@@ -44,7 +45,7 @@ export const JoinUs = () => {
                                 protocol.
                             </div>
                             <Button className="mt-4 py-2 fs-4 btn-pink px-5">
-                               LEARN MORE ABOUT TRU
+                                LEARN MORE ABOUT TRU
                             </Button>
                         </div>
                     </div>
@@ -55,10 +56,12 @@ export const JoinUs = () => {
                     className={`${styles["join-us-bottom-header-content"]} bg-primary`}
                 >
                     <h1 className="fw-bold text-white">
-                        SMARTER AGENTS. UNPARALLELED EXPERIENCES.
+                        TRANSPARENT. ACCOUNTABLE. TRU.
                     </h1>
-                    <p className="text-white fs-3 mt-5 fw-medium">
-                    TRU Realty’s Transformational Technology, Training And Transparency Creates Smarter Agents And Unparalleled Real Estate Experiences.
+                    <p className="text-white fs-2 mt-5 fw-medium">
+                        TRU Realty’s Transformational Technology, Training And
+                        Transparency Creates Smarter Agents And Unparalleled
+                        Real Estate Experiences.
                     </p>
                 </div>
             </div>

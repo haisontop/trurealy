@@ -20,7 +20,7 @@ const ConsumerHome = () => {
                     description="THAT RESHAPES AND PROTECTS YUR CONSUMER EXPERIENCE."
                 />
                 <PerfectAgent />
-                <TruIntro />
+                <TruIntro titleFontClassName="display-1 text-uppercase" />
             </Container>
         </Layout>
     );
