@@ -5,11 +5,11 @@ function GivingBottom() {
     return (
         <div className={`${style["giving-bottom"]}`}>
             <h1 className="text-white text-center fw-bold">
-                TOGETHER WE CAN MAKE A DIFFERENCE
+                TOGETHER WE DO MORE
             </h1>
             <div className="mt-3 text-center">
                 <button className="px-4 py-2 fs-4 mx-auto fw-normal bg-pink border-0 text-white">
-                    Partner With TRU
+                    LET'S PARTNER UP
                 </button>
             </div>
         </div>
