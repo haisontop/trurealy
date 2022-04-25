@@ -10,9 +10,10 @@ function AgentMiddle() {
         dotsClass: `slick-dots ${style["custom-dots"]}`,
         className: "center",
         centerMode: true,
-        infinite: false,
+        infinite: true,
         centerPadding: "0px",
         slidesToShow: 3,
+        slidesToScroll: 3,
         speed: 500,
         rows: 3,
         appendDots: (dots: any) => (
