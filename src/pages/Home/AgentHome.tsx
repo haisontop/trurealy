@@ -18,7 +18,11 @@ const AgentHome = () => {
                 <YourTools />
                 <AgentOurCulture />
                 <div className="mt-5">
-                    <TruIntro />
+                    <TruIntro
+                        title="CLOSE TRANSACTIONS QUICKLY & SECURELY WITH OUR CUTTING-EDGE TRANSACTION MANAGEMENT"
+                        titleFontClassName="fs-1 "
+                        subTitleFontClassName="lh-sm"
+                    />
                 </div>
             </Container>
             <AgentBottomBanner />

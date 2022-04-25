@@ -13,7 +13,7 @@ export const AgentBottomBanner = () => {
                     className={`col-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-left"]}`}
                 >
                     <Image
-                        src="/assets/agent-bottom-left.png"
+                        src="/assets/images/licensed-tru-agent.png"
                         className="img-fluid"
                     ></Image>
                     <div className={`text-white ${styles["banner-text"]}`}>
@@ -28,7 +28,7 @@ export const AgentBottomBanner = () => {
                     className={`col-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-right"]}`}
                 >
                     <Image
-                        src="/assets/agent-bottom-right.png"
+                        src="/assets/images/agent-bottom-right.png"
                         className="img-fluid"
                     ></Image>
                     <div
