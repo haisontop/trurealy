@@ -7,7 +7,7 @@ const Trastory = () => {
         <div
             className={`container row mx-auto px-md-5 position-relative py-5 ${style["trastory"]}`}
         >
-            <div className="col-6 text-primary">
+            <div className="col-xl-6 text-primary text-center text-md-start">
                 <h2 className="mt-4">
                     WE LOVE OUR CLIENTS & <br /> THEY LOVE US BACK
                 </h2>
@@ -28,11 +28,11 @@ const Trastory = () => {
                     purchase, partner with TRU and experience real estate like
                     never before.
                 </p>
-                <button className="bg-pink fs-4 text-white border-0 px-5 py-2 mt-2">
+                <button className="bg-pink fs-4 text-white border-0 px-5 py-2 mt-md-2 mt-5">
                     FIND AN AGENT
                 </button>
             </div>
-            <div className="col-6">
+            <div className="col-xl-6">
                 <div className={`${style["trastory-box"]}`}>
                     <div
                         className={`bg-primary text-white ${style["trastory-child"]}`}
@@ -42,15 +42,15 @@ const Trastory = () => {
                             <div>
                                 <img
                                     src="/assets/love.png"
-                                    className="img-fluid m-3"
+                                    className={`img-fluid m-3 ${style["image"]}`}
                                     width="80px"
                                     alt=""
                                 />
                             </div>
                         </div>
                         {TRU_STORY_DATA.map((ts) => (
-                            <div className="row gx-0 mt-5">
-                                <div className="col-3 d-flex justify-content-centre aling-item-centre">
+                            <div className="row gx-0 px-0 mt-5 pt-2 pt-md-0">
+                                <div className="col-md-3 d-flex justify-content-centre aling-item-centre">
                                     <img
                                         src={ts.img}
                                         className="img-fluid m-auto"
@@ -58,7 +58,7 @@ const Trastory = () => {
                                         alt=""
                                     />
                                 </div>
-                                <div className="col-9">
+                                <div className="col-md-9 text-center text-md-start">
                                     <p className="my-0 fw-lighter">
                                         {ts.massage}
                                     </p>

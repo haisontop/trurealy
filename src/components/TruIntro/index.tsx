@@ -25,13 +25,13 @@ const TruIntro = (props: TruIntroProps) => {
                 <h1 className={`text-center fw-bold ${titleFontClassName}`}>
                     {title}
                 </h1>
-                <div className="row mt-5 gx-5 px-5">
-                    <div className="col-6">
+                <div className="row mt-5 gx-md-5 px-3">
+                    <div className="col-md-6">
                         <p className={`fw-medium ${subTitleFontClassName}`}>
                             {subTitle}
                         </p>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6">
                         <img
                             src="/assets/endpoint-logo-white.png"
                             className="img-fluid"

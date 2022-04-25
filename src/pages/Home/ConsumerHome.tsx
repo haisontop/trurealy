@@ -1,5 +1,5 @@
 import React from "react";
-import ConsumerBanner from "./components/ConsumerBanner";
+import ConsumerBanner from "./components/ConsumerBanner/ConsumerBanner";
 import SmarterAgent from "./components/SmarterAgent/SmarterAgent";
 import Trastory from "./components/Trastory/Trastory";
 import PerfectAgent from "./components/PerfectAgent/PerfectAgent";

@@ -16,7 +16,7 @@ const PerfectAgent = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-6 text-primary">
+      <div className="col-md-6 text-primary mt-5 mt-md-0 text-center text-md-start">
         <h2 className="fw-bold mb-5">
         WE LOVE OUR AGENTS & <br /> THEY LOVE YOU BACK.
         </h2>

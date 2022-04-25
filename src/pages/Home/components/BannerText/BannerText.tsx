@@ -15,7 +15,7 @@ export const BannerText = (props: BannerProps) => {
         >
             <hr className="mb-3" />
             <h2 className="fw-bolder text-uppercase">{title}</h2>
-            <p className="mt-4">{description}</p>
+            <p className="mt-md-4 mt-3">{description}</p>
         </div>
     );
 };

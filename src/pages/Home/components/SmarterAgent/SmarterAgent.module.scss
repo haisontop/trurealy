@@ -12,13 +12,23 @@
     width: 80%;
     position: absolute;
     right: 0;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
     h3 {
         font-size: 40px;
+        @media (max-width: 575px) {
+            font-size: 25px;
+        }
     }
     p {
         line-height: 28px;
         width: 60%;
         font-size: 20px;
+        @media (max-width: 575px) {
+            font-size: 20px;
+            width: 100%;
+        }
     }
 }
 .smarter-box-2 {
