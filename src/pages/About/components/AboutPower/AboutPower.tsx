@@ -4,7 +4,7 @@ import style from "./AboutPower.module.scss";
 
 const AboutPower = () => {
     return (
-        <div className={`container mx-auto text-center px-md-5 ${style["About-Power"]}`}>
+        <div className={`container mx-auto text-center px-xl-5 ${style["About-Power"]}`}>
             <h1 className="fw-bold text-primary">HELPING THOUSANDS FIND THEIR WAY HOME</h1>
             <div className="row mt-5 mb-3 mt-5">
                 <div className="col-4">

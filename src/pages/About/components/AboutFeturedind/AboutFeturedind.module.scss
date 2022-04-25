@@ -1,10 +1,42 @@
 .AboutFeturedin {
+    @media (max-width: 1199px) {
+
+    }
+    @media (max-width: 767px) {
+
+    }
+    @media (max-width: 575px) {
+        margin-top: 120%;
+    }
     h2 {
         font-size: 40px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            padding-top: 40px;
+            font-size: 25px;
+        }
     }
 }
 .Feturedin-row {
     margin: 160px 0px;
+    @media (max-width: 575px) {
+        margin: 90px 0px;
+    }
+    img{
+        @media (max-width: 575px) {
+            width: 90%;
+        }
+    }
+    p{
+        @media (max-width: 575px) {
+            font-size: 20px;
+        }
+    }
 }
 .lineir-bg {
     width: 90%;
@@ -16,4 +48,9 @@
     background: linear-gradient(270deg, #394bf1 0%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     z-index: -2;
+    @media (max-width: 575px) {
+     top: 23%;
+     right: 0%;
+     height: 80%;
+    }
 }

@@ -4,20 +4,19 @@ import styles from "./AboutTruStory.module.scss";
 const AboutTrustory = () => {
     return (
         <div
-            className={`container position-relative px-md-5 mx-auto py-5 ${styles["about-truStory"]}`}
+            className={`container position-relative px-xl-5 mx-auto py-5 ${styles["about-truStory"]}`}
         >
-            <div className="row gx-5">
-                <div className="col-6 d-flex justify-content-end">
+            <div className="row gx-xl-5">
+                <div className="col-xl-6 d-flex justify-content-end">
                     <div className={`my-5 pt-5`}>
                         <img
                             src="/assets/images/Group 220.png"
                             className={`img-fluid ${styles["image"]}`}
-                            width="80%"
                             alt=""
                         />
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-xl-6">
                     <div className="col-6">
                         <div className={`${styles["trastory-box-2"]}`}>
                             <div
@@ -28,8 +27,7 @@ const AboutTrustory = () => {
                                     <div>
                                         <img
                                             src="/assets/love.png"
-                                            className="img-fluid ms-3 mt-4"
-                                            width="80%"
+                                            className={`img-fluid ms-md-3 mt-md-4 ${styles["image-2"]}`}
                                             alt=""
                                         />
                                     </div>

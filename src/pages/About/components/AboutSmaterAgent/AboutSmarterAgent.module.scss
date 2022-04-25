@@ -3,14 +3,41 @@
     padding-bottom: 94px;
     width: 97%;
     border-radius: 0px 30px 30px 0px;
+    @media (max-width: 575px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
     button{
         border-radius: 10px;
         font-size: 25px;
+        @media (max-width: 575px) {
+            font-size: 16px;;
+            width: 100%;
+          }
     }
     h2{
         font-size: 40px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            margin-top: 40px;
+            font-size: 25px;
+        }
     }
     img{
         border-radius: 30px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
     }
 }

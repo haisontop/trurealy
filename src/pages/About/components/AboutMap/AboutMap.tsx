@@ -4,15 +4,15 @@ import styles from "./AboutMap.module.scss";
 const AboutMap = () => {
     return (
         <div
-            className={`container position-relative mx-auto px-md-5 ${styles["About-map"]}`}
+            className={`container position-relative mx-auto px-4 px-md-5 ${styles["About-map"]}`}
         >
             <div>
                 <h3 className="text-primary fw-bold">
                     LOOK WHERE WE’VE GROWN & STILL GROWING STRONG
                 </h3>
             </div>
-            <div className={`row gx-5 mt-4`}>
-                <div className={`col-6`}>
+            <div className={`row px-md-0 gx-xl-5 mt-4`}>
+                <div className={`col-xl-6`}>
                     <div>
                         <img
                             src="/assets/images/3.0 map as of 419.png"
@@ -22,7 +22,7 @@ const AboutMap = () => {
                         />
                     </div>
                 </div>
-                <div className={`col-6`}>
+                <div className={`col-xl-6`}>
                     <div className={`bg-primary position-absolute text-white ${styles["style-box"]}`}>
                         <p>
                             Growing with intention has allowed TRU Realty the
