@@ -1,23 +1,80 @@
 .About-Power{
     margin-top: 118px;
+    @media (max-width: 575px) {
+        margin-top: 70px;;
+    }
     h1{
         font-size: 75px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
     }
     span{
         color: #808080;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
     }
     h2{
         font-size: 75px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 25px;
+        }
     }
     h3{
         font-size: 75px;
         color: #93488B;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 25px;
+        }
     }
     h4{
         font-size: 75px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 25px;
+        }
     }
     span{
         font-size: 25px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
     }
 }
 .grdient-driver{

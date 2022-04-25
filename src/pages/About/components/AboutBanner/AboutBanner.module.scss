@@ -2,11 +2,49 @@
     margin-top: -120px;
     position: absolute;
     z-index: -100;
-
+    @media(max-width: 1199px){
+      margin-top: -14%;
+      width: 100%;
+    }
+    @media (max-width: 767px) {
+     margin-top: -45px;
+    }
+    @media (max-width: 575px) {
+      margin-top: -1px;
+    }
     h1 {
         margin-top: 130px;
         margin-left: 5%;
         font-size: 60px;
+        @media (max-width:1199px) {
+            margin-top: 87px;
+            margin-left: 7%;
+            font-size: 35px;
+        }
+        @media (max-width: 767px) {
+            margin-top: 60px;
+            margin-left: 5%;
+            font-size: 25px;
+        }
+        @media (max-width: 575px) {
+            margin-top: 30px;
+            margin-left: 5%;
+            font-size: 18px;
+        }
     }
 }
-
+.image{
+    width: 93%;
+    @media (max-width: 1199px) {
+      width: 85%;
+      margin: 7%;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+      margin: 0px;
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+      margin: 0px !important;
+    }
+}

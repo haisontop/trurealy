@@ -6,8 +6,8 @@ const AboutourMission = () => {
     return (
         <div className={`position-relative ${style["about-consumer-mission"]}`}>
             <Container className="mx-auto px-0">
-                <div className="row gx-5 px-md-5">
-                    <div className="col-6 text-primary">
+                <div className="row px-0 gx-xl-5 px-xl-5">
+                    <div className="col-xl-6 px-4 px-md-0 px-xl-4 text-primary">
                         <div className="mt-4">
                             <h2 className="fw-bold">OUR MISSION</h2>
                             <p className="mt-1">
@@ -45,7 +45,7 @@ const AboutourMission = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-xl-6">
                         <img
                             src="/assets/Group 129.png"
                             className="img-fluid"

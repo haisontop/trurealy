@@ -6,17 +6,17 @@ const AboutSmarteragent = () => {
         <div className={`bg-primary ${style["about-smarter-agent"]}`}>
             <div>
                 <div className="">
-                    <div className="row container mx-auto px-4 gx-5">
-                        <div className="col-5">
+                    <div className="row container mx-auto px-xl-4 gx-xl-5">
+                        <div className="col-xl-5">
                             <div>
                                 <img
                                     src="/assets/tammy.png"
-                                    className="img-fluid p-3"
+                                    className="img-fluid p-md-3"
                                     alt=""
                                 />
                             </div>
                         </div>
-                        <div className="col-7 text-white d-flex aling-item-center">
+                        <div className="col-xl-7 text-white d-flex aling-item-center">
                             <div className="my-auto">
                                 <h2 className="fw-bold">
                                     LEADING WITH CHARACTER AND INTEGRITY - TRU

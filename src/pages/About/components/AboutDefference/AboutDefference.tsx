@@ -15,9 +15,9 @@ const AboutDefference = () => {
     ];
     return (
         <div className={`position-relative ${styles["ab-co-differrence"]}`}>
-            <div className="container px-5 mx-auto">
+            <div className="container px-xl-5 mx-auto">
                 <h1 className="fw-bold text-primary">LED BY VALUES</h1>
-                <span className="fw-medium text-primary">
+                <span className="fw-medium mt-5 mt-md-0 text-primary">
                     Defining our values is our way of sharing with you exactly
                     who we are as professionals, <br /> as well as individuals,
                     in our communities. Take a look at the attributes that make
@@ -31,7 +31,7 @@ const AboutDefference = () => {
                 <div
                     className={`${styles["about-defference-child-box"]} text-white`}
                 >
-                    <div className="row row-cols-5 gx-4">
+                    <div className="row row-cols-1 row-cols-xl-5 gy-4 gy-md-0 gx-xl-4">
                         {about_mock_data.map((sr) => (
                             <div className="text-center text-primary col">
                                 <div

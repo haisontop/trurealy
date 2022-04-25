@@ -1,5 +1,8 @@
 .about-truStory{
     margin-top: 110px;
+    @media (max-width: 575px) {
+        margin-top: -40px;;
+    }
 }
 .trastory-box-2 {
     background: linear-gradient(270deg, #fd084f  0%, #3b46f2 100%) 0% 0%
@@ -12,6 +15,9 @@
     position: absolute;
     right: 0;
     margin-top: 20px;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
 }
 .trastory-child {
     border-radius: 20px 0px 0px 20px;
@@ -20,17 +26,65 @@
     margin-bottom: -120px;
     h1{
         font-size: 75px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 40px;
+        }
     }
     h2{
         font-size: 75px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
     }
     h3{
         font-size: 45px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 25px;
+        }
     }
     p{
         font-size: 25px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 20px;
+        }
     }
 }
 .image{
     margin-top: 60px;
+    width: 80%;
+    @media (max-width: 575px) {
+        margin-top: 0px;
+        width: 100%;;
+    }
+}
+.image-2{
+    width: 80%;
+    @media (max-width: 575px) {
+        width: 50%;
+        margin: 10px;
+    }
 }

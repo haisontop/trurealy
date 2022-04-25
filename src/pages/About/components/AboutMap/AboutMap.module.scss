@@ -1,8 +1,23 @@
 .About-map{
     margin-top: 41px;
+    @media (max-width: 575px) {
+        margin-top: -420px;
+        margin-bottom: 520px;
+    }
     h3{
         font-size: 40px;
         width: 60%;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 25px;
+            text-align: center;
+            width: 100%;
+        }
     }
 }
 .style-box{
@@ -10,9 +25,24 @@
     border-start-start-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 50%;
+    @media (max-width: 575px) {
+        width: 90%;
+        margin-top: 80px;
+        right: 0%;
+        padding: 15px 15px;
+    }
     p{
         font-size: 25px;
         line-height: 33px;
+        @media (max-width: 1199px) {
+            font-size: 16px;
+        }
+        @media (max-width: 767px) {
+            font-size: 16px;
+        }
+        @media (max-width: 575px) {
+            font-size: 20px;
+        }
     }
 }
 .style-box::before{

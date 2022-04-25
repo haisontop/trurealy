@@ -7,8 +7,7 @@ const AboutBanner = () => {
             <div>
                 <img
                     src="/assets/images/Mask Group 36.png"
-                    className="img-fluid m-5"
-                    width="93%"
+                    className={`img-fluid m-xl-5 ${style["image"]}`}
                     alt=""
                 />
             </div>
