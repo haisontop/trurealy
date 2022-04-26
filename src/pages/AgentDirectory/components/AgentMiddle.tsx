@@ -18,44 +18,53 @@ function AgentMiddle() {
         rows: 3,
         appendDots: (dots: any) => (
             <div
-              style={{
-                borderRadius: "10px",
-                padding: "10px",
-              }}
+                style={{
+                    borderRadius: "10px",
+                    padding: "10px",
+                }}
             >
-              <ul> {dots} </ul>
+                <ul> {dots} </ul>
             </div>
-          ),
-          customPaging: (i: number) => (
+        ),
+        customPaging: (i: number) => (
             <div
-              style={{
-                width: "30px",
-                color: "#292670",
-                border: "1px #292670 solid",
-              }}
-              className="gx-5 fs-3"
+                style={{
+                    width: "30px",
+                    color: "#292670",
+                    border: "1px #292670 solid",
+                }}
+                className="gx-5 fs-3"
             >
-              {i + 1}
+                {i + 1}
             </div>
-          )
-      };
+        ),
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    rows: 2,
+                    centerPadding: "0px",
+                },
+            },
+        ],
+    };
     return (
         <div className={`g-5 px-5 position-relative ${style["Agent-middle"]}`}>
             <Slider {...settings}>
-            {AGENT_DIRECTORY_DATA.map((ag) => (
-                <AgentMiddleCard
-                    key={ag.img}
-                    img={ag.img}
-                    name={ag.name}
-                    email={ag.email}
-                    about={ag.about}
-                    website={ag.website}
-                />
-            ))}
+                {AGENT_DIRECTORY_DATA.map((ag) => (
+                    <AgentMiddleCard
+                        key={ag.img}
+                        img={ag.img}
+                        name={ag.name}
+                        email={ag.email}
+                        about={ag.about}
+                        website={ag.website}
+                    />
+                ))}
             </Slider>
-            <div className="text-center">
-
-            </div>
+            <div className="text-center"></div>
         </div>
     );
 }

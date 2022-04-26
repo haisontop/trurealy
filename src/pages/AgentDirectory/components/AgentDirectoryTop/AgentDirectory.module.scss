@@ -1,36 +1,47 @@
-.agent-directory-top{
+.agent-directory-top {
     margin-bottom: 108px;
-    h1{
-        font-size: 75px;
+    @media (max-width: 575px) {
+        margin-bottom: 50px;
     }
-    form{
-        width: 100%;
-        margin-top: 79px;
-        button{
-            border-radius: 20px;
+    h1 {
+        font-size: 75px;
+        @media (max-width: 575px) {
+            font-size: 25px;
         }
     }
-    input{
+    form {
+        width: 100%;
+        margin-top: 79px;
+        button {
+            border-radius: 20px;
+        }
+        @media (max-width: 575px) {
+            margin-top: 30px;
+        }
+    }
+    input {
         outline: none;
     }
-    hr{
+    hr {
         height: 2px;
     }
-    input{
-        border-bottom: 3px solid #9796C6;
+    input {
+        border-bottom: 3px solid #9796c6;
         border-top: 0px;
         border-left: 0px;
         border-right: 0px;
         width: 100%;
     }
-
 }
-.top-text{
-    background: linear-gradient(270deg, #3E45F0 0%, #fd084f 100%) 0% 0%
-    no-repeat padding-box;
+.top-text {
+    background: linear-gradient(270deg, #3e45f0 0%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
     width: 95%;
     padding: 46px 5px;
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
 }

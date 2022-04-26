@@ -5,7 +5,7 @@ export default function RentMap() {
     return (
         <div className="position-relative">
             <div className={`mx-auto ${styles["buy-body"]}`}>
-                <h3 className="text-primary text-center fw-bold">
+                <h3 className="text-primary text-center fw-bold px-5 px-md-0">
                     Find your new hope today.
                 </h3>
                 <div className="mt-5 text-center">
