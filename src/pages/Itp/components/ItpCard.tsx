@@ -35,7 +35,7 @@ function ItpCard({ author, title, img, discription }: props) {
                 )}
             </div>
             <div
-                className={`col-7 text-primary px-4 px-md-0 ${style["itp-card-body"]}`}
+                className={`col-7 text-primary px-4 px-md-5 ${style["itp-card-body"]}`}
             >
                 <h3 className="fw-bold mt-5 mt-md-0">{title}</h3>
                 <p className="fw-medium">{author}</p>
