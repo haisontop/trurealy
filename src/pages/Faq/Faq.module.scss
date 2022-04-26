@@ -3,13 +3,14 @@
 @import "bootstrap/scss/mixins/_breakpoints";
 
 .faq-container {
-    @include media-breakpoint-down(sm) {
-        margin-bottom: 50px;
+    margin-bottom: 50px;
+    @include media-breakpoint-up(sm) {
+        margin-bottom: 0px;
     }
     h1 {
-        font-size: 60px;
-        @include media-breakpoint-down(sm) {
-            font-size: 40px;
+        font-size: 40px;
+        @include media-breakpoint-up(sm) {
+            font-size: 60px;
         }
     }
 }
@@ -45,13 +46,13 @@
         no-repeat padding-box;
     margin: auto;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 70px;
     padding-left: 30px;
     border-radius: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
-    @include media-breakpoint-down(sm) {
-        margin-top: 70px;
+    @include media-breakpoint-up(sm) {
+        margin-top: 60px;
     }
     @include media-breakpoint-up(sm) {
         width: 100%;

@@ -2,10 +2,10 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins/_breakpoints";
 .description {
-    width: 70%;
-    margin-left: 50px;
-    @include media-breakpoint-down(sm) {
-        width: 100%;
-        margin-left: 0px;
+    width: 100%;
+    margin-left: 0px;
+    @include media-breakpoint-up(sm) {
+        width: 70%;
+        margin-left: 50px;
     }
 }

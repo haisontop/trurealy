@@ -3,14 +3,15 @@
 @import "bootstrap/scss/mixins/_breakpoints";
 .contact {
     form {
-        border-radius: 20px;
-        margin-bottom: -30px;
-        margin-left: -30px;
-        @include media-breakpoint-down(sm) {
-            position: static;
-            width: 100%;
-            margin-bottom: 0px;
-            margin-left: 0px;
+        position: static;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+        @include media-breakpoint-up(sm) {
+            border-radius: 20px;
+            margin-bottom: -30px;
+            margin-left: -30px;
         }
     }
     input {
@@ -24,15 +25,15 @@
         height: 182px !important;
     }
     h1 {
-        font-size: 75px;
-        @include media-breakpoint-down(sm) {
-            font-size: 30px;
+        font-size: 30px;
+        @include media-breakpoint-up(sm) {
+            font-size: 75px;
         }
     }
     h5 {
-        font-size: 35px;
-        @include media-breakpoint-down(sm) {
-            font-size: 25px;
+        font-size: 25px;
+        @include media-breakpoint-up(sm) {
+            font-size: 35px;
         }
     }
     p {
@@ -55,20 +56,22 @@
     border-radius: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    position: absolute;
-    width: 500px;
-    @include media-breakpoint-down(sm) {
-        position: static;
-        width: 100%;
-        margin-top: 40px;
+    position: static;
+    width: 100%;
+    margin-top: 40px;
+
+    @include media-breakpoint-up(sm) {
+        position: absolute;
+        width: 500px;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-right: 0px;
     }
 }
 .contact-from {
-    margin-bottom: -100px;
-    @include media-breakpoint-down(sm) {
-        margin-bottom: 100px;
-        width: 100%;
-    }
+    margin-bottom: 100px;
+    width: 100%;
+    border-radius: 25px;
     button {
         border-radius: 10px;
     }

@@ -9,13 +9,13 @@
     border-radius: 0px 20px 0px 0px;
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: -34%;
+    font-size: 50;
     z-index: -2;
     padding: 30px 30px 100px 147px;
 
-    @include media-breakpoint-down(sm){
-     left: -34%;
-     font-size: 50;
+    @include media-breakpoint-up(sm) {
+        left: 0%;
     }
 
     @include media-breakpoint-up(md) {
