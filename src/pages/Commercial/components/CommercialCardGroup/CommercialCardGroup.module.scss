@@ -30,20 +30,20 @@
 }
 
 .carousel {
-    width: 100%;
+    width: 320px;
     padding-top: 48px;
     margin: auto;
-    // @include media-breakpoint-up(sm) {
-    //     width: 500px;
-    // }
+    @include media-breakpoint-up(sm) {
+        width: 500px;
+    }
 
-    // @include media-breakpoint-up(md) {
-    //     width: 1000px;
-    // }
+    @include media-breakpoint-up(md) {
+        width: 800px;
+    }
 
-    // @include media-breakpoint-up(md) {
-    //     width: 1000px;
-    // }
+    @include media-breakpoint-up(lg) {
+        width: 1000px;
+    }
 }
 
 .card-bottom {
@@ -57,4 +57,9 @@
 }
 .commercial-card {
     border-radius: 25px;
+    width: 310px;
+    @include media-breakpoint-up(sm) {
+        width: initial;
+    }
+    // width: 310px;
 }
