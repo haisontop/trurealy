@@ -6,7 +6,7 @@ import Layout from '../../layouts/Layout';
 function AgentDirectory() {
   return (
     <Layout>
-        <div className='container mx-auto'>
+        <div className='container-fluid mx-auto'>
             <AgentDirectoryTop />
             <AgentMiddle />
         </div>

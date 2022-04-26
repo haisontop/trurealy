@@ -48,6 +48,24 @@ function AgentMiddle() {
                     centerPadding: "0px",
                 },
             },
+            {
+                breakpoint: 799,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    rows: 3,
+                    centerPadding: "0px",
+                },
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    rows: 3,
+                    centerPadding: "0px",
+                },
+            },
         ],
     };
     return (
