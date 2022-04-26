@@ -3,10 +3,12 @@ import style from "./TruCareers.module.scss";
 
 export default function TRUCareers() {
     return (
-        <div className="container px-0 mx-auto position-relative">
+        <div className="container-fluid px-0 mx-auto position-relative">
             <div className={style["tru-carees"]}>
                 <div className={style["tru-careers-box"]}>
-                    <h1>TRU PATHWAYS. TRU CAREERS.</h1>
+                    <h1 className="display-1 fw-bold">
+                        TRU PATHWAYS. TRU CAREERS.
+                    </h1>
                 </div>
             </div>
             <div className={`${style["tru-careers-carousel"]} mt-4`}>

@@ -15,7 +15,7 @@ export default function CommercialCard({name, link , email, img} : props) {
         <div className=''>
            <img src={img} alt="" className='img-fluid' width="100%" />
         </div>
-        <div className={`position-absolute bottom-0 bg-primary-gray text-white p-4 ${style["card-bottom"]}`}>
+        <div className={`position-absolute bottom-0 bg-primary text-white p-2 p-md-4 ${style["card-bottom"]}`}>
             <h5 className='m-0 fw-bold'>{name}</h5>
             <p className='m-0'>{email}</p>
             <Link

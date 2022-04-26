@@ -24,30 +24,23 @@ export default function PrelicenseMiddleCard() {
     ];
     return (
         <div
-            className={`container mx-auto px-0 position-relative ${style["prelicense-middle"]}`}
+            className={`container-fluid mx-auto px-0 position-relative ${style["prelicense-middle"]}`}
         >
             <div className="text-center">
-                <h1
-                    className="text-white m-0 fw-bold"
-                    style={{ fontSize: "75px" }}
-                >
+                <h1 className="text-white m-0 fw-bold display-1">
                     YOU DESERVE BETTER
                 </h1>
-                <h3
-                    className="text-white mt-1 mb-0 fw-normal"
-                    style={{ fontSize: "48px" }}
-                >
+                <h3 className="text-white mt-1 mb-0 fw-normal display-2">
                     PART TIME. FULL TIME. ALWAYS MORE TIME.
                 </h3>
             </div>
             <div>
                 <div className={style["prelicense-gradiant"]} />
                 <div
-                    className="row gap-0 mx-auto px-5"
-                    style={{ marginTop: "-286px" }}
+                    className={`row gap-0 row-gap-2 mx-auto px-5 ${style["prelicense-gradiant-body"]}`}
                 >
                     {data.map((dt) => (
-                        <div className="col-4">
+                        <div className="col-12 col-md-4">
                             <div
                                 className={`text-white overflow-hidden p-4 mx-2 ${style["prilicens-card"]}`}
                             >

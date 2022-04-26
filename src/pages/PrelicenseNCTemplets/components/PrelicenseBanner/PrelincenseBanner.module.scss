@@ -1,24 +1,57 @@
-.p-gradiant-banner{
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
+.p-gradiant-banner {
     background: linear-gradient(270deg, #3b46f2 10%, #fd084f 100%) 0% 0%
-    no-repeat padding-box;
-    width: 90%;
+        no-repeat padding-box;
+    width: 100%;
     padding-top: 45px;
     padding-bottom: 164px;
     border-radius: 0px 0px 20px 20px;
+
+    @include media-breakpoint-up(sm) {
+        width: 100%;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 90%;
+    }
 }
-.p-b-chield{
-    width: 70%;
+.p-b-chield {
+    width: 90%;
     margin-top: -90px;
-    margin-left: 16%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     padding-bottom: 30px;
-    p{
+    p {
         width: 90%;
         margin: auto;
         margin-top: 30px;
         font-size: 25px;
     }
-    span{
+    span {
         font-size: 25px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        width: 90%;
+        margin-left: 16%;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 70%;
+    }
+}
+
+.title-top {
+    font-size: 4rem;
+    @include media-breakpoint-up(sm) {
+        font-size: 4rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 6rem;
     }
 }
