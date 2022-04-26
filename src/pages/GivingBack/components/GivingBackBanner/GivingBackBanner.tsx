@@ -7,13 +7,13 @@ function GivingBackcoBanner() {
     return (
         <>
             <div className={`position-relative ${styles["GivingBackBanner"]}`}>
-                <img src="/assets/bg/giving-bg.png" alt="" loading="lazy" />
+                <img src="/assets/bg/giving-bg.png" alt="" className={`${styles["banner-img"]}`} loading="lazy" />
 
                 <div
                     className={`position-absolute top-0 start-0 py-3 px-5 d-flex gap-2 align-items-center fw-bolder text-white ${styles["true-cares"]}`}
                 >
                     #TRUCARES
-                    <BsSuitHeart className="ms-3" />
+                    <BsSuitHeart className="ms-md-3 ms-1" />
                 </div>
                 <div
                     className={`position-absolute bottom-0 end-0 bg-black bg-opacity-75 px-5 py-3 text-white ${styles["difference-text"]}`}
