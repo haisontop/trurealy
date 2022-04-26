@@ -14,7 +14,7 @@ function AgentDirectoryTop() {
                 </p>
             </div>
             <form className="gap-5 d-md-flex px-5">
-                <div className="w-100">
+                <div className={`${style['input']}`}>
                     <input
                         type="text"
                         placeholder="Search by Agent Name"
@@ -29,7 +29,7 @@ function AgentDirectoryTop() {
                     />
                 </div>
                 <div className="text-center text-md-start">
-                    <button className="fs-5 px-3 py-1 border-0 bg-pink text-white">
+                    <button className="fs-3 px-3 py-1 border-0 bg-pink text-white">
                         SEARCH
                     </button>
                 </div>

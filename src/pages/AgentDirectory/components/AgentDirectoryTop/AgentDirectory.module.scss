@@ -1,3 +1,6 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
 .agent-directory-top {
     margin-bottom: 108px;
     @media (max-width: 575px) {
@@ -13,7 +16,7 @@
     p {
         font-size: 25px;
         @media (max-width: 575px) {
-            font-size: 16px;
+            font-size: 20px;
         }
     }
 
@@ -55,5 +58,11 @@
     border-bottom-right-radius: 30px;
     @media (max-width: 575px) {
         width: 100%;
+    }
+}
+.input{
+    width: 100%;
+    @include media-breakpoint-up(sm){
+        width: 70%;
     }
 }
