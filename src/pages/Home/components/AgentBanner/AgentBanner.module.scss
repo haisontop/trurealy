@@ -1,0 +1,10 @@
+.agent-banner{
+    @media (max-width: 575px) {
+        height: 352px;
+    }
+    img{
+        @media (max-width: 575px) {
+            height: 352px;
+        }
+    }
+}

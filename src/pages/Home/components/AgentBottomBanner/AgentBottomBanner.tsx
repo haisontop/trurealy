@@ -10,7 +10,7 @@ export const AgentBottomBanner = () => {
         >
             <div className="row no-gutters">
                 <div
-                    className={`col-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-left"]}`}
+                    className={`col-md-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-left"]}`}
                 >
                     <Image
                         src="/assets/images/licensed-tru-agent.png"
@@ -25,7 +25,7 @@ export const AgentBottomBanner = () => {
                     </div>
                 </div>
                 <div
-                    className={`col-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-right"]}`}
+                    className={`col-md-6 overflow-hidden px-0 position-relative banner-col-parents ${styles["banner-right"]}`}
                 >
                     <Image
                         src="/assets/images/agent-bottom-right.png"

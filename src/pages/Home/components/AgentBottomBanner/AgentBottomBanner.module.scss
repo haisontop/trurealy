@@ -7,13 +7,24 @@
     bottom: 10px;
     left: 100px;
     z-index: 2;
+    @media (max-width: 575px) {
+        left: 20px;
+        bottom: 50px;
+    }
     h1 {
         font-size: 60px;
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
     }
     p {
         font-size: 35px;
         line-height: 47px;
         font-weight: 100;
+        @media (max-width: 575px) {
+            font-size: 20px;
+            line-height: 25px;
+        }
     }
 }
 

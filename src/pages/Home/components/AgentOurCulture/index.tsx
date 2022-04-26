@@ -15,13 +15,17 @@ export const AgentOurCulture = () => {
                         Our Culture
                     </div>
                     <div className="text-primary fs-2 fw-bold lh-2">
-                    “Sarah Richardson, Founder & CEO of TRU, has created an environment of collaboration and energy that is incredible and contagious”   -Tammy Peil, TRU Agent
+                        “Sarah Richardson, Founder & CEO of TRU, has created an
+                        environment of collaboration and energy that is
+                        incredible and contagious” -Tammy Peil, TRU Agent
                     </div>
                 </div>
             </div>
-            <div className={`container px-2 px-xxl-4 ${styles["row-container"]}`}>
-                <div className="row container mx-auto px-5 gx-5">
-                    <div className="col-5">
+            <div
+                className={`container px-2 px-xxl-4 ${styles["row-container"]}`}
+            >
+                <div className="row container mx-auto px-md-5 gx-md-5">
+                    <div className="col-md-5">
                         <img
                             src="/assets/culture-bg.png"
                             className="img-fluid"
@@ -34,8 +38,8 @@ export const AgentOurCulture = () => {
                             Join TRU Realty
                         </button>
                     </div>
-                    <div className="col-7 text-white d-flex aling-item-center">
-                        <div className="">
+                    <div className="col-md-7 text-white d-flex aling-item-center">
+                        <div className="mt-5 mt-md-0">
                             <p className="fw-medium">
                                 At TRU Realty we believe that having fun, loving
                                 what you do and who you’re doing it with are
@@ -58,7 +62,8 @@ export const AgentOurCulture = () => {
                                 to make your dreams come true.
                             </p>
                             <h4 className="fw-bold">
-                                WE ARE INCLUSIVE INNOVATIVE, DIVERES AND DETERMINED TO SUCCEED.
+                                WE ARE INCLUSIVE INNOVATIVE, DIVERES AND
+                                DETERMINED TO SUCCEED.
                             </h4>
                         </div>
                     </div>
