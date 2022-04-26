@@ -1,21 +1,42 @@
-.prelicense-middle{
-    margin-top: 162px;
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
+.prelicense-middle {
+    margin-top: 80px;
+    @include media-breakpoint-up(sm) {
+        margin-top: 100px;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin-top: 102px;
+    }
 }
-.prelicense-gradiant{
+.prelicense-gradiant {
     background: linear-gradient(270deg, #3b46f2 10%, #fd084f 100%) 0% 0%
-    no-repeat padding-box;
+        no-repeat padding-box;
     width: 98%;
     border-radius: 20px 0px 0px 20px;
     height: 356px;
     margin-top: 48px;
     margin-left: 2%;
 }
-.prilicens-card{
-    height: 580px;
+
+.prelicense-gradiant-body {
+    margin-top: -286px;
+}
+
+.prilicens-card {
     border-radius: 20px;
     background-color: #292670;
     cursor: pointer;
+    @include media-breakpoint-up(sm) {
+    }
+
+    @include media-breakpoint-up(md) {
+        min-height: 580px;
+    }
 }
-.prilicens-card:hover{
- background-color: #AA2395;
+.prilicens-card:hover {
+    background-color: #aa2395;
 }

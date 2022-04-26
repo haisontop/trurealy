@@ -9,7 +9,7 @@ export default function CommercialBottom() {
             <div
                 className={`text-center text-white ${style["commercial-bottom"]}`}
             >
-                <h1 className="fw-medium">JOIN 100+ AGENTS IN 30+</h1>
+                <h1 className="fw-bold display-1">JOIN 100+ AGENTS IN 30+</h1>
                 <button className="border-0 bg-pink text-white fs-4 px-5 py-1 mt-5">
                     Join the TRU Team
                 </button>

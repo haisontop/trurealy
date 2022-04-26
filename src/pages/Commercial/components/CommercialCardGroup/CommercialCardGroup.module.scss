@@ -1,33 +1,65 @@
-.Commercial-Card-Group{
-    margin-top: 781px;
-    h4{
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
+.Commercial-Card-Group {
+    margin-top: 45px;
+    h4 {
         font-size: 40px;
     }
+
+    @include media-breakpoint-up(sm) {
+        margin-top: 60px;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin-top: 90px;
+    }
 }
-.linear-gradient{
-    background: linear-gradient(270deg, #3b46f2  20%, #fd084f 100%) 0% 0%
-    no-repeat padding-box;
+
+.linear-gradient {
+    background: linear-gradient(270deg, #3b46f2 20%, #fd084f 100%) 0% 0%
+        no-repeat padding-box;
     height: 315px;
 }
-.carousel-div{
+.carousel-div {
     width: 90%;
-    // overflow: hidden;
     margin-top: -260px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.carousel{
-    width: 1200px;
+
+.carousel {
+    width: 320px;
     padding-top: 48px;
     margin: auto;
+    @include media-breakpoint-up(sm) {
+        width: 500px;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 800px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 1000px;
+    }
 }
-.card-bottom{
+
+.card-bottom {
     width: 100%;
-    h5{
+    h5 {
         font-size: 25px;
     }
-    p{
+    p {
         font-size: 20px;
     }
 }
-.commercial-card{
+.commercial-card {
     border-radius: 25px;
+    width: 310px;
+    @include media-breakpoint-up(sm) {
+        width: initial;
+    }
+    // width: 310px;
 }

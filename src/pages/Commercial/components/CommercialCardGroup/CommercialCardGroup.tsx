@@ -44,12 +44,34 @@ export default function CommercialCardGroup() {
         slidesToShow: 3,
         slidesToScroll: 3,
         dotsClass: `slick-dots ${style["custom-indicator"]}`,
+        responsive: [
+            {
+                breakpoint: 1300,
+                settings: {
+                    slidesToShow: 3,
+                },
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
     };
     return (
         <div className={`${style["Commercial-Card-Group"]}`}>
             <div className={`${style["linear-gradient"]}`} />
-            <div className={`mx-auto container ${style["carousel-div"]}`}>
-                <h4 className="text-white mx-5">
+            <div className={`mx-auto container-fluid ${style["carousel-div"]}`}>
+                <h4 className="text-white mx-2 mx-md-5">
                     Meet a few of the Commercial Agents…
                 </h4>
                 <div className={`${style["carousel"]}`}>

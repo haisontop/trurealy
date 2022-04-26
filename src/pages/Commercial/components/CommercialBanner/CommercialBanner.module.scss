@@ -1,11 +1,23 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .Commercial-Banner {
     padding: 100px 0px;
     h1 {
-        font-size: 100px;
+        font-size: 40px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 60px;
+        }
+
+        @include media-breakpoint-up(md) {
+            font-size: 100px;
+        }
     }
 }
 .linear-gradient {
-    background: linear-gradient(270deg, #fd084f 0%, #3b46f2 100%) 0% 0%
+    background: linear-gradient(270deg, #3b46f2 0%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     height: 20px;
 }

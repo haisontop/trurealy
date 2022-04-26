@@ -1,33 +1,64 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .faq-container {
     h1 {
         font-size: 60px;
     }
 }
 .faq-question-mark {
-    top: -20px;
-    width: 130px;
+    top: -3px;
+    width: 60px;
     h1 {
         font-size: 60px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        top: -4px;
+        width: 80px;
+    }
+
+    @include media-breakpoint-up(md) {
+        top: -6px;
+        width: 130px;
     }
 }
 .faq-box {
     border-radius: 30px;
     margin-top: -80px;
-    margin-right: -50px;
+
     background-color: #28256e;
+
+    @include media-breakpoint-up(sm) {
+        margin-right: -50px;
+    }
 }
 .faq {
     background: linear-gradient(270deg, #3e44ee 25%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     margin: auto;
-    width: 700px;
-    margin-top: 153px;
+    width: 100%;
+    margin-top: 60px;
     padding-left: 30px;
     border-radius: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
+    @include media-breakpoint-up(sm) {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 700px;
+        margin-top: 80px;
+    }
 }
 .faq-agent {
     background-color: #0f0e4d;
-    padding-bottom: 300px;
+    padding-bottom: 60px;
+    @include media-breakpoint-up(sm) {
+        width: 100%;
+        padding-bottom: 100px;
+    }
 }

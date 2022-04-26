@@ -1,26 +1,58 @@
-.Pre-btm-banner{
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
+.Pre-btm-banner {
     background: url("../../../../../public/assets/Group 321.png");
     background-size: cover;
     background-position: center center;
     margin-top: 129px;
-    padding-top: 88px;
+    padding-top: 40px;
     padding-bottom: 88px;
     position: relative;
-    height: 190vh;
+
+    @include media-breakpoint-up(sm) {
+        padding-top: 40px;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding-top: 88px;
+    }
 }
-.pr-btm-box{
- width: 70%;
- background-color: RGBA(68,65,231,0.35);
- position: absolute;
- right: 0%;
- margin-top: 44px;
- padding-top: 20px;
- padding-left: 20px;
- border-radius: 20px 0px 0px 20px;
+
+.pr-btm-box {
+    width: 90%;
+    background-color: RGBA(68, 65, 231, 0.35);
+    margin-left: auto;
+    margin-top: 44px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+
+    @include media-breakpoint-up(sm) {
+        width: 90%;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 70%;
+    }
 }
-.pr-btm-box-child{
-background:  linear-gradient(135deg, rgba(11,10,102,0.7875525210084033) 0%, rgba(11,10,102,0.8099614845938375) 100%);
-padding: 120px;
-border-radius: 20px 0px 0px 20px;
-margin-bottom: -30px;
+
+.pr-btm-box-child {
+    background: linear-gradient(
+        135deg,
+        rgba(11, 10, 102, 0.7875525210084033) 0%,
+        rgba(11, 10, 102, 0.8099614845938375) 100%
+    );
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px 0px 0px 20px;
+
+    @include media-breakpoint-up(sm) {
+        padding: 40px 40px;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding: 40px 60px;
+    }
 }
