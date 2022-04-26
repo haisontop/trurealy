@@ -10,11 +10,11 @@ export default function BuyMiddle() {
            Discover why so many people choose TRU to help them find their way home. A home purchase is more than a transaction, it’s a life changer. TRU works with you throughout the buying process, from browsing properties to making a carefully negotiated offer. If you’re looking to buy a home, our friendly and knowledgeable real estate agents are here to help you exceed your real estate goals.
            </p>
        </div>
-       <div className={`row pt-5`}>
-         <div className={`col-md-6`}>
+       <div className={`row pt-5 gy-4`}>
+         <div className={`col-12 col-lg-6`}>
           <img src="/assets/images/Group 312.png" className='img-fluid' width="100%" alt="" />
          </div>
-         <div className={`col-md-6 d-flex aling-items-center`}>
+         <div className={`col-12 col-lg-6 d-flex aling-items-center`}>
              <div className='mt-5 my-md-auto'>
              <h3 className='fw-bold text-primary'>OUR BUYING AGENTS</h3>
               <p className='text-primary mt-4 fw-medium'>

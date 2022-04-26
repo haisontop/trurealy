@@ -11,7 +11,7 @@ export default function BuyBody() {
                 <div className="mt-5 text-center">
                     <img
                         src="/assets/images/US map.png"
-                        className="img-fluid mx-md-5"
+                        className="img-fluid px-md-5"
                         alt=""
                     />
                 </div>

@@ -9,7 +9,7 @@ export default function Buy() {
     return (
         <div>
             <Layout>
-                <div className="container mx-auto px-0">
+                <div className="container-fluid mx-auto px-0">
                     <BuyBanner />
                     <BuyMiddle />
                     <BuyBody />

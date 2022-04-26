@@ -13,8 +13,8 @@ export default function SellMiddle() {
                     the right way!
                 </p>
             </div>
-            <div className={`row pt-5`}>
-                <div className={`col-md-6`}>
+            <div className={`row gy-4 gx-5 pt-5`}>
+                <div className={`col-12 col-lg-6`}>
                     <img
                         src="/assets/images/Group 259.png"
                         className="img-fluid"
@@ -22,7 +22,7 @@ export default function SellMiddle() {
                         alt=""
                     />
                 </div>
-                <div className={`col-md-6 d-flex aling-items-center`}>
+                <div className={`col-12 col-lg-6 d-flex aling-items-center`}>
                     <div className="mt-5 my-md-auto">
                         <h3 className="fw-bold text-primary">
                             OUR LISTING AGENTS

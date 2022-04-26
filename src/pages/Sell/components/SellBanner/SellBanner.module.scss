@@ -1,3 +1,7 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .sell-banner {
     background: linear-gradient(
             135deg,
@@ -8,15 +12,18 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    padding: 20px 0px 20px 10px;
     h1 {
-        font-size: 75px;
         font-weight: 500;
         color: #fff;
-        padding: 50px 0px 50px 170px;
+
         @media (max-width: 575px) {
             font-size: 40px;
-            padding: 20px 0px 20px 10px;
         }
+    }
+
+    @include media-breakpoint-up(sm) {
+        padding: 50px 0px 50px 170px;
     }
 }
 .linear-gradian {
