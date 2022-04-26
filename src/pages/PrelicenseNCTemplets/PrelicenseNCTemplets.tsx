@@ -8,7 +8,7 @@ import TRUcareers from "./components/TRUCareers/TRUCareers";
 export default function PrelicenseNCTemplets() {
     return (
         <Layout>
-            <div className="container mx-auto px-0 pb-5 bg-dark-primary">
+            <div className="container-fluid mx-auto px-0 pb-5 bg-dark-primary">
                 <PrelicenseBanner />
                 <PrelicenseMiddleCard />
                 <TRUcareers />

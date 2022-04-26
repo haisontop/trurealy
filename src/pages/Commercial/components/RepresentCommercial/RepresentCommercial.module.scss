@@ -1,7 +1,21 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .represent-commercial{
-    margin-top: 131px;
-    margin-bottom: 112px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     p{
         font-size: 25px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin-top: 131px;
+        margin-bottom: 120px;
     }
 }

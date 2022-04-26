@@ -5,7 +5,7 @@ import "./PrivacyPolicy.scss";
 function PrivacyPolicy() {
     return (
         <Layout>
-            <section className="PrivacyPolicyWrap">
+            <section className="PrivacyPolicyWrap text-">
                 <h1>PRIVACY POLICY</h1>
                 <p>Last updated: August 21, 2021</p>
                 <p>
