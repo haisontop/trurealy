@@ -1,12 +1,24 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .giving-bottom {
     background: url("../../../../../public/assets/images/together-background.png");
     background-position: center;
     background-size: cover;
-    padding: 100px;
+    padding: 20px;
     h1 {
         font-size: 50px;
     }
     button {
         border-radius: 10px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        padding: 40px;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding: 100px;
     }
 }

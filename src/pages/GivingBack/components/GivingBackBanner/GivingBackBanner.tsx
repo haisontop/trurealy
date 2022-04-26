@@ -7,8 +7,7 @@ function GivingBackcoBanner() {
     return (
         <>
             <div className={`position-relative ${styles["GivingBackBanner"]}`}>
-                <img src="/assets/bg/giving-bg.png" alt="" className={`${styles["banner-img"]}`} loading="lazy" />
-
+                <img src="/assets/bg/giving-bg.png" alt="" loading="lazy" />
                 <div
                     className={`position-absolute top-0 start-0 py-3 px-5 d-flex gap-2 align-items-center fw-bolder text-white ${styles["true-cares"]}`}
                 >
@@ -30,13 +29,7 @@ function GivingBackcoBanner() {
                     </p>
                 </div>
             </div>
-            <div
-                className="w-100 py-3 mb-5"
-                style={{
-                    backgroundImage:
-                        "linear-gradient(270deg, #3B46F2 0%, #FD084F 100%)",
-                }}
-            />
+            <div className={`w-100 py-3 mb-5 ${styles["linear-gradient"]}`} />
         </>
     );
 }

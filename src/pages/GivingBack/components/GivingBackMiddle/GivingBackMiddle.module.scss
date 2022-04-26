@@ -1,5 +1,12 @@
-.giving-m-p {
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-left: -12px;
+.box{
+    background-image: linear-gradient(48deg, #3B46F2 0%, #FD084F 100%);
+    top: -30Px;
+    left: -30px;
+    border-radius: 1.5rem;
+    z-index: -1;
+}
+.giving-text{
+    background-color: #292670;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
