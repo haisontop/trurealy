@@ -54,7 +54,7 @@ const TestimonialBanner = () => {
             className={`container position-relative mx-auto overflow-hidden mt-5 ${style["testimonial-banner"]}`}
         >
             <div
-                className="mx-auto"
+                className={"mx-auto"}
                 style={{ maxWidth: "900px", marginTop: "130px" }}
             >
                 <AliceCarousel
@@ -78,7 +78,7 @@ const TestimonialBanner = () => {
                 />
             </div>
             <div className={`fw-bold display-1 ${style["gradient-driver"]}`}>
-                Real people. Tru stories.
+               REAL PEOPLE. TRU STORIES.
             </div>
         </div>
     );

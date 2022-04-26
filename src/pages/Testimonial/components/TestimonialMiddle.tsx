@@ -54,7 +54,7 @@ const TestimonialMiddle = () => {
     ));
 
     return (
-        <div className="container mx-auto overflow-hidden mt-5">
+        <div className="container mx-auto overflow-hidden mt-md-5">
             <div className="mx-auto" style={{ maxWidth: "900px" }}>
                 <AliceCarousel
                     renderKey={0}

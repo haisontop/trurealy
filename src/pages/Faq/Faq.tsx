@@ -37,13 +37,13 @@ const Faq = () => {
                              </div>
                         </div>
                     </div>
-                    <TrueHelp title="Still Have A Few Questions?">
+                   {/* { <TrueHelp title="Still Have A Few Questions?">
                         <>
                             <button className="py-1 text-white px-5 fs-4 me-4 tru-help-btn">
                                 Contact Us Todsy
                             </button>
                         </>
-                    </TrueHelp>
+                    </TrueHelp>} */}
                 </div>
             </Layout>
         </div>
