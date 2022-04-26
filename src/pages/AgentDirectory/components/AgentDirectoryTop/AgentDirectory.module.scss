@@ -14,6 +14,10 @@
         margin-top: 79px;
         button {
             border-radius: 20px;
+            @media (max-width: 575px) {
+                width: 100%;
+                margin-top: 10px;
+            }
         }
         @media (max-width: 575px) {
             margin-top: 30px;
