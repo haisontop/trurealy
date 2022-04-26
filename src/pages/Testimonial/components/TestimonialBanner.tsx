@@ -50,10 +50,12 @@ const TestimonialBanner = () => {
         />,
     ];
     return (
-        <div className={`container position-relative mx-auto overflow-hidden mt-5 ${style["testimonial-banner"]}`}>
+        <div
+            className={`container position-relative mx-auto overflow-hidden mt-5 ${style["testimonial-banner"]}`}
+        >
             <div
                 className="mx-auto"
-                style={{ maxWidth: "900px", marginTop: "170px" }}
+                style={{ maxWidth: "900px", marginTop: "130px" }}
             >
                 <AliceCarousel
                     renderKey={0}
@@ -75,9 +77,7 @@ const TestimonialBanner = () => {
                     }}
                 />
             </div>
-            <div
-                className={`fw-bold ${style["gradient-driver"]}`}
-            >
+            <div className={`fw-bold display-1 ${style["gradient-driver"]}`}>
                 Real people. Tru stories.
             </div>
         </div>

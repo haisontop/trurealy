@@ -1,14 +1,28 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .gradient-driver {
     background: linear-gradient(270deg, #3e44ee 25%, #fd084f 100%) 0% 0%
         no-repeat padding-box;
     color: white;
-    padding: 30px 30px 100px 147px;
     border-radius: 0px 20px 0px 0px;
-    font-size: 75px;
     position: absolute;
     top: 0%;
     left: 0%;
     z-index: -2;
+    padding: 30px 30px 100px 147px;
+
+
+    @include media-breakpoint-up(sm) {
+        padding: 30px 30px 100px 147px;
+
+    }
+
+    @include media-breakpoint-up(md) {
+    padding: 30px 30px 100px 147px;
+
+    }
 }
 .testimonial-banner{
     img{
