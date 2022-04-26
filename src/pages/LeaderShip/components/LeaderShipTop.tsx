@@ -3,13 +3,13 @@ import React from "react";
 export default function LeaderShipTop() {
     return (
         <div className="position-relative px-0 mb-5">
-            <h1 className="bg-grad inner-title  text-white mb-5">
+            <h1 className="bg-grad display-1 fw-bold  text-white mb-5">
                 LEADING REAL ESTATE <br /> INTO THE FUTURE
             </h1>
 
             <div className="px-5">
                 <div className="row g-5">
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <div className="">
                             <img
                                 src="/assets/Rectangle 272.png"
@@ -18,9 +18,9 @@ export default function LeaderShipTop() {
                             />
                         </div>
                     </div>
-                    <div className="col-8">
+                    <div className="col-12 col-md-8">
                         <div className="">
-                            <h1 className="inner-title  text-primary mb-5">
+                            <h1 className="display-1 fw-bold  text-primary mb-5">
                                 SARAH RICHARDSON <span>CEO OF TRU REALTY</span>
                             </h1>
                             <p className="fw-medium text-primary">

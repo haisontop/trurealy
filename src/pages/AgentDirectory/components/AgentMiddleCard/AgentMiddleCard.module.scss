@@ -1,4 +1,9 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+
 .agent-middle-card {
+    width: 300px;
     cursor: pointer;
     textarea {
         outline: none;
@@ -35,11 +40,27 @@
     border-radius: 25px;
 }
 .Agent-middle {
-    width: 1200px;
+    width: 400px;
     margin: auto;
-    @media (max-width: 575px) {
-        width: 100%;
+    // @media (max-width: 575px) {
+    //     width: 100%;
+    // }
+    @include media-breakpoint-up(sm) {
+        width: 576px
     }
+
+    @include media-breakpoint-up(md) {
+        width: 800px
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 992px
+    }
+
+    @include media-breakpoint-up(xl) {
+        width: 1200px
+    }
+
 }
 .custom-dots li {
     margin: 10px;

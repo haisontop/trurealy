@@ -7,7 +7,9 @@ const LeadershipCarousel = () => {
             <div className="podcast-section px-5   text-left">
                 <Row>
                     <Col>
-                        <h1 className="inner-title mt-5 text-primary">MARKETING</h1>
+                        <h1 className="display-1 fw-bold mt-5 text-primary">
+                            MARKETING
+                        </h1>
                     </Col>
                 </Row>
                 <Row>
