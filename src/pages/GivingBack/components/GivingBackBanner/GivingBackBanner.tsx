@@ -8,7 +8,6 @@ function GivingBackcoBanner() {
         <>
             <div className={`position-relative ${styles["GivingBackBanner"]}`}>
                 <img src="/assets/bg/giving-bg.png" alt="" loading="lazy" />
-
                 <div
                     className={`position-absolute top-0 start-0 py-3 px-5 d-flex gap-2 align-items-center fw-bolder text-white ${styles["true-cares"]}`}
                 >

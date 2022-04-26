@@ -2,6 +2,14 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins/_breakpoints";
 .GivingBackBanner {
+    img {
+        min-height: 400px;
+        object-fit: cover;
+        @include media-breakpoint-up(sm) {
+            min-height: 600px;
+            object-fit: cover;
+        }
+    }
 }
 .true-cares {
     background-image: linear-gradient(90deg, #fd084f 0%, #3b46f2 100%);
@@ -11,19 +19,19 @@
         font-size: 5rem;
     }
 }
-.difference-text{
+.difference-text {
     border-top-left-radius: 1rem;
     width: 100%;
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-up(sm) {
         width: 75%;
     }
-    h1{
-       font-size: 16px;
-       @include media-breakpoint-up(sm){
-           font-size: 30px;
-       }
+    h1 {
+        font-size: 16px;
+        @include media-breakpoint-up(sm) {
+            font-size: 30px;
+        }
     }
-    p{
+    p {
         font-size: 20px;
     }
 }

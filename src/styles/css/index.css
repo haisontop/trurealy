@@ -164,3 +164,7 @@ aside {
     height: 90%;
     margin-bottom: 30px;
 }
+
+.object-contain {
+    object-fit: contain;
+}
