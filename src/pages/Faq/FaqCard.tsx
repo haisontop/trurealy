@@ -13,7 +13,7 @@ const FaqCard = ({ title, discription }: props) => {
                 <p className="fw-normar fs-2">{title}</p>
             </div>
             {open && (
-                <p className={`text-start ps-5 ${style["description"]}`}>
+                <p className={`text-start ps-md-5 ${style["description"]}`}>
                     {discription}
                 </p>
             )}

@@ -1,38 +1,52 @@
-.contact{
-
-    form{
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+.contact {
+    form {
         border-radius: 20px;
         margin-bottom: -30px;
         margin-left: -30px;
+        @include media-breakpoint-down(sm) {
+            position: static;
+            width: 100%;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
     }
-    input{
-        border : 2px solid #44498C;
+    input {
+        border: 2px solid #44498c;
         border-radius: 7px;
     }
-    textarea{
-        border: 2px solid #44498C;
+    textarea {
+        border: 2px solid #44498c;
         border-radius: 7px;
         outline: none;
         height: 182px !important;
     }
-    h1{
+    h1 {
         font-size: 75px;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+        }
     }
-    h5{
+    h5 {
         font-size: 35px;
+        @include media-breakpoint-down(sm) {
+            font-size: 25px;
+        }
     }
-    p{
+    p {
         font-size: 25px;
     }
 }
-.icon{
+.icon {
     border: 1px solid #292670;
     cursor: pointer;
 }
-.phone-address{
+.phone-address {
     margin-top: 55px;
 }
-.input-div{
+.input-div {
     margin-top: 39px;
 }
 .contact-box {
@@ -43,10 +57,19 @@
     padding-top: 20px;
     position: absolute;
     width: 500px;
+    @include media-breakpoint-down(sm) {
+        position: static;
+        width: 100%;
+        margin-top: 40px;
+    }
 }
-.contact-from{
+.contact-from {
     margin-bottom: -100px;
-    button{
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    button {
         border-radius: 10px;
     }
 }

@@ -12,9 +12,9 @@ export default function Contact() {
     return (
         <Layout>
             <div
-                className={`container px-5 mx-auto row gx-5 mt-5 pt-5 position-relative ${style["contact"]}`}
+                className={`container px-0 px-md-5 mx-md-auto row gx-md-5 mt-md-5 mt-5 mb-5 pt-md-5 position-relative ${style["contact"]}`}
             >
-                <div className="col-6 text-primary">
+                <div className="col-md-6 px-5 px-md-0 text-primary">
                     <div>
                         <h1 className="fw-bold">GET IN TOUCH</h1>
                         <h5 className="fw-normal mt-1">
@@ -31,6 +31,7 @@ export default function Contact() {
                             <p className="mt-2">Info@trurealty.com</p>
                         </div>
                         <div className="mt-5">
+                            {" "}
                             <h5 className="fw-medium">
                                 Corporate Headquarters
                             </h5>
@@ -41,7 +42,7 @@ export default function Contact() {
                     <div className="d-flex mt-5">
                         <FaFacebookF
                             size="40"
-                            className={`p-2 rounded rounded-circle text-primary me-5 ${style["icon"]}`}
+                            className={`p-2 rounded rounded-circle text-primary me-md-5 me-2 ${style["icon"]}`}
                             style={{
                                 border: "1px solid #292670",
                                 cursor: "pointer",
@@ -49,22 +50,22 @@ export default function Contact() {
                         />
                         <FaInstagram
                             size="40"
-                            className={`p-2 rounded rounded-circle text-primary mx-4 ${style["icon"]}`}
+                            className={`p-2 rounded rounded-circle text-primary mx-md-4 mx-2 ${style["icon"]}`}
                         />
                         <FaYoutube
                             size="40"
-                            className={`p-2 rounded rounded-circle text-primary mx-4 ${style["icon"]}`}
+                            className={`p-2 rounded rounded-circle text-primary mx-md-4 mx-2 ${style["icon"]}`}
                         />
                         <FaLinkedinIn
                             size="40"
-                            className={`p-2 rounded rounded-circle text-primary mx-4 ${style["icon"]}`}
+                            className={`p-2 rounded rounded-circle text-primary mx-md-4 mx-2 ${style["icon"]}`}
                         />
                     </div>
                 </div>
-                <div className="col-6">
-                    <div className={`ms-5 ${style["contact-box"]}`}>
+                <div className="col-md-6">
+                    <div className={`ms-md-5 ${style["contact-box"]}`}>
                         <form
-                            className={`bg-primary text-white p-5 ${style["contact-from"]}`}
+                            className={`bg-primary text-white p-4 p-md-5 ${style["contact-from"]}`}
                         >
                             <div className="w-100">
                                 <span className="fs-2">
