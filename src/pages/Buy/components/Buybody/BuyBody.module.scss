@@ -1,6 +1,10 @@
 .buy-body {
     margin-top: 80px;
     width: 900px;
+    @media (max-width: 575px) {
+        width: 100%;
+        margin-top: 50px;
+    }
     h1 {
         font-size: 60px;
     }
@@ -17,9 +21,17 @@
     }
     h3 {
         font-size: 40px;
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
     }
-    button{
+    button {
         border-radius: 50px;
+    }
+    img {
+        @media (max-width: 575px) {
+            width: 80%;
+        }
     }
 }
 .img-1 {

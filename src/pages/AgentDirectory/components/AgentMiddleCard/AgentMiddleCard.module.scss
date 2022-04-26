@@ -34,10 +34,16 @@
 .agent-img {
     border-radius: 25px;
 }
-.Agent-middle{
+.Agent-middle {
     width: 1100px;
     margin: auto;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
 }
-.custom-dots li{
-  margin: 10px;
+.custom-dots li {
+    margin: 10px;
+    @media (max-width: 575px) {
+        display: none;
+    }
 }

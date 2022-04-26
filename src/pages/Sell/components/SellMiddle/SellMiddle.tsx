@@ -23,7 +23,7 @@ export default function SellMiddle() {
                     />
                 </div>
                 <div className={`col-md-6 d-flex aling-items-center`}>
-                    <div className="my-auto">
+                    <div className="mt-5 my-md-auto">
                         <h3 className="fw-bold text-primary">
                             OUR LISTING AGENTS
                         </h3>
