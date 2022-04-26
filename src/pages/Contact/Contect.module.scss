@@ -3,8 +3,6 @@
 @import "bootstrap/scss/mixins/_breakpoints";
 .contact {
     form {
-        position: static;
-        width: 100%;
         margin-bottom: 0px;
         margin-left: 0px;
 
@@ -25,10 +23,10 @@
         height: 182px !important;
     }
     h1 {
-        font-size: 30px;
-        @include media-breakpoint-up(sm) {
-            font-size: 75px;
-        }
+        // font-size: 30px;
+        // @include media-breakpoint-up(sm) {
+        //     font-size: 75px;
+        // }
     }
     h5 {
         font-size: 25px;
@@ -56,13 +54,12 @@
     border-radius: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    position: static;
     width: 100%;
     margin-top: 40px;
 
     @include media-breakpoint-up(sm) {
-        position: absolute;
-        width: 500px;
+        width: 90%;
+        margin-left: auto;
         margin-top: 0px;
         padding-top: 30px;
         padding-right: 0px;
