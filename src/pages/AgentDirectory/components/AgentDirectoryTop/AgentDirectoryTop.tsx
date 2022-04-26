@@ -8,6 +8,10 @@ function AgentDirectoryTop() {
                 <h1 className="text-center fw-bold text-white">
                     HERE FOR YOU. HAPPY TO HELP.
                 </h1>
+                <p className="text-white text-center mt-md-3 fw-medium">
+                    No swiping here! Find your prefect macth with TRU's agent
+                    directory
+                </p>
             </div>
             <form className="gap-5 d-md-flex px-5">
                 <div className="w-100">

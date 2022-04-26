@@ -13,8 +13,8 @@ interface props {
 function AgentMiddleCard({ img, name, about, email, website }: props) {
     const [click, setClick] = useState(false);
     return (
-        <div className={` me-md-5 mx-2 mb-5 ${style["agent-middle-card"]}`}>
-            <div onClick={() => setClick(!click)}>
+        <div className={` m-md-5 mx-2 mb-5 ${style["agent-middle-card"]}`}>
+            <div onClick={() => setClick(false)}>
                 <img src={img} className="img-fluid" width="100%" alt="" />
                 <div className={`px-4 py-2 text-white ${style["card-lebel"]}`}>
                     <h4 className="fw-bold">{name}</h4>

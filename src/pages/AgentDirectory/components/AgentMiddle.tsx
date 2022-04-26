@@ -44,7 +44,7 @@ function AgentMiddle() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    rows: 2,
+                    rows: 3,
                     centerPadding: "0px",
                 },
             },
