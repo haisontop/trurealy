@@ -13,15 +13,14 @@ interface props {
 function ItpCard({ author, title, img, discription }: props) {
     const [clicked, setClicked] = useState(false);
     return (
-        <div className={`row m-3 p-5 gx-5`}>
+        <div className={`row mt-5 m-md-3 p-md-5 gx-md-5`}>
             <div
                 onClick={() => setClicked(true)}
-                className={`col-5 overflow-hidden position-relative ${style["itp-card"]}`}
+                className={`col-md-5 px-3 px-md-0 overflow-hidden position-relative ${style["itp-card"]}`}
             >
                 <img
                     src={img}
                     className={`img-fluid ${style["col-image"]}`}
-                    width="100%"
                     alt=""
                 />
                 {clicked && (
@@ -35,11 +34,11 @@ function ItpCard({ author, title, img, discription }: props) {
                     </div>
                 )}
             </div>
-            <div className={`col-7 text-primary ${style["itp-card-body"]}`}>
-                <h3 className="fw-bold">{title}</h3>
-                <p className="fw-medium">
-                    {author}
-                </p>
+            <div
+                className={`col-7 text-primary px-4 px-md-0 ${style["itp-card-body"]}`}
+            >
+                <h3 className="fw-bold mt-5 mt-md-0">{title}</h3>
+                <p className="fw-medium">{author}</p>
                 <p className="fw-medium m-0">{discription}</p>
             </div>
         </div>
